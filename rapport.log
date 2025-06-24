@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  25 JUN 2025 00:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  25 JUN 2025 00:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -636,8 +636,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.241 	
-       ]
+l.240 	\end{figure}
+                   ]
 
 [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
@@ -858,12 +858,7 @@ File: illustration-graphique.drawio.png Graphic file (type png)
 <use illustration-graphique.drawio.png>
 Package pdftex.def Info: illustration-graphique.drawio.png  used on input line 
 785.
-(pdftex.def)             Requested size: 498.26784pt x 451.35457pt.
-
-Overfull \hbox (45.29958pt too wide) in paragraph at lines 785--786
- [][] 
- []
-
+(pdftex.def)             Requested size: 452.96826pt x 410.3213pt.
 
 
 [27]
@@ -879,8 +874,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.793 	
-        <./illustration-graphique.drawio.png>]
+l.794 ... BibliothÃ¨ques Matures : Apache Commons}
+                                                   <./illustration-graphique.dr
+awio.png>]
 Overfull \hbox (52.46948pt too wide) in paragraph at lines 798--799
 \T1/cmr/m/n/12 exemple la mé-thode [][]\T1/cmtt/m/n/12 estimateTokenCountInText
 (String text) []\T1/cmr/m/n/12 de la classe [][]\T1/cmtt/m/n/12 TokenizerMyAppI
@@ -919,11 +915,6 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 
 
 [31]
-Overfull \hbox (88.73558pt too wide) in paragraph at lines 893--894
-[][]\T1/cmtt/m/n/12 estimateTokenCountInTools(Iterable<Object> objectsWithTools
-) []\T1/cmr/m/n/12 de la classe [][]\T1/cmtt/m/n/12 TokenizerMyAppImpl
- []
-
 <before-stream.png, id=545, 447.47176pt x 164.41425pt>
 File: before-stream.png Graphic file (type png)
 <use before-stream.png>
@@ -1306,7 +1297,7 @@ lectro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm14
 n/ec/dpi600\ecti1728.pk> <C:\Users\Electro_Laaroussi\AppData\Local\MiKTeX\fonts
 /pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/Electro_Laaroussi/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on rapport.pdf (66 pages, 3547432 bytes).
+Output written on rapport.pdf (66 pages, 3547495 bytes).
 PDF statistics:
  1300 PDF objects out of 1440 (max. 8388607)
  155 named destinations out of 1000 (max. 500000)
