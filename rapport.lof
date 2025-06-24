@@ -1,25 +1,31 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces \textit {Logo de Algolus}}}{3}{figure.1.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \textit {Logo de Algolus}}}{2}{figure.1.1}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces \textit {Organigramme de l'entreprise Algolus}}}{4}{figure.1.2}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {Diagramme de cas d'utilisation}}}{10}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un agent AI}}}{12}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un RAG}}}{14}{figure.2.3}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un agent AI}}}{13}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \textit {Diagramme décrivant le fonctionnement d'un RAG}}}{15}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un RAG}}}{15}{figure.2.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Diagramme d'architecture technique}}}{20}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Implémentation sans utiliser Apache Commons}}}{21}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Implémentation en utilisant Apache Commons}}}{21}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Implémentation sans utiliser les Streams}}}{23}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Implémentation en utilisant les Streams}}}{24}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Exemple de code répétitif avant factorisation}}}{25}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Code refactorisé avec méthode utilitaire}}}{25}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Un morceau de la classe de configuration}}}{26}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces \textit {Utilisation de la classe de configuration}}}{27}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Test du premier prototype}}}{28}{figure.3.10}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces \textit {Structure du projet Java}}}{29}{figure.3.11}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces \textit {Interface Java de l'agent AI}}}{30}{figure.3.12}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces \textit {Morceau du contenu du fichier application.properties}}}{31}{figure.3.13}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces \textit {Interface de l'application de test}}}{32}{figure.3.14}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces \textit {Résultat d'exécution de l'application de test}}}{33}{figure.3.15}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces \textit {Structure du projet Java}}}{34}{figure.3.16}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Gestion de projet avec SCRUM}}}{19}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Diagramme d'architecture technique}}}{25}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Implémentation sans utiliser Apache Commons}}}{26}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Implémentation en utilisant Apache Commons}}}{26}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Implémentation sans utiliser les Streams}}}{29}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Implémentation en utilisant les Streams}}}{29}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Exemple de code répétitif avant factorisation}}}{30}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Code refactorisé avec méthode utilitaire}}}{31}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \textit {Un morceau de la classe de configuration}}}{32}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Utilisation de la classe de configuration}}}{33}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces \textit {Test du premier prototype}}}{34}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces \textit {Structure du projet Java}}}{35}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces \textit {Interface Java de l'agent AI}}}{36}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces \textit {Morceau du contenu du fichier application.properties}}}{37}{figure.3.14}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces \textit {Interface de l'application de test}}}{39}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces \textit {Résultat d'exécution de l'application de test}}}{40}{figure.3.16}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces \textit {Structure du projet Java}}}{41}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces \textit {Interface Swagger UI}}}{43}{figure.3.18}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces \textit {Image trop volumineuse}}}{44}{figure.3.19}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces \textit {Type d'images non supporté}}}{45}{figure.3.20}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces \textit {Upload de vidéo}}}{46}{figure.3.21}%

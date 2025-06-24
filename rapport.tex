@@ -8,7 +8,7 @@
 \usepackage{hyperref}
 \usepackage{titlesec}
 \usepackage{xcolor}
-\geometry{margin=2.5cm}
+\geometry{margin=3cm}
 \usepackage{array}
 \usepackage[none]{hyphenat}
 \usepackage{float}
@@ -28,11 +28,81 @@
 	
 	\chapter*{Dédicaces}
 	
+	\begin{center}
+		\begin{minipage}{0.8\textwidth} % Largeur contrôlée du texte
+			\centering
+			\Large\itshape % Style italique légèrement agrandi
+			
+			Je dédie ce travail à :\\[1.5em] % Espacement après la ligne
+			
+			Mes chers parents et mes frères \\
+			pour leur sacrifice et leur motivation.\\[1em]
+			
+			Mes amis \\
+			pour leur contribution, qui a apporté une valeur ajoutée.\\[1em]
+			
+			Pour toute personne \\
+			ayant contribué à ma formation.
+			
+		\end{minipage}
+	\end{center}
+	
 	\chapter*{Remerciements}
+	
+	\begin{center}
+		\begin{minipage}{0.9\textwidth}
+			\centering
+			\large\normalfont
+			
+			Au début, il m'est agréable d'exprimer ma reconnaissance à toute personne dont l'intervention au cours de ce stage a favorisé son aboutissement.\\[1em]
+			
+			Remerciements particuliers :\\[0.5em]
+			\begin{spacing}{1.2}
+				Je tiens à remercier vivement mes encadrants, \\
+				Monsieur \textsc{DOUHI Taoufik} et Monsieur \textsc{Mouhib Imad}, \\
+				pour leur temps précieux et le partage de leur expertise quotidienne. \\
+				Leur confiance m'a permis de développer mes compétences de manière significative.\\[0.8em]
+				
+				Je remercie Monsieur \textsc{BERAHIOU Radwane} \\
+				pour son accueil chaleureux et son accompagnement \\
+				dans le suivi du projet au sein d'Algolus.\\[0.8em]
+				
+				Un grand merci à toute l'équipe d'\textsc{ALGOLUS} \\
+				pour m'avoir offert cette opportunité de stage \\
+				dans un environnement professionnel stimulant, \\
+				et particulièrement à \textsc{ARRHIOUI Karim}, \textsc{ARRHIOUI Anass} \\
+				et \textsc{BERHIL Mohammed} pour leurs précieux conseils.\\[0.8em]
+			\end{spacing}
+			
+			Je remercie le corps professoral et administratif \\
+			de l'\textsc{École des Hautes Études d'Ingénierie - Oujda} \\
+			pour la qualité de la formation reçue.\\[1em]
+			
+			Enfin, à tous ceux qui ont contribué à ce projet, \\
+			recevez mes plus sincères remerciements.
+			
+		\end{minipage}
+	\end{center}
 	
 	\chapter*{Résumé}
 	
+	Ce projet a permis de créer un outil innovant qui aide les développeurs à identifier et corriger automatiquement les erreurs dans les logiciels. À partir d’une description du problème, d’un message d’erreur ou même d’une capture d’écran, l’application utilise une intelligence artificielle avancée pour analyser la situation, comprendre la cause du dysfonctionnement et proposer des solutions concrètes.
+	
+	Conçue comme un assistant virtuel, cette solution s’appuie sur des technologies modernes pour offrir des réponses précises et adaptées au contexte. Elle permet de gagner du temps en réduisant le processus de diagnostic et en suggérant des corrections pertinentes. Une interface simple, accessible via un navigateur web, facilite son utilisation au quotidien.
+	
+	Les tests réalisés montrent que l’outil reconnaît la majorité des erreurs courantes et propose des solutions efficaces dans la plupart des cas. À terme, cette technologie pourrait être intégrée directement dans les logiciels de développement pour aider les programmeurs en temps réel.
+	
+	\textbf{Mots-clés} : Intelligence artificielle, assistant de débogage, analyse automatique, correction d’erreurs, outil pour développeurs.
+	
 	\chapter*{Abstract}
+	
+	This project introduces an innovative tool designed to help developers automatically detect and fix software errors. By analyzing problem descriptions, error messages, or even screenshots, the system uses advanced artificial intelligence to diagnose issues and suggest practical solutions.
+	
+	Working like a virtual assistant, the tool leverages modern technologies to provide accurate and context-aware answers. It saves time by speeding up the debugging process and offering relevant fixes. A user-friendly web interface makes it easy to use in daily workflows.
+	
+	Tests demonstrate that the tool successfully identifies most common errors and delivers effective solutions in the majority of cases. In the future, this technology could be embedded directly into development software to assist programmers in real time.
+	
+	\textbf{Keywords} : Artificial intelligence, debugging assistant, automated analysis, error correction, developer tool.
 	
 	\chapter*{Liste des abréviations}
 	
@@ -74,6 +144,7 @@
 	
 	\thispagestyle{empty}
 	
+	
 	\listoffigures
 	\thispagestyle{empty}   % supprime le numéro de page de cette page
 	
@@ -89,11 +160,7 @@
 	
 	\chapter*{Introduction}
 	
-	\chapter{Contexte du Projet}
-	
-	\section{Projet de Fin d’Études}
-	
-	Dans le cadre de notre formation en Génie Informatique à l’École des Hautes Études d’Ingénierie d’Oujda (EHEIO), nous devons réaliser un Projet de Fin d’Études (PFE), visant à consolider et approfondir les compétences acquises durant notre parcours. Ce stage représente une étape cruciale, permettant de transposer les connaissances théoriques dans un environnement professionnel concret.
+		Dans le cadre de notre formation en Génie Informatique à l’École des Hautes Études d’Ingénierie d’Oujda (EHEIO), nous devons réaliser un Projet de Fin d’Études (PFE), visant à consolider et approfondir les compétences acquises durant notre parcours. Ce stage représente une étape cruciale, permettant de transposer les connaissances théoriques dans un environnement professionnel concret.
 	
 	L’objectif principal est de se familiariser avec les réalités du marché du travail, particulièrement dans le domaine de l’informatique, en perpétuelle évolution. Ce projet offre ainsi l’opportunité d’appliquer nos acquis académiques à des problématiques réelles, tout en développant une approche pratique et méthodique de la gestion de projets technologiques.
 	
@@ -101,15 +168,20 @@
 	
 	L’utilisation de Scrum a renforcé ma compréhension des processus modernes de développement, tout en améliorant mes capacités d’adaptation et de travail en équipe. Cette expérience a été déterminante pour affiner ma vision du métier d’ingénieur informatique et préparer mon intégration dans le monde professionnel.
 	
+	\chapter{Contexte du Projet}
+	
+	\section*{Introduction}
+	\addcontentsline{toc}{section}{Introduction}
+	
 	Dans ce chapitre, nous commencerons par présenter l’entreprise d’accueil, avant de procéder à une description détaillée des besoins du projet. Cette description comprendra l’identification du problème posé, l’analyse des besoins fonctionnels et non fonctionnels, ainsi que les solutions envisagées pour y répondre.
 	
 	\section{Entreprise d’accueil}
 	
-	Ce stage a été réalisé au sein de l’entreprise Algolus, située à Oujda, spécialisée dans les solutions innovantes en intelligence artificielle. Démarré le 24 février 2024, il m’a permis de m’immerger dans un environnement professionnel exigeant, où j’ai pu collaborer avec des experts en IA et en ingénierie logicielle.
+	Ce stage a été réalisé au sein de l’entreprise Algolus, située à Oujda, spécialisée dans les solutions innovantes en intelligence artificielle. Démarré le 3 Mars 2025, il m’a permis de m’immerger dans un environnement professionnel exigeant, où j’ai pu collaborer avec des experts en IA et en ingénierie logicielle.
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.3\textwidth]{algolus-logo.png}
+		\includegraphics[width=0.4\textwidth]{algolus-logo.png}
 		\caption{\textit{Logo de Algolus}}
 		\label{fig:algolus-logo}
 	\end{figure}
@@ -241,7 +313,17 @@
 		
 	\end{enumerate}
 	
+	\section*{Conclusion}
+	\addcontentsline{toc}{section}{Conclusion}
+	
+	En résumé, l’analyse initiale du problème a permis de cerner clairement les enjeux du projet et de définir des besoins fonctionnels et non fonctionnels cohérents avec les objectifs visés. L’étude des différentes solutions envisageables a conduit à des choix techniques adaptés, prenant en compte à la fois les contraintes de performance, d’ergonomie et de maintenabilité. Bien que certaines limitations persistent, notamment en lien avec l’évolutivité ou les dépendances externes, les bases posées offrent un cadre solide pour le développement et l’amélioration continue du système. Ce travail constitue ainsi une première étape vers une solution complète, fiable et évolutive.
+	
 	\chapter{Analyse fonctionnelle et modélisation}
+	
+	\section*{Introduction}
+	\addcontentsline{toc}{section}{Introduction}
+	
+	Dans ce chapitre, nous mettons l'accent d'abord sur l'importance de l'analyse fonctionnelle, nous rappelons qu'est ce que c'est la modélisation UML en définissant les diagrammes utilisés. Nous procédons ensuite à présenter nos diagrammes après définir leurs éléments composants.
 	
 	\section{Importance de l'analyse fonctionnelle}
 	
@@ -344,7 +426,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=\textwidth]{ds-ai-agent.drawio.png}
+		\includegraphics[width=1.1\textwidth]{ds-ai-agent.drawio.png}
 		\caption{\textit{Diagramme de séquences décrivant le fonctionnement d'un agent AI}}
 		\label{fig:ds-ai-agent.drawio}
 	\end{figure}
@@ -373,18 +455,113 @@
 		
 	\end{itemize}
 	
-	Le diagramme de séquences dans la figure \ref{fig:ds-rag.drawio} résume ce processus.
+	Le diagramme présent dans la figure \ref{fig:diagramme-rag} explique d'une manière visuelle ces interactions.
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=\textwidth]{ds-rag.drawio.png}
+		\includegraphics[width=1.1\textwidth]{diagramme-rag.png}
+		\caption{\textit{Diagramme décrivant le fonctionnement d'un RAG}}
+		\label{fig:diagramme-rag}
+	\end{figure}
+	
+	Le diagramme de séquences dans la figure \ref{fig:ds-rag.drawio} détaille ce processus.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.1\textwidth]{ds-rag.drawio.png}
 		\caption{\textit{Diagramme de séquences décrivant le fonctionnement d'un RAG}}
 		\label{fig:ds-rag.drawio}
 	\end{figure}
 	
+	\section*{Conclusion}
+	\addcontentsline{toc}{section}{Conclusion}
+	
+	L’analyse fonctionnelle et la conception ont constitué des étapes fondamentales dans la structuration de notre projet. Les modèles et diagrammes produits ont servi de base solide pour la phase de développement, ils ont permis de formaliser les interactions entre les différents composants tout en anticipant d’éventuelles contraintes techniques.
+	
+	Enfin, cette phase préparatoire a mis en évidence l’importance d’une approche itérative, où l’analyse et la conception évoluent en parallèle des retours développeurs. Cette flexibilité méthodologique s’est avérée essentielle pour adapter le système aux besoins réels, tout en respectant les impératifs de qualité et de délais.
+	
 	\chapter{Réalisation}
 	
-	Ce chapitre présente la phase de concrétisation du projet, où les choix techniques et architecturaux se traduisent en une implémentation fonctionnelle. Il décrit l'environnement de développement (outils, frameworks, librairies, etc.), l'architecture logicielle retenue et son adéquation avec les besoins, les défis techniques rencontrés et les solutions apportées, et les composants clés implémentés avec des extraits de code significatifs, et des captures d'écran illustrant les résultats obtenus.
+	\section*{Introduction}
+	
+	Ayant mené à l'étude des dimensions fonctionnelles et techniques, nous abordons désormais l'étape cruciale de réalisation concrète du projet. Cette phase opérationnelle sera consacrée à l'implémentation effective de la solution.
+	
+	Ce chapitre présente la méthode de gestion adoptée, l'environnement de développement (outils, frameworks, librairies, etc.), l'architecture logicielle retenue et son adéquation avec les besoins, les défis techniques rencontrés et les solutions apportées, et les composants clés implémentés avec des extraits de code significatifs, et des captures d'écran illustrant les résultats obtenus.
+	
+	\section{Méthode de gestion adoptée : SCRUM}
+	
+	\subsection{Scrum à la théorie}
+	
+	Scrum est un cadre méthodologique agile destiné à optimiser la gestion de projets complexes, en particulier dans le domaine du développement logiciel. Il repose sur des itérations courtes appelées \textit{sprints}, au cours desquelles une équipe pluridisciplinaire s'engage à livrer un incrément fonctionnel du produit. Scrum définit des rôles précis (Scrum Master, Product Owner, équipe de développement), des artefacts (Product Backlog, Sprint Backlog, Increment) et des événements clés (Daily Scrum, Sprint Planning, Sprint Review, Sprint Retrospective). Sa structure vise à favoriser la transparence, l’inspection régulière du travail accompli et l’adaptation rapide face aux changements. En théorie, Scrum encourage une collaboration étroite, une communication continue et une amélioration itérative du produit et des processus.
+	
+	Les acteurs du framework SCRUM sont :
+	
+	\begin{itemize}
+		
+		\item \textbf{Product Owner} : Responsable de maximiser la valeur du produit en gérant le Product Backlog.
+		
+		\item \textbf{Scrum Master} : facilite le processus Scrum, veille à ce que l’équipe respecte le cadre et supprime les obstacles.
+		
+		\item \textbf{Équipe de développement} : équipe auto-organisée chargée de livrer un incrément du produit à la fin de chaque sprint.
+		
+	\end{itemize}
+	
+	La liste suivante définit brièvement les éléments clés de SCRUM :
+	
+	\begin{itemize}
+		
+		\item \textbf{Sprint} : itération fixe (généralement de 1 à 4 semaines) durant laquelle un incrément du produit est développé.
+		
+		\item \textbf{Product Backlog} : liste priorisée des fonctionnalités, exigences et corrections à apporter au produit.
+		
+		\item \textbf{Sprint Backlog} : sous-ensemble du \textit{Product Backlog} sélectionné pour être réalisé durant le sprint.
+		
+		\item \textbf{Increment} : résultat fonctionnel du sprint, potentiellement livrable et utilisable.
+		
+		\item \textbf{Sprint Planning} : réunion de planification en début de sprint pour définir les objectifs et les tâches à réaliser.
+		
+		\item \textbf{Daily Scrum} : réunion quotidienne courte (15 min) pour synchroniser l’équipe et adapter le plan de travail.
+		
+		\item \textbf{Sprint Review} : réunion de fin de sprint pour présenter l’incrément et recueillir des retours.
+		
+		\item \textbf{Sprint Retrospective} : réunion pour analyser le déroulement du sprint et identifier des pistes d’amélioration.
+	\end{itemize}
+	
+	La figure \ref{fig:scrum} illustre comment un projet est géré avec la méthode SCRUM.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.1\textwidth]{scrum.png}
+		\caption{\textit{Gestion de projet avec SCRUM}}
+		\label{fig:scrum}
+	\end{figure}
+	
+	\subsection{Scrum à la pratique}
+	
+	\subsubsection{Equipe du projet}
+	
+	\begin{table}[H]
+		\centering
+		\caption{\textit{Tableau des acteurs SCRUM}}
+		\begin{tabular}{|l|l|}
+			\hline
+			\textbf{Rôle} & \textbf{Acteur} \\
+			\hline
+			Product Owner & DOUHI Taoufik \\
+			\hline
+			SCRUM Master & BERAHIOUI Radwane \\
+			\hline
+			Developpers & LOUDIYI Hicham \\
+			\hline
+			Tech Lead & DOUHI Taoufik \\
+			\hline
+		\end{tabular}
+		\label{tab:equipe-projet}
+	\end{table}
+	
+	\subsubsection{Sprints du projet}
+	
+	Pour la planification du projet, nous utilisons l’outil de messagerie collaborative Slack. Il joue un rôle central dans la communication entre le Tech Lead et le développeur, tout en offrant une visibilité claire sur l’avancement global du projet. Slack facilite le suivi des sprints, la coordination des tâches et la gestion des différentes étapes du développement. Grâce à ses fonctionnalités de planification et de suivi, il contribue à une organisation efficace et structurée du travail en équipe.
 	
 	\section{Stack technique}
 	
@@ -607,7 +784,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1\textwidth]{illustration-graphique.drawio.png}
+		\includegraphics[width=1.1\textwidth]{illustration-graphique.drawio.png}
 		\caption{\textit{Diagramme d'architecture technique}}
 		\label{fig:illustration-graphique}
 	\end{figure}
@@ -670,7 +847,7 @@
 	
 	\begin{table}[H]
 		\centering
-		\caption{Comparaison des méthodes de parcours en Java}
+		\caption{\textit{Comparaison des méthodes de parcours de collections en Java}}
 		\label{tab:parcours_collections}
 		\resizebox{\textwidth}{!}{ % Redimensionne le tableau
 			\begin{tabular}{|>{\raggedright\arraybackslash}p{2.6cm}|c|c|c|c|c|}
@@ -745,7 +922,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\fbox{\includegraphics[width=1\textwidth]{before-factorisation.png}}
+		\fbox{\includegraphics[width=1.1\textwidth]{before-factorisation.png}}
 		\caption{\textit{Exemple de code répétitif avant factorisation}}
 		\label{fig:before-factorisation}
 	\end{figure}
@@ -754,7 +931,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\fbox{\includegraphics[width=1\textwidth]{after-factorisation.png}}
+		\fbox{\includegraphics[width=1.1\textwidth]{after-factorisation.png}}
 		\caption{\textit{Code refactorisé avec méthode utilitaire}}
 		\label{fig:after-factorisation}
 	\end{figure}
@@ -816,7 +993,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\fbox{\includegraphics[width=0.57\textwidth]{structure-projet.png}}
+		\fbox{\includegraphics[width=0.6\textwidth]{structure-projet.png}}
 		\caption{\textit{Structure du projet Java}}
 		\label{fig:structure-projet}
 	\end{figure}
@@ -825,7 +1002,9 @@
 	
 	Afin de permettre à notre application de traiter des entrées de nature hétérogène (texte et image), le recours à un modèle de langage multimodal s’est révélé indispensable. À cet effet, le modèle \verb|Qwen2.5vl:7b| a été choisi pour ses capacités avancées d’analyse conjointe du contenu textuel et visuel.
 	
-	Plusieurs autres paramètres ont été configurées, telles que les paramètres relatifs au LLM, au modèle d'Embeddings, au Retriever, et la taille maximale des images uploadées.
+	Plusieurs autres paramètres ont été configurées, telles que les paramètres relatifs au LLM, au modèle d'Embeddings,et au Retriever.
+	
+	Les images de grande taille entraînent une diminution significative des performances en raison de leur impact sur la vitesse de transfert réseau, le temps de décodage en base64, ainsi que sur l'efficacité de l'analyse par le modèle de langage. Cette contrainte nous a conduit à imposer une limite stricte à leur taille maximale.
 	
 	D'autre part, le service \verb|sourceCodeLoader| est configuré à charger les fichiers du code source de l'application présentant des erreurs, en lui disposant de son chemin. Ces fichiers constituent la matière première pour le RAG, qui les utilisera pour enrichir sa base de connaissances, afin d'obtenir des réponses cohérentes avec le contexte de l'application avec des erreurs.
 	
@@ -833,7 +1012,7 @@
 	
 		\begin{figure}[H]
 		\centering
-		\fbox{\includegraphics[width=0.9\textwidth]{ai-agent.png}}
+		\fbox{\includegraphics[width=1\textwidth]{ai-agent.png}}
 		\caption{\textit{Interface Java de l'agent AI}}
 		\label{fig:ai-agent}
 	\end{figure}
@@ -884,27 +1063,120 @@
 		\label{fig:simulation-erreur}
 	\end{figure}
 	
-	\subsubsection{Premier test}
+	\subsubsection{Une analyse réussie}
 	
 	La capture d'écran dans la figure \ref{fig:simulation-erreur} est soumise à notre analyseur d'erreurs avec une petite description, ainsi que le chemin vers son code source. le résultat est présenté dans la figure \ref{fig:premier-test}
 	
 	\begin{figure}[H]
 		\centering
-		\fbox{\includegraphics[width=0.75\textwidth]{premier-test.png}}
+		\fbox{\includegraphics[width=0.8\textwidth]{premier-test.png}}
 		\caption{\textit{Structure du projet Java}}
 		\label{fig:premier-test}
 	\end{figure}
 	
 	L'objectif était de valider la capacité de notre système à détecter cette anomalie, à en analyser les causes (comme une variable non instanciée ou un retour de méthode null), et à proposer un correctif approprié, tel qu'une vérification de nullité ou une initialisation par défaut.
 	
+	L'ensemble des endpoints de l'API a été testé avec succès via l'interface Swagger UI, qui a permis de simuler des requêtes HTTP dans différents scénarios d'utilisation. Les réponses retournées ont été systématiquement vérifiées en termes de structure, de code de statut, et de contenu. Par exemple, la figure \ref{fig:swagger-ui} illustre le cas d'une analyse réussie, avec un code d'état \verb|200|.
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=0.85\textwidth]{swagger-ui.png}}
+		\caption{\textit{Interface Swagger UI}}
+		\label{fig:swagger-ui}
+	\end{figure}
+	
+	\subsubsection{Test d'une image trop volumineuse}
+	
+	La figure \ref{fig:image-tros-grande} montre la réponse de l'API en cas de soumettre une image de taille supérieure à celle définie dans le paramètre \verb|max.imagesize|.
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=0.8\textwidth]{image-tros-grande.png}}
+		\caption{\textit{Image trop volumineuse}}
+		\label{fig:image-tros-grande}
+	\end{figure}
+	
+	\subsubsection{Test d'une image de format non supporté}
+	
+	La figure \ref{fig:format-non-supporté} montre la réponse de l'API en cas de soumettre une image de format non supporté.
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=0.8\textwidth]{format-non-supporté.png}}
+		\caption{\textit{Type d'images non supporté}}
+		\label{fig:format-non-supporté}
+	\end{figure}
+	
+	\subsubsection{Prise en charge des vidéos}
+	
+	Dans certains cas, une erreur ou une anomalie survenue au sein d’un système est plus efficacement illustrée par une capture vidéo. Cette observation a motivé l’enrichissement de notre système par l’ajout d’une fonctionnalité permettant le téléversement de vidéos. À cet effet, un nouveau service, nommé \verb|VideoProcessor|, a été intégré. Ce service est conçu pour extraire automatiquement des images clés à partir des vidéos fournies, via une bibliothèque appelée \verb|FFmpeg|, facilitant ainsi l’analyse des dysfonctionnements observés.
+	
+	La figure \ref{fig:video} illustre le résultat de l'upload d'une vidéo capturée au moment d'essayer d'atteindre une page web qui finit par afficher des stacktraces.
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=0.8\textwidth]{video.png}}
+		\caption{\textit{Upload de vidéo}}
+		\label{fig:video}
+	\end{figure}
+	
+	\section*{Conclusion}
+	\addcontentsline{toc}{section}{Conclusion}
+	
+	La phase de réalisation a permis de concrétiser les spécifications techniques et fonctionnelles définies précédemment, en transformant les modèles conceptuels en un produit opérationnel. Grâce à une méthodologie de développement agile, chaque itération a contribué à l’enrichissement progressif du système. L’adoption de bonnes pratiques de codage, couplée à des outils de gestion de version et d’intégration continue, a assuré une base code robuste et maintenable. Les défis techniques rencontrés ont été résolus par des solutions optimisées, renforçant ainsi la fiabilité de l’application. Cette étape a non seulement validé les choix architecturaux initiaux, mais a également démontré la capacité du système à répondre aux exigences métiers, ouvrant la voie aux phases de déploiement et d’exploitation.
+	
+	\chapter*{Conclusion et perspectives}
+	\addcontentsline{toc}{chapter}{Conclusion et perspectives}
+	
+	\section*{Conclusion générale}
+	\addcontentsline{toc}{section}{Conclusion générale}
+	
+	Ce projet a consisté en la conception et le développement d'une application dédiée à l'analyse automatique d'erreurs et anomalies, intégrant une approche innovante combinant traitement multimédia (images et vidéos) et intelligence artificielle à dimension multimodale. À travers une architecture modulaire basée sur Spring Boot et une interface web interactive, le système offre une solution robuste pour diagnostiquer des anomalies logicielles et proposer des corrections contextualisées.
+	
+	Les principaux objectifs fixés ont été atteints :  
+	
+	\begin{itemize}
+		
+		\item \textbf{Fonctionnalité de base} : L'application analyse efficacement les stacktraces,  identifie les sources d'erreurs et suggère des correctifs grâce à une intégration réussie avec un modèle LLM (Ollama).
+		
+		\item \textbf{Support multimodal} : L'extension pour traiter des captures d'écran et des extraits vidéo ajoute une dimension visuelle à l'analyse, améliorant la précision des diagnostics.
+		
+		\item \textbf{Expérience utilisateur} : L'interface intuitive permet aux développeurs de soumettre facilement leurs erreurs et de recevoir des réponses structurées.
+		
+	\end{itemize}
+
+	L'implémentation a mis en œuvre des bonnes pratiques logicielles :
+	
+	\begin{itemize}
+		
+		\item \textbf{Backend} : Architecture RESTful avec Spring Boot, validation des entrées, gestion des erreurs granulaires, et documentation OpenAPI.
+		
+		\item \textbf{Frontend} : Interface responsive avec gestion dynamique des médias et feedback visuel.
+		
+		\item \textbf{Intégration IA} : Utilisation de RAG pour contextualiser les analyses avec la base de code source. 
+		
+	\end{itemize}
+	
+	\section*{Limites et perspectives}
+	\addcontentsline{toc}{section}{Limites et perspectives}
+	
+	Comme tout projet informatique, notre solution présente à la fois certaines limitations inhérentes à sa conception actuelle et des perspectives d'amélioration qui ouvrent la voie à des évolutions futures.
+	
+	Les pistes d'amélioration incluent :
+	
+	\begin{itemize}
+		
+		\item L'ajout d'un système d'authentification pour un suivi personnalisé des analyses.
+		
+		\item  L'intégration avec des plateformes comme GitHub pour une analyse directe des dépôts. 
+		
+		\item L'amélioration des prompts IA pour couvrir un spectre plus large d'erreurs.
+	
+		\item Les performances pourraient être optimisées via du caching des analyses récurrentes.
+		
+	\end{itemize}
 	
 	
-	
-	
-	
-	
-	
-	\chapter*{Conclusion}
 	
 	\chapter*{Annexe}
 	
