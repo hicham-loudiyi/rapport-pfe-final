@@ -829,6 +829,15 @@
 	
 	D'autre part, le service \verb|sourceCodeLoader| est configuré à charger les fichiers du code source de l'application présentant des erreurs, en lui disposant de son chemin. Ces fichiers constituent la matière première pour le RAG, qui les utilisera pour enrichir sa base de connaissances, afin d'obtenir des réponses cohérentes avec le contexte de l'application avec des erreurs.
 	
+	La configuration de l'agent AI est exposée dans la figure \ref{fig:ai-agent}.
+	
+		\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=0.9\textwidth]{ai-agent.png}}
+		\caption{\textit{Interface Java de l'agent AI}}
+		\label{fig:ai-agent}
+	\end{figure}
+	
 	La figure \ref{fig:properties} montre une partie du fichier de configuration \verb|application.properties|.
 	
 	\begin{figure}[H]
@@ -877,25 +886,16 @@
 	
 	\subsubsection{Premier test}
 	
+	La capture d'écran dans la figure \ref{fig:simulation-erreur} est soumise à notre analyseur d'erreurs avec une petite description, ainsi que le chemin vers son code source. le résultat est présenté dans la figure \ref{fig:premier-test}
 	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=0.75\textwidth]{premier-test.png}}
+		\caption{\textit{Structure du projet Java}}
+		\label{fig:premier-test}
+	\end{figure}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	L'objectif était de valider la capacité de notre application intelligente à détecter automatiquement cette anomalie, à en analyser les causes (comme une variable non instanciée ou un retour de méthode null), et à proposer un correctif approprié, tel qu'une vérification de nullité ou une initialisation par défaut.
-	
-	Ce test a permis de confirmer l'efficacité de notre système dans la gestion des erreurs courantes.
+	L'objectif était de valider la capacité de notre système à détecter cette anomalie, à en analyser les causes (comme une variable non instanciée ou un retour de méthode null), et à proposer un correctif approprié, tel qu'une vérification de nullité ou une initialisation par défaut.
 	
 	
 	

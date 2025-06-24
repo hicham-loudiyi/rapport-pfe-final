@@ -49,8 +49,8 @@
 \contentsline {subsection}{\numberline {3.4.2}Dernière version}{28}{subsection.3.4.2}%
 \contentsline {subsubsection}{Structure du projet Java}{28}{subsection.3.4.2}%
 \contentsline {subsubsection}{Configuration des modèles et chargement des ressources pour le RAG}{30}{figure.3.11}%
-\contentsline {subsubsection}{Démarrage de l'Application Spring Boot}{30}{figure.3.12}%
-\contentsline {subsubsection}{Conformité aux Normes RESTful et Bonnes Pratiques d'API}{31}{figure.3.12}%
-\contentsline {subsubsection}{Création d'une page web pour effectuer des tests}{31}{figure.3.12}%
-\contentsline {subsubsection}{Simulation d'une application qui génère une erreur}{32}{figure.3.13}%
-\contentsline {subsubsection}{Premier test}{33}{figure.3.14}%
+\contentsline {subsubsection}{Démarrage de l'Application Spring Boot}{31}{figure.3.13}%
+\contentsline {subsubsection}{Conformité aux Normes RESTful et Bonnes Pratiques d'API}{31}{figure.3.13}%
+\contentsline {subsubsection}{Création d'une page web pour effectuer des tests}{32}{figure.3.13}%
+\contentsline {subsubsection}{Simulation d'une application qui génère une erreur}{33}{figure.3.14}%
+\contentsline {subsubsection}{Premier test}{33}{figure.3.15}%

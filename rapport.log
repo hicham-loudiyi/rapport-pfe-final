@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  24 JUN 2025 14:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  24 JUN 2025 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -632,12 +632,12 @@ Overfull \hbox (40.389pt too wide) in paragraph at lines 102--103
 [2
 
 ]
-<algolus-logo.png, id=287, 471.7625pt x 139.52126pt>
+<algolus-logo.png, id=291, 471.7625pt x 139.52126pt>
 File: algolus-logo.png Graphic file (type png)
 <use algolus-logo.png>
 Package pdftex.def Info: algolus-logo.png  used on input line 112.
 (pdftex.def)             Requested size: 136.57462pt x 40.392pt.
-<algolus-organigramme.png, id=289, 859.71187pt x 1047.915pt>
+<algolus-organigramme.png, id=293, 859.71187pt x 1047.915pt>
 File: algolus-organigramme.png Graphic file (type png)
 <use algolus-organigramme.png>
 Package pdftex.def Info: algolus-organigramme.png  used on input line 167.
@@ -772,7 +772,7 @@ Overfull \hbox (0.75278pt too wide) in paragraph at lines 277--278
 -gent, res-pon-sable d'ana-ly-ser les ano-ma-lies,
  []
 
-<use-case.drawio.png, id=333, 472.76625pt x 482.80376pt>
+<use-case.drawio.png, id=337, 472.76625pt x 482.80376pt>
 File: use-case.drawio.png Graphic file (type png)
 <use use-case.drawio.png>
 Package pdftex.def Info: use-case.drawio.png  used on input line 286.
@@ -819,7 +819,7 @@ i-cite for-mu-lée par l'uti-li-sa-teur, ex-pri-mant
 
 
 [11]
-<ds-ai-agent.drawio.png, id=349, 884.30376pt x 392.46625pt>
+<ds-ai-agent.drawio.png, id=353, 884.30376pt x 392.46625pt>
 File: ds-ai-agent.drawio.png Graphic file (type png)
 <use ds-ai-agent.drawio.png>
 Package pdftex.def Info: ds-ai-agent.drawio.png  used on input line 347.
@@ -870,7 +870,7 @@ Overfull \hbox (0.81119pt too wide) in paragraph at lines 372--373
 et peut être fi-ne-ment pa-ra-mé-tré
  []
 
-<ds-rag.drawio.png, id=360, 1004.75375pt x 452.69125pt>
+<ds-rag.drawio.png, id=364, 1004.75375pt x 452.69125pt>
 File: ds-rag.drawio.png Graphic file (type png)
 <use ds-rag.drawio.png>
 Package pdftex.def Info: ds-rag.drawio.png  used on input line 380.
@@ -891,7 +891,7 @@ Overfull \hbox (1.38881pt too wide) in paragraph at lines 387--388
 -tion-nelle. Il dé-crit l'en-vi-ron-ne-ment
  []
 
-<java-logo.png, id=366, 401.5pt x 513.92pt>
+<java-logo.png, id=370, 401.5pt x 513.92pt>
 File: java-logo.png Graphic file (type png)
 <use java-logo.png>
 Package pdftex.def Info: java-logo.png  used on input line 403.
@@ -902,7 +902,7 @@ Underfull \hbox (badness 4217) in paragraph at lines 415--416
  le
  []
 
-<spring-logo.png, id=367, 1885.30435pt x 1886.08989pt>
+<spring-logo.png, id=371, 1885.30435pt x 1886.08989pt>
 File: spring-logo.png Graphic file (type png)
 <use spring-logo.png>
 Package pdftex.def Info: spring-logo.png  used on input line 421.
@@ -917,7 +917,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 431--432
 s
  []
 
-<spring-boot-logo.png, id=373, 301.125pt x 301.125pt>
+<spring-boot-logo.png, id=377, 301.125pt x 301.125pt>
 File: spring-boot-logo.png Graphic file (type png)
 <use spring-boot-logo.png>
 Package pdftex.def Info: spring-boot-logo.png  used on input line 437.
@@ -928,17 +928,17 @@ Underfull \hbox (badness 3009) in paragraph at lines 448--449
 in
  []
 
-<langchain4j-logo.png, id=374, 534.99875pt x 552.0625pt>
+<langchain4j-logo.png, id=378, 534.99875pt x 552.0625pt>
 File: langchain4j-logo.png Graphic file (type png)
 <use langchain4j-logo.png>
 Package pdftex.def Info: langchain4j-logo.png  used on input line 454.
 (pdftex.def)             Requested size: 68.28383pt x 70.45653pt.
-<apache-commons-logo.png, id=375, 616.3025pt x 149.55875pt>
+<apache-commons-logo.png, id=379, 616.3025pt x 149.55875pt>
 File: apache-commons-logo.png Graphic file (type png)
 <use apache-commons-logo.png>
 Package pdftex.def Info: apache-commons-logo.png  used on input line 472.
 (pdftex.def)             Requested size: 68.28383pt x 16.57018pt.
-<postgresql-logo.png, id=376, 730.73pt x 752.8125pt>
+<postgresql-logo.png, id=380, 730.73pt x 752.8125pt>
 File: postgresql-logo.png Graphic file (type png)
 <use postgresql-logo.png>
 Package pdftex.def Info: postgresql-logo.png  used on input line 490.
@@ -947,22 +947,22 @@ Package pdftex.def Info: postgresql-logo.png  used on input line 490.
 
 [16 <./spring-logo.png> <./spring-boot-logo.png> <./langchain4j-logo.png> <./ap
 ache-commons-logo.png>]
-<ollama-logo.png, id=386, 1518.67375pt x 2007.5pt>
+<ollama-logo.png, id=390, 1518.67375pt x 2007.5pt>
 File: ollama-logo.png Graphic file (type png)
 <use ollama-logo.png>
 Package pdftex.def Info: ollama-logo.png  used on input line 508.
 (pdftex.def)             Requested size: 68.28383pt x 90.2417pt.
-<maven-logo.png, id=387, 1173.38374pt x 305.14pt>
+<maven-logo.png, id=391, 1173.38374pt x 305.14pt>
 File: maven-logo.png Graphic file (type png)
 <use maven-logo.png>
 Package pdftex.def Info: maven-logo.png  used on input line 524.
 (pdftex.def)             Requested size: 68.28383pt x 17.75352pt.
-<intellij-logo.png, id=388, 803.0pt x 803.0pt>
+<intellij-logo.png, id=392, 803.0pt x 803.0pt>
 File: intellij-logo.png Graphic file (type png)
 <use intellij-logo.png>
 Package pdftex.def Info: intellij-logo.png  used on input line 540.
 (pdftex.def)             Requested size: 68.28383pt x 68.27248pt.
-<git-logo.png, id=389, 513.92pt x 513.92pt>
+<git-logo.png, id=393, 513.92pt x 513.92pt>
 File: git-logo.png Graphic file (type png)
 <use git-logo.png>
 Package pdftex.def Info: git-logo.png  used on input line 556.
@@ -1053,7 +1053,7 @@ en-sion pg-vec-tor, Post-greSQL
 
 
 [19]
-<illustration-graphique.drawio.png, id=408, 810.02625pt x 733.74126pt>
+<illustration-graphique.drawio.png, id=412, 810.02625pt x 733.74126pt>
 File: illustration-graphique.drawio.png Graphic file (type png)
 <use illustration-graphique.drawio.png>
 Package pdftex.def Info: illustration-graphique.drawio.png  used on input line 
@@ -1080,7 +1080,7 @@ Overfull \hbox (50.19363pt too wide) in paragraph at lines 623--624
 mpl[]\T1/cmr/m/n/12 ,
  []
 
-<before-string-utils.png, id=415, 325.215pt x 100.57574pt>
+<before-string-utils.png, id=419, 325.215pt x 100.57574pt>
 File: before-string-utils.png Graphic file (type png)
 <use before-string-utils.png>
 Package pdftex.def Info: before-string-utils.png  used on input line 627.
@@ -1091,7 +1091,7 @@ Overfull \hbox (1.16241pt too wide) in paragraph at lines 634--635
 bi-blio-thèque Apache Com-mons
  []
 
-<after-string-utils.png, id=417, 323.40825pt x 100.57574pt>
+<after-string-utils.png, id=421, 323.40825pt x 100.57574pt>
 File: after-string-utils.png Graphic file (type png)
 <use after-string-utils.png>
 Package pdftex.def Info: after-string-utils.png  used on input line 638.
@@ -1163,7 +1163,7 @@ Overfull \hbox (55.46983pt too wide) in paragraph at lines 718--719
  de la classe To-ke-ni-zer-MyAp-pImpl
  []
 
-<before-stream.png, id=432, 447.47176pt x 164.41425pt>
+<before-stream.png, id=436, 447.47176pt x 164.41425pt>
 File: before-stream.png Graphic file (type png)
 <use before-stream.png>
 Package pdftex.def Info: before-stream.png  used on input line 722.
@@ -1183,7 +1183,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.728 	
         <./before-stream.png>]
-<after-stream.png, id=439, 473.97075pt x 131.2905pt>
+<after-stream.png, id=443, 473.97075pt x 131.2905pt>
 File: after-stream.png Graphic file (type png)
 <use after-stream.png>
 Package pdftex.def Info: after-stream.png  used on input line 731.
@@ -1199,7 +1199,7 @@ Overfull \hbox (50.67543pt too wide) in paragraph at lines 736--737
 ull avec [][]\T1/cmtt/m/n/12 IterableUtils.emptyIfNull()[]\T1/cmr/m/n/12 ,
  []
 
-<before-factorisation.png, id=441, 657.657pt x 281.25075pt>
+<before-factorisation.png, id=445, 657.657pt x 281.25075pt>
 File: before-factorisation.png Graphic file (type png)
 <use before-factorisation.png>
 Package pdftex.def Info: before-factorisation.png  used on input line 748.
@@ -1223,7 +1223,7 @@ Overfull \hbox (3.23143pt too wide) in paragraph at lines 753--754
 /n/12 estimateTokenCountInToolSpecifications
  []
 
-<after-factorisation.png, id=449, 751.00575pt x 281.25075pt>
+<after-factorisation.png, id=453, 751.00575pt x 281.25075pt>
 File: after-factorisation.png Graphic file (type png)
 <use after-factorisation.png>
 Package pdftex.def Info: after-factorisation.png  used on input line 757.
@@ -1254,13 +1254,13 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.769 	
         <./before-factorisation.png> <./after-factorisation.png>]
-<configuration-property-value.png, id=457, 371.58826pt x 396.2805pt>
+<configuration-property-value.png, id=461, 371.58826pt x 396.2805pt>
 File: configuration-property-value.png Graphic file (type png)
 <use configuration-property-value.png>
 Package pdftex.def Info: configuration-property-value.png  used on input line 7
 74.
 (pdftex.def)             Requested size: 318.66948pt x 339.86339pt.
-<using-configuration-property-value.png, id=459, 433.62pt x 259.56975pt>
+<using-configuration-property-value.png, id=463, 433.62pt x 259.56975pt>
 File: using-configuration-property-value.png Graphic file (type png)
 <use using-configuration-property-value.png>
 Package pdftex.def Info: using-configuration-property-value.png  used on input 
@@ -1298,7 +1298,7 @@ Overfull \hbox (6.4434pt too wide) in paragraph at lines 796--797
 er-sion a per-mis de com-prendre
  []
 
-<test-rag.png, id=466, 919.18407pt x 119.69719pt>
+<test-rag.png, id=470, 919.18407pt x 119.69719pt>
 File: test-rag.png Graphic file (type png)
 <use test-rag.png>
 Package pdftex.def Info: test-rag.png  used on input line 802.
@@ -1329,7 +1329,7 @@ b[]\T1/cmr/m/n/12 ). Cette or-ga-ni-sa-tion mo-du-laire fa-vo-rise l'en-cap-su-
 la-tion
  []
 
-<structure-projet.png, id=473, 295.85532pt x 741.52031pt>
+<structure-projet.png, id=477, 295.85532pt x 741.52031pt>
 File: structure-projet.png Graphic file (type png)
 <use structure-projet.png>
 Package pdftex.def Info: structure-projet.png  used on input line 819.
@@ -1351,17 +1351,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
                                                   \__shipout_drop_firstpage_...
 l.827 	
         <./structure-projet.png>]
-<properties.png, id=486, 464.937pt x 352.9185pt>
+<ai-agent.png, id=490, 608.2725pt x 412.54124pt>
+File: ai-agent.png Graphic file (type png)
+<use ai-agent.png>
+Package pdftex.def Info: ai-agent.png  used on input line 836.
+(pdftex.def)             Requested size: 409.71692pt x 277.88678pt.
+<properties.png, id=492, 464.937pt x 352.9185pt>
 File: properties.png Graphic file (type png)
 <use properties.png>
-Package pdftex.def Info: properties.png  used on input line 836.
+Package pdftex.def Info: properties.png  used on input line 845.
 (pdftex.def)             Requested size: 364.19667pt x 276.46542pt.
-
-Overfull \hbox (20.13007pt too wide) in paragraph at lines 843--844
-\T1/cmr/m/n/12 au-to-ma-tique, la scan des com-po-sants et les pro-prié-tés dé-
-fi-nies dans [][]\T1/cmtt/m/n/12 application.properties[]\T1/cmr/m/n/12 .
- []
-
 
 
 [30
@@ -1369,76 +1368,103 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.844 	
-        <./properties.png>]
-Overfull \hbox (14.00113pt too wide) in paragraph at lines 847--848
+l.849 	
+        <./ai-agent.png>]
+Overfull \hbox (20.13007pt too wide) in paragraph at lines 852--853
+\T1/cmr/m/n/12 au-to-ma-tique, la scan des com-po-sants et les pro-prié-tés dé-
+fi-nies dans [][]\T1/cmtt/m/n/12 application.properties[]\T1/cmr/m/n/12 .
+ []
+
+
+Overfull \hbox (14.00113pt too wide) in paragraph at lines 856--857
 []\T1/cmr/m/n/12 Notre pro-jet res-pecte les prin-cipes fon-da-men-taux d'une A
 PI RES-T-ful. En ef-fet L'end-point
  []
 
 
-Overfull \hbox (33.94757pt too wide) in paragraph at lines 847--848
+Overfull \hbox (33.94757pt too wide) in paragraph at lines 856--857
 [][]\T1/cmtt/m/n/12 MediaType.MULTIPART_FORM_DATA_VALUE []\T1/cmr/m/n/12 ga-ran
 -tit une sé-ria-li-sa-tion/désérialisation trans-pa-rente
  []
 
 
-Overfull \hbox (4.99496pt too wide) in paragraph at lines 849--850
+
+[31
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.857 	
+        <./properties.png>]
+Overfull \hbox (4.99496pt too wide) in paragraph at lines 858--859
 []\T1/cmr/m/n/12 De plus, l'API dé-ve-lop-pée est do-cu-men-tée via Swag-ger (a
 n-no-ta-tions [][]\T1/cmtt/m/n/12 @Tag[]\T1/cmr/m/n/12 , [][]\T1/cmtt/m/n/12 @O
 peration[]\T1/cmr/m/n/12 ),
  []
 
-<interface.png, id=493, 637.1805pt x 486.618pt>
+<interface.png, id=504, 637.1805pt x 486.618pt>
 File: interface.png Graphic file (type png)
 <use interface.png>
-Package pdftex.def Info: interface.png  used on input line 859.
+Package pdftex.def Info: interface.png  used on input line 868.
 (pdftex.def)             Requested size: 455.24411pt x 347.68419pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 859--860
- [][] 
- []
-
-
-
-[31]
-<simulation-erreur.png, id=499, 576.35326pt x 190.91325pt>
-File: simulation-erreur.png Graphic file (type png)
-<use simulation-erreur.png>
-Package pdftex.def Info: simulation-erreur.png  used on input line 873.
-(pdftex.def)             Requested size: 455.24411pt x 150.79651pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 873--874
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 868--869
  [][] 
  []
 
 
 
 [32
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.877 	
         <./interface.png>]
+<simulation-erreur.png, id=511, 576.35326pt x 190.91325pt>
+File: simulation-erreur.png Graphic file (type png)
+<use simulation-erreur.png>
+Package pdftex.def Info: simulation-erreur.png  used on input line 882.
+(pdftex.def)             Requested size: 455.24411pt x 150.79651pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 882--883
+ [][] 
+ []
+
+<premier-test.png, id=514, 1051.93pt x 2043.635pt>
+File: premier-test.png Graphic file (type png)
+<use premier-test.png>
+Package pdftex.def Info: premier-test.png  used on input line 893.
+(pdftex.def)             Requested size: 341.43307pt x 663.33157pt.
+
 
 [33
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.907 	\chapter
-               *{Conclusion} <./simulation-erreur.png>]
+l.897 	
+        <./simulation-erreur.png>]
 
 [34
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.16})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.899 	
+        <./premier-test.png>]
 
-]
-
-[35
-
-]
+[35]
 
 [36
+
+]
+
+[37
+
+]
+
+[38
 
 ] (rapport.aux)
  ***********
@@ -1449,10 +1475,10 @@ Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 445F214FFD25C2C2337D08E4C9A84DEA;7313.
  ) 
 Here is how much of TeX's memory you used:
- 12702 strings out of 468225
- 206986 string characters out of 5427165
- 638595 words of memory out of 5000000
- 40953 multiletter control sequences out of 15000+600000
+ 12722 strings out of 468225
+ 207346 string characters out of 5427165
+ 638711 words of memory out of 5000000
+ 40969 multiletter control sequences out of 15000+600000
  636635 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,1120b,712s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1468,9 +1494,9 @@ X\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Electro_Laaroussi\A
 ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/El
 ectro_Laaroussi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb>
-Output written on rapport.pdf (45 pages, 2468745 bytes).
+Output written on rapport.pdf (47 pages, 2672591 bytes).
 PDF statistics:
- 993 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
- 450 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1012 PDF objects out of 1200 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
+ 460 words of extra memory for PDF output out of 10000 (max. 10000000)
 
