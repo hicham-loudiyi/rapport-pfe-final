@@ -1,0 +1,51 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{\numberline {1}Contexte du Projet}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Projet de Fin d’Études}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Entreprise d’accueil}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Description de l’entreprise}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Fiche technique de l'entreprise}{3}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Organigramme de l’entreprise}{4}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Description des besoins}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Problème}{5}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Les besoins fonctionnels}{5}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Les besoins non fonctionnels}{6}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Solutions envisagées}{6}{subsection.1.3.4}%
+\contentsline {chapter}{\numberline {2}Analyse fonctionnelle et modélisation}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Importance de l'analyse fonctionnelle}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Unified Modeling Language}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Diagramme de cas d'utilisation}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Définition}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Acteurs}{9}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Diagramme de cas d'utilisation}{9}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Diagrammes de séquences}{10}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Définition}{10}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Diagramme de séquences principal}{11}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Diagramme de séquences spécifique : RAG}{12}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {3}Réalisation}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Stack technique}{15}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Langages}{15}{subsection.3.1.1}%
+\contentsline {subsubsection}{Java}{15}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Frameworks}{16}{subsection.3.1.2}%
+\contentsline {subsubsection}{Spring}{16}{subsection.3.1.2}%
+\contentsline {subsubsection}{Spring Boot}{16}{subsection.3.1.2}%
+\contentsline {subsubsection}{LangChain4j}{16}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Bibliothèques}{16}{subsection.3.1.3}%
+\contentsline {subsubsection}{Apache Commons}{16}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Systèmes de gestion de bases de données}{17}{subsection.3.1.4}%
+\contentsline {subsubsection}{PostgreSQL}{17}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Outils et environnement}{17}{subsection.3.1.5}%
+\contentsline {subsubsection}{Ollama}{17}{subsection.3.1.5}%
+\contentsline {subsubsection}{Maven}{17}{subsection.3.1.5}%
+\contentsline {subsubsection}{IntelliJ IDEA}{17}{subsection.3.1.5}%
+\contentsline {subsubsection}{Git}{18}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Architecture technique du projet}{18}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Bonnes pratiques appliquées du développement Java}{21}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Utilisation de Bibliothèques Matures : Apache Commons}{21}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Approches de parcours de collections en Java}{22}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Importance de la factorisation du code}{24}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Utilisation d'une classe de configuration}{26}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Captures d'écran}{27}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Premier prototype}{27}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Dernière version}{28}{subsection.3.4.2}%
+\contentsline {subsubsection}{Structure du projet Java}{28}{subsection.3.4.2}%
+\contentsline {subsubsection}{Configuration des modèles et chargement des ressources pour le RAG}{30}{figure.3.11}%
