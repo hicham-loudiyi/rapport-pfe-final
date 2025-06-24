@@ -8,14 +8,13 @@
 \usepackage{hyperref}
 \usepackage{titlesec}
 \usepackage{xcolor}
-\geometry{margin=3cm}
+\geometry{margin=2.54cm}
 \usepackage{array}
-\usepackage[none]{hyphenat}
 \usepackage{float}
 \usepackage{makecell}
 
 
-\onehalfspacing
+\doublespacing
 
 \titleformat{\chapter}[display]
 {\normalfont\bfseries\huge}{\chaptername\ \thechapter}{20pt}{\Huge}
@@ -26,7 +25,7 @@
 	\pagestyle{empty} 
 	\pagenumbering{gobble}  % supprime la numérotation complètement
 	
-	\chapter*{Dédicaces}
+	\chapter*{Dédicace}
 	
 	\begin{center}
 		\begin{minipage}{0.8\textwidth} % Largeur contrôlée du texte
@@ -35,8 +34,11 @@
 			
 			Je dédie ce travail à :\\[1.5em] % Espacement après la ligne
 			
-			Mes chers parents et mes frères \\
+			Mes chers parents, mon frère,  \\
 			pour leur sacrifice et leur motivation.\\[1em]
+			
+			À mon épouse et à ma petite fille,  \\
+			qui m’apportent chaque jour la force pour avancer.\\[1em]
 			
 			Mes amis \\
 			pour leur contribution, qui a apporté une valeur ajoutée.\\[1em]
@@ -56,7 +58,6 @@
 			
 			Au début, il m'est agréable d'exprimer ma reconnaissance à toute personne dont l'intervention au cours de ce stage a favorisé son aboutissement.\\[1em]
 			
-			Remerciements particuliers :\\[0.5em]
 			\begin{spacing}{1.2}
 				Je tiens à remercier vivement mes encadrants, \\
 				Monsieur \textsc{DOUHI Taoufik} et Monsieur \textsc{Mouhib Imad}, \\
@@ -77,9 +78,6 @@
 			Je remercie le corps professoral et administratif \\
 			de l'\textsc{École des Hautes Études d'Ingénierie - Oujda} \\
 			pour la qualité de la formation reçue.\\[1em]
-			
-			Enfin, à tous ceux qui ont contribué à ce projet, \\
-			recevez mes plus sincères remerciements.
 			
 		\end{minipage}
 	\end{center}
@@ -817,7 +815,7 @@
 		\label{fig:after-string-utils}
 	\end{figure}
 	
-	La méthode isBlank() de la classe StringUtils retourne true dans trois cas : si text est null, ou une chaine de caractères vides, ou une chaine de caractères ne contenant que des espaces blancs, Ce qui donne plus de robustesse au projet, en évitant les NullPointerException sans besoin de vérifier null explicitement, améliore la lisibilité en remplaçant une condition complexe par un seul appel clair, et garantit un comportement uniforme dans tout le projet.
+	La méthode \verb|isBlank()| de la classe \verb|StringUtils| retourne \verb|true| dans trois cas : si \verb|text| est \verb|null|, ou une chaine de caractères vides, ou une chaine de caractères ne contenant que des espaces blancs, Ce qui donne plus de robustesse au projet, en évitant les \verb|NullPointerException| sans besoin de vérifier null explicitement, améliore la lisibilité en remplaçant une condition complexe par un seul appel clair, et garantit un comportement uniforme dans tout le projet.
 	
 	\subsection{Approches de parcours de collections en Java}
 	
@@ -892,7 +890,7 @@
 	
 	
 	
-	Prenons un exemple de notre projet, la méthode \\ estimateTokenCountInTools(Iterable<Object> objectsWithTools) de la classe TokenizerMyAppImpl a été implémentée dans un premier temps en utilisant une boucle foreach, comme le montre la figure \ref{fig:before-stream}.
+	Prenons un exemple de notre projet, la méthode \\ \verb|estimateTokenCountInTools(Iterable<Object> objectsWithTools)| de la classe \verb|TokenizerMyAppImpl| a été implémentée dans un premier temps en utilisant une boucle \verb|foreach|, comme le montre la figure \ref{fig:before-stream}.
 	
 	\begin{figure}[H]
 		\centering
@@ -905,7 +903,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\fbox{\includegraphics{after-stream.png}}
+		\fbox{\includegraphics[width=1\textwidth]{after-stream.png}}
 		\caption{\textit{Implémentation en utilisant les Streams}}
 		\label{fig:after-stream}
 	\end{figure}
@@ -922,7 +920,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\fbox{\includegraphics[width=1.1\textwidth]{before-factorisation.png}}
+		\fbox{\includegraphics[width=1\textwidth]{before-factorisation.png}}
 		\caption{\textit{Exemple de code répétitif avant factorisation}}
 		\label{fig:before-factorisation}
 	\end{figure}
@@ -931,7 +929,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\fbox{\includegraphics[width=1.1\textwidth]{after-factorisation.png}}
+		\fbox{\includegraphics[width=1\textwidth]{after-factorisation.png}}
 		\caption{\textit{Code refactorisé avec méthode utilitaire}}
 		\label{fig:after-factorisation}
 	\end{figure}
@@ -993,7 +991,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\fbox{\includegraphics[width=0.6\textwidth]{structure-projet.png}}
+		\fbox{\includegraphics[width=0.57\textwidth]{structure-projet.png}}
 		\caption{\textit{Structure du projet Java}}
 		\label{fig:structure-projet}
 	\end{figure}
@@ -1069,7 +1067,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\fbox{\includegraphics[width=0.8\textwidth]{premier-test.png}}
+		\fbox{\includegraphics[width=0.75\textwidth]{premier-test.png}}
 		\caption{\textit{Structure du projet Java}}
 		\label{fig:premier-test}
 	\end{figure}
@@ -1080,7 +1078,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\fbox{\includegraphics[width=0.85\textwidth]{swagger-ui.png}}
+		\fbox{\includegraphics[width=0.8\textwidth]{swagger-ui.png}}
 		\caption{\textit{Interface Swagger UI}}
 		\label{fig:swagger-ui}
 	\end{figure}
