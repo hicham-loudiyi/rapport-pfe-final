@@ -249,11 +249,11 @@
 	
 	Dans le cadre du développement logiciel la détection et la correction des erreurs représentent un défi majeur, notamment en raison de la diversité des sources d’anomalies (logs, stack traces, captures d’écran, retours utilisateurs, etc.) et de la complexité croissante des applications. Les méthodes traditionnelles de débogage reposent souvent sur une analyse manuelle, ce qui est chronophage et sujet à des erreurs humaines. De plus, les solutions existantes peinent à offrir une approche générique et intelligente pour interpréter ces anomalies et proposer des correctifs pertinents.
 	
-	Ce défi prend une dimension particulière dans le cadre des activités de Algolus. La complexité des systèmes gérés par l'entreprise amplifie les difficultés de diagnostic des anomalies. Les équipes techniques consacrent actuellement un volume considérable de leurs ressources temporelles à l'analyse manuelle des incidents, retardant d'autant les mises en production. Par ailleurs, la variété des clients et des cas d'usage entraîne une hétérogénéité des remontées d'erreurs (rapports techniques détaillés pour les clients corporate vs. simples captures d'écran pour les utilisateurs finaux), ce qui rend inefficaces les outils de monitoring conventionnels utilisés jusqu'à présent. Ce constat a motivé l'entreprise à explorer des solutions d'IA générative capables d'unifier l'interprétation des anomalies.
+	Ce défi prend une dimension particulière dans le cadre des activités de Algolus, la complexité des systèmes gérés par l'entreprise amplifie les difficultés de diagnostic des anomalies. Les équipes techniques consacrent actuellement un volume considérable de leurs ressources temporelles à l'analyse manuelle des incidents, retardant d'autant les mises en production. Par ailleurs, la variété des clients et des cas d'usage entraîne une hétérogénéité des remontées d'erreurs (rapports techniques détaillés pour les clients corporate vs. simples captures d'écran pour les utilisateurs finaux), ce qui rend inefficaces les outils de monitoring conventionnels utilisés jusqu'à présent. Ce constat a motivé l'entreprise à explorer des solutions d'IA générative capables d'unifier l'interprétation des anomalies.
 	
 	\subsection{Les besoins fonctionnels}
 	
-	Les besoins fonctionnels définissent les actions spécifiques que le système doit accomplir pour répondre aux exigences métier. Ils décrivent le "quoi", qu'est ce que le système doit faire, sous la forme de fonctionnalités concrètes, de processus et d'interactions avec l'utilisateur. Ces exigences sont formulées par les parties prenantes, à savoir les clients, les utilisateurs, et l'équipe produit, et servent de base à la conception des cas d’usage et des scénarios de test.
+	Les besoins fonctionnels définissent les actions spécifiques que le système doit accomplir pour répondre aux exigences métier. Ils décrivent le "quoi", qu'est ce que le système doit faire, sous la forme de fonctionnalités concrètes de processus et d'interactions avec l'utilisateur. Ces exigences formulées par les parties prenantes  (les clients, les utilisateurs, et l'équipe produit) servent de base à la conception des cas d’usage et des scénarios de test.
 	
 	Pour garantir que le système de diagnostic d’erreurs réponde efficacement aux attentes des utilisateurs et des équipes techniques, nous avons identifié les besoins fonctionnels suivants :
 	
@@ -262,11 +262,11 @@
 		\item \textbf{Collecte et Pré-traitement des Données} : Extraction automatique des erreurs et des anomalies des systèmes à partir de :
 		stacktraces, parsing des logs, captures d’écran, retours utilisateurs.
 		
-		\item \textbf{Analyse et Compréhension} : Analyse sémantique de retours d’erreurs, enrichissement contextuel : requêtage d’une base de connaissances (documentation technique, correctifs historiques) via RAG (Retrieval-Augmented Generation).
+		\item \textbf{Analyse et Compréhension} : Analyse sémantique de retours d’erreurs, enrichissement contextuel : requêtage d’une base de connaissances (documentation technique, correctifs historiques).
 		
 		\item \textbf{Génération de Solutions} : Explication en langage naturel des causes racines, génération de correctifs (ex: snippets de code, étapes de résolution).
 		
-		\item \textbf{Interfaces utilisateurs} : Soumission des erreurs via des formulaires web pour uploader des stacktraces et des captures d'écran, visualisation des résultats : Dashboard interactif (erreurs en cours, historiques, statistiques).
+		\item \textbf{Interfaces utilisateurs} : Soumission des erreurs via des formulaires web pour uploader des stacktraces et des captures d'écran.
 		
 	\end{enumerate}
 	
@@ -280,7 +280,7 @@
 		
 		\item \textbf{Performances} : Temps de réponse optimisé, et scalabilité : Support de plusieurs requêtes simultanées.
 		
-		\item \textbf{Intégration et Interopérabilité} : API REST : Endpoints standardisés et format de réponse avec schéma cohérent, support offline : fonctionnement local avec Ollama.
+		\item \textbf{Intégration et Interopérabilité} : API REST, Endpoints standardisés et format de réponse avec schéma cohérent, support offline ; fonctionnement local avec Ollama.
 		
 		\item \textbf{Sécurité et Confidentialité} : Protection des données par chiffrement des échanges et anonymisation des logs utilisateurs (RGPD), et authentification : JWT pour l’accès aux APIs sensibles.	
 		
@@ -291,25 +291,25 @@
 	
 	\subsection{Solutions envisagées}
 	
-	Ce projet vise à développer une application intelligente et modulaire permettant de détecter et de corriger automatiquement les anomalies logicielles. Les objectifs spécifiques incluent :
+	Ce projet vise à développer une application intelligente et modulaire permettant de détecter et de corriger automatiquement les anomalies logicielles, nous avons identifié les objectifs spécifiques suivants :
 	
 	\renewcommand{\labelitemi}{$\bullet$}
 	\begin{itemize}
-		\item Détection avec un taux de réussite d'au moins 80\% les anomalies logicielles sur des sources multimodales.
+		\item Détecter avec un taux de réussite d'au moins 80\% les anomalies logicielles sur des sources multimodales.
 		
-		\item Proposition automatique des correctifs pertinents dans plus de 70\% des cas.
+		\item Proposer automatiquement des correctifs pertinents dans plus de 70\% des cas.
 		
-		\item Optimisation du temps moyen de résolution d’erreurs de 30\% par rapport aux méthodes manuelles.
+		\item Optimiser le temps moyen de résolution d’erreurs de 30\% par rapport aux méthodes manuelles.
 	\end{itemize}
 	
-	Pour atteindre ces objectifs, le projet s’appuie sur une architecture innovante :
+	Pour atteindre ces objectifs, nous avons envisagé une solution basée sur un ensemble de méthodes et technologies innovantes incluant :
 	
 	\begin{enumerate}
-		\item \textbf{Analyse Multimodale des Erreurs} : Implémenter un système capable d’interpréter des données hétérogènes (stack traces, logs texte, captures d’écran, etc.), et utiliser des techniques de RAG pour enrichir les requêtes avec une base de connaissances (documentation technique, résolutions d’erreurs courantes).
+		\item \textbf{Analyse Multimodale des Erreurs} : Implémenter un système capable d’interpréter des données hétérogènes (stack traces, logs texte, captures d’écran, etc.), et utiliser des techniques de RAG pour enrichir les requêtes avec une base de connaissances (code source, documentation technique, résolutions d’erreurs courantes).
 		
 		\item \textbf{Génération Automatique de Correctifs} : Exploiter des LLMs (via Ollama) pour suggérer des corrections précises et contextualisées.
 		
-		\item \textbf{Intégration et Scalabilité} : Développer un backend Spring Boot flexible, couplé à LangChain4J pour orchestrer les appels IA, et un système de gestion de base de données qui prend en charge les bases de données vectorielles, comme PostgeSQL, et permettre une extension future via des connecteurs pour différents outils de monitoring.
+		\item \textbf{Intégration et Scalabilité} : Développer un backend Spring Boot flexible, couplé à LangChain4j pour orchestrer les appels IA, et un système de gestion de base de données qui prend en charge les bases de données vectorielles, comme PostgeSQL, et permettre une extension future via des connecteurs pour différents outils de monitoring.
 		
 		\item \textbf{Optimisation et Évaluation} : mesurer l’efficacité du système via des métriques de précision (taux de détection, pertinence des correctifs), et effectuer un Benchmark : comparaison sur des jeux de données communs.
 		
@@ -317,39 +317,35 @@
 	
 	\section{Conclusion}
 	
-	En résumé, l’analyse initiale du problème a permis de cerner clairement les enjeux du projet et de définir des besoins fonctionnels et non fonctionnels cohérents avec les objectifs visés. L’étude des différentes solutions envisageables a conduit à des choix techniques adaptés, prenant en compte à la fois les contraintes de performance, d’ergonomie et de maintenabilité. Bien que certaines limitations persistent, notamment en lien avec l’évolutivité ou les dépendances externes, les bases posées offrent un cadre solide pour le développement et l’amélioration continue du système. Ce travail constitue ainsi une première étape vers une solution complète, fiable et évolutive.
+	En résumé, l’analyse initiale du problème nous a permis de cerner clairement les enjeux du projet et de définir des besoins fonctionnels et non fonctionnels cohérents avec les objectifs visés. L’étude des différentes solutions envisageables a conduit à des choix techniques adaptés, prenant en compte à la fois les contraintes de performance, d’ergonomie et de maintenabilité. Bien que certaines limitations persistent, notamment en lien avec l’évolutivité ou les dépendances externes, les bases posées offrent un cadre solide pour le développement et l’amélioration continue du système. Cette première partie dédiée à la définition du problème, des besoins, et des solutions envisagées, constitue une étape vers une solution complète, fiable et évolutive qui nous a permis de bien enchainer l'étape de l'analyse fonctionnelle et la conception du projet.
 	
 	\chapter{Analyse fonctionnelle et modélisation}
 	
 	\section{Introduction}
 	
-	Dans ce chapitre, nous mettons l'accent d'abord sur l'importance de l'analyse fonctionnelle, nous rappelons qu'est ce que c'est la modélisation UML en définissant les diagrammes utilisés. Nous procédons ensuite à présenter nos diagrammes après définir leurs éléments composants.
+	Dans ce chapitre, nous mettons l'accent d'abord sur l'importance de l'analyse fonctionnelle en rappelons qu'est ce que c'est la modélisation UML, ses principes fondamentaux et son utilité dans le développement logiciel. Par la suite, nous exposerons les différents types de diagrammes utilisés dans notre étude, à savoir le diagramme de cas d’utilisation, et les diagrammes de séquences, après la définition de leurs composants.
 	
 	\section{Importance de l'analyse fonctionnelle}
 	
-	L’analyse fonctionnelle constitue une étape clé dans tous projets de développement informatique, car elle permet de bien comprendre les besoins du client et les contraintes du système à réaliser. Elle sert à identifier les fonctionnalités attendues, à détecter les éventuelles incohérences et à poser les bases d’une conception solide. Une analyse fonctionnelle bien menée réduit considérablement les risques d’erreurs en phase de développement, facilite la planification du travail et améliore la qualité globale du produit final, ce qui lui rend essentielle pour assurer la réussite du projet.
-	
-	Dans ce chapitre nous présentons une introduction à la modélisation UML, en rappelant ses principes fondamentaux et son utilité dans le développement logiciel. Par la suite nous exposerons les différents types de diagrammes utilisés dans notre étude, à savoir le diagramme de cas d’utilisation, les diagrammes de séquences, ainsi que le diagramme de classes.
+	L’analyse fonctionnelle constitue une étape clé dans tous projets de développement informatique, car elle permet de bien comprendre les besoins du client et les contraintes du système à réaliser, identifier les fonctionnalités attendues, détecter les éventuelles incohérences et poser les bases d’une conception solide. De surcroit, une analyse fonctionnelle bien menée réduit considérablement les risques d’erreurs en phase de développement, facilite la planification du travail et améliore la qualité globale du produit final, ce qui lui rend essentielle pour assurer la réussite du projet.
 	
 	\section{Unified Modeling Language}
 	
 	Dans le cadre d’un projet de développement informatique la modélisation UML (Unified Modeling Language) joue un rôle essentiel en facilitant la compréhension, la conception et la communication autour du système à développer. UML propose un ensemble de diagrammes normalisés qui permettent de représenter visuellement les différentes dimensions d’un logiciel, telles que la structure, le comportement et les interactions entre les composants.
 	
-	L’utilisation des diagrammes UML comme les diagrammes de cas d’utilisation, de classes et de séquences permet de clarifier les besoins fonctionnels et non fonctionnels dès les premières phases du projet, de favoriser une meilleure communication entre les développeurs, les analystes et les clients, de détecter de façon précoce les incohérences ou erreurs potentielles dans la conception, et aussi de servir de documentation technique structurée pour le développement, les tests et la maintenance future du logiciel.
+	L’utilisation des diagrammes UML comme les diagrammes de cas d’utilisation, de classes et de séquences permet de clarifier les besoins fonctionnels et non fonctionnels dès les premières phases du projet, de favoriser une meilleure communication entre les développeurs, les analystes et les clients, de surcroit il permet de détecter de façon précoce les incohérences ou erreurs potentielles dans la conception, et aussi de servir de documentation technique structurée pour le développement.
 	
 	Ainsi, UML constitue un outil précieux pour assurer la qualité, la cohérence et la pérennité d’un projet informatique, en apportant une vision globale et partagée du système.
 	
 	\section{Diagramme de cas d'utilisation}
 	
-	\subsection{Définition}
-	
 	Un diagramme de cas d'utilisation est une représentation visuelle des interactions entre les acteurs (utilisateurs, systèmes) et les fonctionnalités d'une application. Il identifie les besoins métiers sous forme d'actions (cas d’utilisation) et montre qui fait quoi, sans entrer dans les détails techniques.
 	
 	\subsection{Acteurs}
 	
-	Dans un diagramme de cas d'utilisation, les acteurs sont les entités qui interagissent avec le système pour accomplir un objectif précis. Un acteur peut être primaire (s'il est déclencheur d'un cas d'utilisation) ou secondaire (intervient dans un cas d'utilisation mais ne le déclenche pas). D'une autre part, un acteur peut être humain ou bien un acteur système.
+	Dans un diagramme de cas d'utilisation, les acteurs sont les entités qui interagissent avec le système pour accomplir un objectif précis. D'une part, un acteur peut être primaire (s'il est déclencheur d'un cas d'utilisation) ou secondaire (intervient dans un cas d'utilisation mais ne le déclenche pas), d'une autre part, un acteur peut être humain ou bien un acteur système.
 	
-	Trois types d'acteurs sont impliqués dans notre cas :
+	Dans notre cas, trois types d'acteurs sont impliqués  :
 	
 	\begin{itemize}
 		\item \textbf{Utilisateur} : peut être un développeur ou un testeur qui rapporte une erreur, et peut interagir via une API REST ou bien une interface web.
@@ -372,29 +368,23 @@
 	
 	\section{Diagrammes de séquences}
 	
-	\subsection{Définition}
-	
-	Un diagramme de séquences est un type de diagramme UML, utilisé pour modéliser les interactions entre les différents objets ou composants d'un système dans un scénario précis. Il met en évidence l'ordre chronologique des messages échangés entre les acteurs et les objets, les interactions dynamiques entre les éléments du système, et la durée de vie des objets participant au scénario.
+	Un diagramme de séquences est un type de diagramme UML utilisé pour modéliser les interactions entre les différents objets ou composants d'un système dans un scénario précis, il met en évidence l'ordre chronologique des messages échangés entre les acteurs et les objets, les interactions dynamiques entre les éléments du système, et la durée de vie des objets participant au scénario.
 	
 	\subsection{Diagramme de séquences principal}
-	
-	Cette application d'analyse d'erreurs techniques repose sur une architecture modulaire, où chaque composant joue un rôle précis dans le traitement des requêtes.
-	
-	\subsubsection{Présentation des composants}
 	
 	Voici une présentation des éléments clés qui permettent au système de comprendre, contextualiser et répondre aux problèmes soumis par les utilisateurs :
 	
 	\begin{itemize}
 		
-		\item \textbf{Utilisateur} : L'Utilisateur constitue le point de départ du système. Ce composant représente l'acteur humain qui interagit avec l'application via une interface web ou des appels API. Il soumet des requêtes contenant des stacktraces d'erreur et éventuellement des captures d'écran.
+		\item \textbf{Utilisateur} : Constitue le point de départ du système, ce composant représente l'acteur humain qui interagit avec l'application via une interface web ou des appels API, en soumettant des requêtes contenant des stacktraces d'erreur et éventuellement des captures d'écran.
 		
-		\item \textbf{LLM (Large Language Model)} : Est un modèle d'intelligence artificielle entraîné sur des volumes massifs de données textuelles, capable de comprendre, générer et manipuler du langage naturel de manière contextuelle. Basé sur des architectures de deep learning (comme les transformers), il excelle dans des tâches variées (réponse aux questions, traduction, synthèse de texte, etc.) en prédisant des séquences de mots probabilistes. Contrairement aux systèmes traditionnels, un LLM ne suit pas de règles prédéfinies, mais apprend des motifs linguistiques à partir de ses données d'entraînement.
+		\item \textbf{LLM (Large Language Model)} : Est un modèle d'intelligence artificielle pré-entraîné sur des volumes massifs de données textuelles, capable de comprendre, générer et manipuler le langage naturel de manière contextuelle. Il est basé sur des architectures de réseaux de neurones (comme les transformers), et excelle dans des tâches variées (réponse aux questions, traduction, synthèse de texte, etc.) en prédisant des séquences linguistiques d'une manière probabiliste. Contrairement aux systèmes traditionnels, un LLM ne suit pas de règles prédéfinies, mais apprend des motifs linguistiques en se basant sur des modèles non-supervisés.
 		
-		\item \textbf{RAG (Retrieval-Augmented Generation)} : Est une architecture hybride combinant un système de recherche d'information (retrieval) et un modèle de génération de langage (LLM). Contrairement à un LLM standard qui repose uniquement sur ses connaissances internes, le RAG enrichit ses réponses en recherchant des documents pertinents dans une base de connaissances externe, et en générant des réponses contextualisées à partir de ces sources. son plus grand avantage est la mise à jour sans réentraînement du LLM, via la base de connaissances. \cite{rag}
+		\item \textbf{RAG (Retrieval-Augmented Generation)} : Est une technique post-entrainement qui nous permet d'adapter l'usage des LLMs à travers l'enrichissement des réponses en recherchant des documents pertinents dans une base de connaissances externe, et en générant des réponses contextualisées à partir de ces sources. \cite{rag} 
 		
-		\item \textbf{Agent AI} : Sert de chef d'orchestre principal dans l'architecture. C'est un service intelligent qui coordonne l'ensemble du processus d'analyse. Il reçoit les requêtes brutes de l'utilisateur, les enrichit en combinant plusieurs techniques avancées comme le RAG et la mémoire conversationnelle, puis les présente au modèle de langage sous une forme optimale.
+		\item \textbf{Agent AI} : Une entité qui peut plannifier, exécuter des tâches d'une manière agentique ; Il reçoit les requêtes brutes de l'utilisateur, les enrichit en combinant plusieurs techniques avancées comme le RAG et la mémoire conversationnelle, puis les présente au modèle de langage sous une forme optimale.
 		
-		Parmi les atouts majeurs d'un Agent AI sa capacité à configurer dynamiquement les trois parties constituant le prompt envoyé au LLM :
+		Parmi les atouts majeurs d'un Agent AI sa capacité de configurer d'une façon dynamique les trois parties constituant le prompt envoyé au LLM :
 		
 		\begin{itemize}
 			
@@ -541,19 +531,19 @@
 		
 		\item \textbf{Resource} : Constitue la matière première du système RAG. Il s'agit de la source originelle des données qui alimenteront la base de connaissances. Ces ressources peuvent prendre diverses formes : fichiers PDF contenant la documentation technique, pages web de référence, extraits de bases de données, ou tous autres supports contenant des informations pertinentes.
 		
-		\item \textbf{Tokenizer} : Joue un rôle fondamental dans le prétraitement du texte. Ce composant décompose le contenu textuel en unités significatives appelées tokens, "un token peut correspondre à un mot entier, un sous-mot ou même un caractère individuel selon la méthode employée". Afin de rester dans les limites de longueur imposées par les modèles (souvent exprimées en nombre de tokens), le texte est ensuite segmenté en blocs appelés \textit{chunks}. Ces chunks sont de taille contrôlée (par exemple, 512 tokens), éventuellement avec un chevauchement partiel entre eux, pour ne pas perdre de contexte entre deux segments. Des algorithmes avancés comme ceux proposés par HuggingFace - une entreprise pionnière dans le domaine du traitement du langage naturel (NLP) et de l’intelligence artificielle - permettent une \textit{tokenisation} optimale qui préserve le sens tout en gérant les particularités linguistiques. La tokenisation joue un rôle cruciale car elle influe directement la qualité des embeddings générés ultérieurement.
+		\item \textbf{Tokenizer} : Joue un rôle fondamental dans le prétraitement du texte, il  décompose le contenu textuel en unités significatives appelées tokens, "un token peut correspondre à un mot entier, un sous-mot ou même un caractère individuel selon la méthode employée". Afin de rester dans les limites de longueur imposées par les modèles (souvent exprimées en nombre de tokens), le texte est ensuite segmenté en blocs appelés \textit{chunks}. Ces chunks sont de taille contrôlée (par exemple, 512 tokens), éventuellement avec un chevauchement partiel entre eux, pour ne pas perdre de contexte entre deux segments. Des algorithmes avancés comme ceux proposés par HuggingFace - une entreprise pionnière dans le domaine du traitement du langage naturel (NLP) et de l’intelligence artificielle - permettent une \textit{tokenisation} optimale qui préserve le sens tout en gérant les particularités linguistiques. La tokenisation joue un rôle cruciale car elle influe directement la qualité des embeddings générés ultérieurement.
 		
-		\item \textbf{DocumentParser} : Assure la transformation des ressources brutes en documents structurés. Ce composant comprend divers formats de fichiers (PDF, HTML, Markdown, etc.) et en extrait le contenu textuel significatif tout en conservant les métadonnées importantes. Des bibliothèques spécialisées comme sont souvent employées pour cette tâche complexe. Le DocumentParser nettoie également le texte en supprimant les éléments non pertinents (en-têtes, pieds de page, balises HTML) pour ne conserver que l'information essentielle.
+		\item \textbf{DocumentParser} : Assure la transformation des ressources brutes en documents structurés, il comprend divers formats de fichiers (PDF, HTML, Markdown, etc.) et en extrait le contenu textuel significatif tout en conservant les métadonnées importantes. Des bibliothèques spécialisées comme sont souvent employées pour cette tâche complexe. Le DocumentParser nettoie également le texte en supprimant les éléments non pertinents (en-têtes, pieds de page, balises HTML) pour ne conserver que l'information essentielle.
 		
 		\item \textbf{Document} : Représente la forme normalisée et standardisée des informations après traitement. Chaque document contient non seulement le texte brut nettoyé, mais aussi des métadonnées descriptives (titre, auteur, date de création, source) qui faciliteront son identification et son utilisation ultérieure. Un identifiant unique est attribué à chaque document pour permettre son suivi tout au long du pipeline. Cette structuration rigoureuse est essentielle pour maintenir la cohérence des données dans les étapes suivantes du processus mené par le RAG.
 		
 		\item \textbf{EmbeddingModel} : Est au cœur de la transformation sémantique du système. Ce modèle sophistiqué convertit le texte en représentations vectorielles denses (embeddings) qui capturent le sens profond des contenus. Des modèles sont spécialisés dans cette tâche produisent des vecteurs où la similarité spatiale correspond à la similarité sémantique. La qualité de l'EmbeddingModel détermine directement la capacité du système à retrouver des documents pertinents pour une requête donnée.
 		
-		\item \textbf{EmbeddingStoreIngestor} : Orchestre le processus complet d'indexation des documents. Ce composant supervise plusieurs opérations critiques : il applique la tokenisation et la segmentation des textes, déclenche la génération des embeddings via l'EmbeddingModel, et gère le stockage final dans l'EmbeddingStore. \\ L'EmbeddingStoreIngestor implémente souvent des stratégies de traitement par lots pour optimiser les performances et peut gérer des pipelines complexes de prétraitement avant la vectorisation.
+		\item \textbf{EmbeddingStoreIngestor} : Orchestre le processus complet d'indexation des documents, il supervise plusieurs opérations critiques : il applique la tokenisation et la segmentation des textes, déclenche la génération des embeddings via l'EmbeddingModel, et gère le stockage final dans l'EmbeddingStore. \\ L'EmbeddingStoreIngestor implémente souvent des stratégies de traitement par lots pour optimiser les performances et peut gérer des pipelines complexes de prétraitement avant la vectorisation.
 		
-		\item \textbf{EmbeddingStore} : Sert de mémoire à long terme au système RAG. Cette base de données vectorielle spécialisée stocke les embeddings générés et permet des recherches rapides de similarité. L'EmbeddingStore supporte des opérations massives d'insertion tout en maintenant des temps de réponse faibles pour les requêtes.
+		\item \textbf{EmbeddingStore} : Sert de mémoire à long terme au système RAG, cette base de données vectorielle spécialisée stocke les embeddings générés et permet des recherches rapides de similarité. L'EmbeddingStore supporte des opérations massives d'insertion tout en maintenant des temps de réponse faibles pour les requêtes.
 		
-		\item \textbf{Retriever} : Est le composant qui établit le pont entre les questions des utilisateurs et la base de connaissances. Lors d'une requête, le Retriever transforme d'abord la question en embedding, puis recherche dans l'EmbeddingStore les documents dont les vecteurs sont les plus proches. Ce composant implémente des algorithmes de similarité vectorielle (cosine similarity par exemple) et peut être finement paramétré (nombre de résultats retournés, seuil de similarité minimal). Le Retriever joue ainsi un rôle déterminant dans la pertinence des requêtes fournis au LLM.
+		\item \textbf{Retriever} : Est le composant qui établit le pont entre les questions des utilisateurs et la base de connaissances. Lors d'une requête, le Retriever sollicite de l'EmbeddingModel la transformation des questions des utilisateurs en embeddings, puis recherche dans l'EmbeddingStore les documents dont les vecteurs sont les plus proches. Ce composant implémente des algorithmes de similarité vectorielle (cosine similarity par exemple) et peut être finement paramétré (nombre de résultats retournés, seuil de similarité minimal). Le Retriever joue ainsi un rôle déterminant dans la pertinence des requêtes fournis au LLM.
 		
 	\end{itemize}
 	
@@ -581,7 +571,7 @@
 	
 	L’analyse fonctionnelle et la conception ont constitué des étapes fondamentales dans la structuration de notre projet. Les modèles et diagrammes produits ont servi de base solide pour la phase de développement, ils ont permis de formaliser les interactions entre les différents composants tout en anticipant d’éventuelles contraintes techniques.
 	
-	Enfin, cette phase préparatoire a mis en évidence l’importance d’une approche itérative, où l’analyse et la conception évoluent en parallèle des retours développeurs. Cette flexibilité méthodologique s’est avérée essentielle pour adapter le système aux besoins réels, tout en respectant les impératifs de qualité et de délais.
+	Enfin, cette phase préparatoire a mis en évidence l’importance d’une approche itérative, où l’analyse et la conception évoluent en parallèle des retours développeurs. Cette flexibilité méthodologique s’est avérée essentielle pour adapter le système aux besoins réels, tout en respectant les impératifs de qualité et de délais, ce qui sera constaté dans l'étape de réalisation.
 	
 	\chapter{Réalisation}
 	
@@ -855,7 +845,7 @@
 		
 		Le framework est aussi testable : il propose des outils natifs pour la réalisation de tests unitaires et d’intégration, garantissant la qualité et la stabilité du code produit.
 		
-		Enfin, Spring Boot est hautement extensible. Si le projet venait à croître en complexité, il serait tout à fait envisageable de faire évoluer l’architecture vers un modèle microservices avec des outils comme Spring Cloud.
+		Enfin, Spring Boot est hautement extensible, alors si le projet venait à croître en complexité, il serait tout à fait envisageable de faire évoluer l’architecture vers un modèle microservices avec des outils comme Spring Cloud.
 		
 		\item \textbf{LangChain4j} : Pour permettre l’analyse intelligente des erreurs à l’aide d’un modèle de langage (LLM), le projet s’appuie sur la bibliothèque LangChain4j, une adaptation Java du framework LangChain initialement développé pour Python. Ce composant joue un rôle central dans l’intégration des fonctionnalités d’intelligence artificielle générative.
 		
@@ -1079,7 +1069,7 @@
 	
 	\subsection{Prototype exploratoire}
 	
-	Pour atteindre nos objectifs ambitieux, nous avons suivi une approche incrémentielle. Dans un premier temps, un prototype fonctionnel a été réalisé afin de valider les fondements techniques du projet. Ce prototype est une simple application basée sur un agent intelligent exploitant une architecture RAG unimodale, capable de répondre aux questions de l’utilisateur à partir d’un document texte ou PDF fourni. Cette première version a permis de comprendre le fonctionnement du framework LangChain4j, de tester l’intégration avec Ollama, et de valider le concept de récupération de contexte à partir de documents externes.
+	Pour atteindre nos objectifs ambitieux, nous avons suivi une approche incrémentielle. Dans un premier temps, un prototype fonctionnel a été réalisé afin de valider les fondements techniques du projet. En réalisant ce prototype basé sur un agent intelligent exploitant une architecture RAG unimodale, capable de répondre aux questions de l’utilisateur à partir d’un document texte ou PDF fourni, nous avons pu comprendre le fonctionnement du framework LangChain4j, tester l’intégration avec Ollama, et de valider le concept de récupération de contexte à partir de documents externes.
 	
 	Pour tester ce prototype, nous avons fourni un fichier PDF, son contenu est une lettre de recommandation pour une étudiante appelée Nour, nous avons ensuite posé une question à propos de cette étudiante à l'agent AI, en utilisant un contrôleur web. La figure \ref{fig:test-rag} montre le résultat obtenu.
 	
