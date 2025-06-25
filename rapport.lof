@@ -5,20 +5,20 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {Diagramme de cas d'utilisation}}}{12}{figure.2.1}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un agent AI}}}{15}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces \textit {Diagramme décrivant le fonctionnement d'un RAG}}}{17}{figure.2.3}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \textit {Diagramme décrivant le fonctionnement d'un RAG}}}{18}{figure.2.3}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un RAG}}}{18}{figure.2.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Gestion de projet avec SCRUM}}}{21}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Diagramme d'architecture technique}}}{28}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Implémentation sans utiliser Apache Commons}}}{29}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Implémentation en utilisant Apache Commons}}}{29}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Implémentation sans utiliser les Streams}}}{33}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Implémentation en utilisant les Streams}}}{33}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Exemple de code répétitif avant factorisation}}}{34}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Code refactorisé avec méthode utilitaire}}}{35}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces \textit {Un morceau de la classe de configuration}}}{36}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Utilisation de la classe de configuration}}}{37}{figure.3.10}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces \textit {Test du premier prototype}}}{38}{figure.3.11}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Gestion de projet avec SCRUM}}}{22}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Diagramme d'architecture technique}}}{29}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Implémentation sans utiliser Apache Commons}}}{30}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Implémentation en utilisant Apache Commons}}}{30}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Implémentation sans utiliser les Streams}}}{34}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Implémentation en utilisant les Streams}}}{34}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Exemple de code répétitif avant factorisation}}}{35}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Code refactorisé avec méthode utilitaire}}}{36}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \textit {Un morceau de la classe de configuration}}}{37}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Utilisation de la classe de configuration}}}{38}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces \textit {Test du premier prototype}}}{39}{figure.3.11}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces \textit {Structure du projet Java}}}{40}{figure.3.12}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces \textit {Interface Java de l'agent AI}}}{42}{figure.3.13}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces \textit {Morceau du contenu du fichier application.properties}}}{43}{figure.3.14}%
@@ -29,3 +29,4 @@
 \contentsline {figure}{\numberline {3.19}{\ignorespaces \textit {Image trop volumineuse}}}{50}{figure.3.19}%
 \contentsline {figure}{\numberline {3.20}{\ignorespaces \textit {Type d'images non supporté}}}{51}{figure.3.20}%
 \contentsline {figure}{\numberline {3.21}{\ignorespaces \textit {Upload de vidéo}}}{52}{figure.3.21}%
+\addvspace {10\p@ }

@@ -40,10 +40,10 @@
 			À mon épouse et à ma petite fille,  \\
 			qui m’apportent chaque jour la force pour avancer.\\[1em]
 			
-			Mes amis \\
+			À Mes amis \\
 			pour leur contribution, qui a apporté une valeur ajoutée.\\[1em]
 			
-			Pour toute personne \\
+			À toute personne \\
 			ayant contribué à ma formation.
 			
 		\end{minipage}
@@ -156,7 +156,8 @@
 	\pagestyle{plain}
 	\pagenumbering{arabic}
 	
-	\chapter*{Introduction}
+	\chapter*{Introduction générale}
+	\addcontentsline{toc}{chapter}{Introduction générale}
 	
 		Dans le cadre de notre formation en Génie Informatique à l’École des Hautes Études d’Ingénierie d’Oujda (EHEIO), nous devons réaliser un Projet de Fin d’Études (PFE), visant à consolider et approfondir les compétences acquises durant notre parcours. Ce stage représente une étape cruciale, permettant de transposer les connaissances théoriques dans un environnement professionnel concret.
 	
@@ -168,8 +169,7 @@
 	
 	\chapter{Contexte du Projet}
 	
-	\section*{Introduction}
-	\addcontentsline{toc}{section}{Introduction}
+	\section{Introduction}
 	
 	Dans ce chapitre, nous commencerons par présenter l’entreprise d’accueil, avant de procéder à une description détaillée des besoins du projet. Cette description comprendra l’identification du problème posé, l’analyse des besoins fonctionnels et non fonctionnels, ainsi que les solutions envisagées pour y répondre.
 	
@@ -311,15 +311,13 @@
 		
 	\end{enumerate}
 	
-	\section*{Conclusion}
-	\addcontentsline{toc}{section}{Conclusion}
+	\section{Conclusion}
 	
 	En résumé, l’analyse initiale du problème a permis de cerner clairement les enjeux du projet et de définir des besoins fonctionnels et non fonctionnels cohérents avec les objectifs visés. L’étude des différentes solutions envisageables a conduit à des choix techniques adaptés, prenant en compte à la fois les contraintes de performance, d’ergonomie et de maintenabilité. Bien que certaines limitations persistent, notamment en lien avec l’évolutivité ou les dépendances externes, les bases posées offrent un cadre solide pour le développement et l’amélioration continue du système. Ce travail constitue ainsi une première étape vers une solution complète, fiable et évolutive.
 	
 	\chapter{Analyse fonctionnelle et modélisation}
 	
-	\section*{Introduction}
-	\addcontentsline{toc}{section}{Introduction}
+	\section{Introduction}
 	
 	Dans ce chapitre, nous mettons l'accent d'abord sur l'importance de l'analyse fonctionnelle, nous rappelons qu'est ce que c'est la modélisation UML en définissant les diagrammes utilisés. Nous procédons ensuite à présenter nos diagrammes après définir leurs éléments composants.
 	
@@ -424,7 +422,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1.1\textwidth]{ds-ai-agent.drawio.png}
+		\includegraphics[width=1\textwidth]{ds-ai-agent.drawio.png}
 		\caption{\textit{Diagramme de séquences décrivant le fonctionnement d'un agent AI}}
 		\label{fig:ds-ai-agent.drawio}
 	\end{figure}
@@ -437,19 +435,19 @@
 		
 		\item \textbf{Resource} : Constitue la matière première du système RAG. Il s'agit de la source originelle des données qui alimenteront la base de connaissances. Ces ressources peuvent prendre diverses formes : fichiers PDF contenant la documentation technique, pages web de référence, extraits de bases de données, ou tous autres supports contenant des informations pertinentes.
 		
-		\item \textbf{Tokenizer} : Joue un rôle fondamental dans le prétraitement du texte. Ce composant décompose le contenu textuel en unités significatives appelées tokens, "un token peut correspondre à un mot entier, un sous-mot ou même un caractère individuel selon la méthode employée". Des algorithmes avancés comme ceux proposés par HuggingFace permettent une  optimale qui préserve le sens tout en gérant les particularités linguistiques. La \textit{tokenisation} joue un rôle crucialecar elle influe directement la qualité des embeddings générés ultérieurement.
+		\item \textbf{Tokenizer} : Joue un rôle fondamental dans le prétraitement du texte. Ce composant décompose le contenu textuel en unités significatives appelées tokens, "un token peut correspondre à un mot entier, un sous-mot ou même un caractère individuel selon la méthode employée". Afin de rester dans les limites de longueur imposées par les modèles (souvent exprimées en nombre de tokens), le texte est ensuite segmenté en blocs appelés \textit{chunks}. Ces chunks sont de taille contrôlée (par exemple, 512 tokens), éventuellement avec un chevauchement partiel entre eux, pour ne pas perdre de contexte entre deux segments. Des algorithmes avancés comme ceux proposés par HuggingFace -une entreprise pionnière dans le domaine du traitement du langage naturel (NLP) et de l’intelligence artificielle open source- permettent une \textit{tokenisation} optimale qui préserve le sens tout en gérant les particularités linguistiques. La \textit{tokenisation} joue un rôle cruciale car elle influe directement la qualité des embeddings générés ultérieurement.
 		
-		\item \textbf{DocumentParser} : Assure la transformation des ressources brutes en documents structurés. Ce composant doit comprendre divers formats de fichiers (PDF, HTML, Markdown, etc.) et en extraire le contenu textuel significatif tout en conservant les métadonnées importantes. Des bibliothèques spécialisées comme sont souvent employées pour cette tâche complexe. Le DocumentParser nettoie également le texte en supprimant les éléments non pertinents (en-têtes, pieds de page, balises HTML) pour ne conserver que l'information essentielle.
+		\item \textbf{DocumentParser} : Assure la transformation des ressources brutes en documents structurés. Ce composant comprend divers formats de fichiers (PDF, HTML, Markdown, etc.) et en extrait le contenu textuel significatif tout en conservant les métadonnées importantes. Des bibliothèques spécialisées comme sont souvent employées pour cette tâche complexe. Le DocumentParser nettoie également le texte en supprimant les éléments non pertinents (en-têtes, pieds de page, balises HTML) pour ne conserver que l'information essentielle.
 		
-		\item \textbf{Document} : Représente la forme normalisée et standardisée des informations après traitement. Chaque document contient non seulement le texte brut nettoyé, mais aussi des métadonnées descriptives (titre, auteur, date de création, source) qui faciliteront son identification et son utilisation ultérieure. Un identifiant unique est attribué à chaque document pour permettre son suivi tout au long du pipeline. Cette structuration rigoureuse est essentielle pour maintenir la cohérence des données dans les étapes suivantes du processus RAG.
+		\item \textbf{Document} : Représente la forme normalisée et standardisée des informations après traitement. Chaque document contient non seulement le texte brut nettoyé, mais aussi des métadonnées descriptives (titre, auteur, date de création, source) qui faciliteront son identification et son utilisation ultérieure. Un identifiant unique est attribué à chaque document pour permettre son suivi tout au long du pipeline. Cette structuration rigoureuse est essentielle pour maintenir la cohérence des données dans les étapes suivantes du processus mené par le RAG.
 		
 		\item \textbf{EmbeddingModel} : Est au cœur de la transformation sémantique du système. Ce modèle sophistiqué convertit le texte en représentations vectorielles denses (embeddings) qui capturent le sens profond des contenus. Des modèles sont spécialisés dans cette tâche produisent des vecteurs où la similarité spatiale correspond à la similarité sémantique. La qualité de l'EmbeddingModel détermine directement la capacité du système à retrouver des documents pertinents pour une requête donnée.
 		
 		\item \textbf{EmbeddingStoreIngestor} : Orchestre le processus complet d'indexation des documents. Ce composant supervise plusieurs opérations critiques : il applique la tokenisation et la segmentation des textes, déclenche la génération des embeddings via l'EmbeddingModel, et gère le stockage final dans l'EmbeddingStore. \\ L'EmbeddingStoreIngestor implémente souvent des stratégies de traitement par lots pour optimiser les performances et peut gérer des pipelines complexes de prétraitement avant la vectorisation.
 		
-		\item \textbf{EmbeddingStore} : Sert de mémoire à long terme au système RAG. Cette base de données vectorielle spécialisée stocke les embeddings générés et permet des recherches rapides de similarité. L'EmbeddingStore doit supporter des opérations massives d'insertion tout en maintenant des temps de réponse faibles pour les requêtes.
+		\item \textbf{EmbeddingStore} : Sert de mémoire à long terme au système RAG. Cette base de données vectorielle spécialisée stocke les embeddings générés et permet des recherches rapides de similarité. L'EmbeddingStore supporte des opérations massives d'insertion tout en maintenant des temps de réponse faibles pour les requêtes.
 		
-		\item \textbf{Retriever} : Est le composant qui établit le pont entre les questions des utilisateurs et la base de connaissances. Lors d'une requête, le Retriever transforme d'abord la question en embedding, puis recherche dans l'EmbeddingStore les documents dont les vecteurs sont les plus proches. Ce composant implémente des algorithmes de similarité vectorielle (cosine similarity par exemple) et peut être finement paramétré (nombre de résultats retournés, seuil de similarité minimal). Le Retriever joue ainsi un rôle déterminant dans la pertinence des résultats fournis au LLM.
+		\item \textbf{Retriever} : Est le composant qui établit le pont entre les questions des utilisateurs et la base de connaissances. Lors d'une requête, le Retriever transforme d'abord la question en embedding, puis recherche dans l'EmbeddingStore les documents dont les vecteurs sont les plus proches. Ce composant implémente des algorithmes de similarité vectorielle (cosine similarity par exemple) et peut être finement paramétré (nombre de résultats retournés, seuil de similarité minimal). Le Retriever joue ainsi un rôle déterminant dans la pertinence des requêtes fournis au LLM.
 		
 	\end{itemize}
 	
@@ -457,7 +455,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1.1\textwidth]{diagramme-rag.png}
+		\includegraphics[width=1\textwidth]{diagramme-rag.png}
 		\caption{\textit{Diagramme décrivant le fonctionnement d'un RAG}}
 		\label{fig:diagramme-rag}
 	\end{figure}
@@ -466,13 +464,12 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1.1\textwidth]{ds-rag.drawio.png}
+		\includegraphics[width=1\textwidth]{ds-rag.drawio.png}
 		\caption{\textit{Diagramme de séquences décrivant le fonctionnement d'un RAG}}
 		\label{fig:ds-rag.drawio}
 	\end{figure}
 	
-	\section*{Conclusion}
-	\addcontentsline{toc}{section}{Conclusion}
+	\section{Conclusion}
 	
 	L’analyse fonctionnelle et la conception ont constitué des étapes fondamentales dans la structuration de notre projet. Les modèles et diagrammes produits ont servi de base solide pour la phase de développement, ils ont permis de formaliser les interactions entre les différents composants tout en anticipant d’éventuelles contraintes techniques.
 	
@@ -480,7 +477,7 @@
 	
 	\chapter{Réalisation}
 	
-	\section*{Introduction}
+	\section{Introduction}
 	
 	Ayant mené à l'étude des dimensions fonctionnelles et techniques, nous abordons désormais l'étape cruciale de réalisation concrète du projet. Cette phase opérationnelle sera consacrée à l'implémentation effective de la solution.
 	
@@ -529,7 +526,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1.1\textwidth]{scrum.png}
+		\includegraphics[width=1\textwidth]{scrum.png}
 		\caption{\textit{Gestion de projet avec SCRUM}}
 		\label{fig:scrum}
 	\end{figure}
@@ -888,8 +885,6 @@
 		}
 	\end{table}
 	
-	
-	
 	Prenons un exemple de notre projet, la méthode \\ \verb|estimateTokenCountInTools(Iterable<Object> objectsWithTools)| de la classe \\ \verb|TokenizerMyAppImpl| a été implémentée dans un premier temps en utilisant une boucle \verb|foreach|, comme le montre la figure \ref{fig:before-stream}.
 	
 	\begin{figure}[H]
@@ -955,7 +950,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\fbox{\includegraphics[width=0.9\textwidth]{using-configuration-property-value.png}}
+		\fbox{\includegraphics[width=0.8\textwidth]{using-configuration-property-value.png}}
 		\caption{\textit{Utilisation de la classe de configuration}}
 		\label{fig:using-configuration-property-value}
 	\end{figure}
@@ -966,7 +961,7 @@
 	
 	
 	
-	\subsection{Premier prototype}
+	\subsection{Prototype exploratoire}
 	
 	Pour atteindre nos objectifs ambitieux, nous avons suivi une approche incrémentielle. Dans un premier temps, un prototype fonctionnel a été réalisé afin de valider les fondements techniques du projet. Ce prototype est une simple application basée sur un agent intelligent exploitant une architecture RAG unimodale, capable de répondre aux questions de l’utilisateur à partir d’un document texte ou PDF fourni. Cette première version a permis de comprendre le fonctionnement du framework LangChain4j, de tester l’intégration avec Ollama, et de valider le concept de récupération de contexte à partir de documents externes.
 	
@@ -981,7 +976,7 @@
 	
 	Le modèle choisi pour tester ce prototype est Llama3, le prototype à réussi à répondre correctement à la question posée.
 	
-	\subsection{Dernière version}
+	\subsection{Version livrable actuelle}
 	
 	\subsubsection{Structure du projet Java}
 	
@@ -1118,13 +1113,58 @@
 		\label{fig:video}
 	\end{figure}
 	
-	\section*{Conclusion}
-	\addcontentsline{toc}{section}{Conclusion}
+	\section{Evaluation des objectifs}
+	
+	\subsection{Méthodologie d'Évaluation}
+	
+	Pour mesurer l’efficacité du système, nous avons mené des tests sur un échantillon d'erreurs courantes (de types \verb|NullPointerException|, \verb|ArrayIndexOutOfBoundsException|, \verb|Memory Leaks|, etc.), en comparant les résultats de l’outil avec ceux d’une analyse humaine. Les critères d’évaluation incluaient la précision de détection, la pertinence des correctifs, et le gain de temps.
+	
+	\subsection{Résultats obtenus}
+	
+	Après effectué les tests d'évaluation des objectifs sur un échantillon de 30 erreurs, les métriques obtenues sont :
+	
+	\begin{itemize}
+		
+		\item \textbf{Taux de détection : 78\%} (proche de l’objectif de 80\%).
+		
+		Cela s'explique par le fait que les erreurs complexes ou dépendantes du contexte métier ont réduit la précision. Notre système montre cependant des performances supérieures sur les erreurs syntaxiques et les crashes simples.
+		
+		\item \textbf{Correctifs pertinents : 65\%} (objectif de 70\% partiellement atteint).
+		
+		Les corrections nécessitant une refactorisation majeure ou une compréhension approfondie de l’architecture ne sont pas toujours proposées. L’outil excelle sur les correctifs localisés.
+		
+		\item \textbf{Gain de temps : 35\%} (objectif dépassé).
+		
+		L’automatisation réduit significativement le temps de diagnostic, surtout pour les erreurs récurrentes. Cependant, les cas complexes nécessitent toujours une intervention humaine.
+		
+	\end{itemize}
+	
+	\section{Conclusion}
 	
 	La phase de réalisation a permis de concrétiser les spécifications techniques et fonctionnelles définies précédemment, en transformant les modèles conceptuels en un produit opérationnel. Grâce à une méthodologie de développement agile, chaque itération a contribué à l’enrichissement progressif du système. L’adoption de bonnes pratiques de codage, couplée à des outils de gestion de version et d’intégration continue, a assuré une base code robuste et maintenable. Les défis techniques rencontrés ont été résolus par des solutions optimisées, renforçant ainsi la fiabilité de l’application. Cette étape a non seulement validé les choix architecturaux initiaux, mais a également démontré la capacité du système à répondre aux exigences métiers, ouvrant la voie aux phases de déploiement et d’exploitation.
 	
-	\chapter*{Conclusion et perspectives}
-	\addcontentsline{toc}{chapter}{Conclusion et perspectives}
+	\chapter{Acquis du Projet de Fin d'Études}
+	
+	Ce stage de fin d'études m'a offert une opportunité enrichissante de développer un large éventail de compétences, aussi bien sur le plan technique que dans les domaines de la gestion de projet et des interactions professionnelles.
+	
+	\section{Volet technique}
+	
+	Sur le plan technique, ce stage m’a permis d’explorer des domaines et des outils que je n’avais jamais abordés auparavant.
+	
+	Tout d’abord, la compétence principale acquise au cours de cette expérience est la maîtrise du RAG, une technique avancée d’IA générative. La mise en œuvre concrète de cette approche dans un projet réel m’a permis d’en comprendre pleinement les mécanismes, notamment grâce à l’utilisation de la bibliothèque \texttt{LangChain4j}.
+	
+	Ensuite, j’ai approfondi mes connaissances dans le développement d’applications backend en Java, notamment à travers le framework \texttt{Spring Boot}, que j’ai utilisé pour concevoir des services robustes, configurables et modulaires. Cette expérience m’a ainsi permis de mieux appréhender les architectures modernes et l’intégration de composants d’intelligence artificielle dans un contexte professionnel.
+	
+	\section{Volet gestion de projet}
+	
+	Du point de vue de gestion de projet, ce stage m’a permis de travailler dans un cadre organisationnel structuré, fondé sur le framework \texttt{Scrum}, largement adopté par l’entreprise d’accueil, Algolus.
+	
+	Au sein des différentes itérations (sprints), nous avons appliqué l’ensemble des pratiques agiles : réunions quotidiennes, envois de rapports journaliers, \textit{backlog refinement}, \textit{technical refinement}, \textit{sprint review}, \textit{rétrospective} et \textit{planification de sprint}. Cette rigueur dans l’application de Scrum a contribué à améliorer significativement la productivité de l’équipe et la qualité des livrables.
+	
+	Par ailleurs, Algolus utilise également le Lean Management, dont les méthodes comme la Résolution de Problème (RdP) ont contribué à accroître notre productivité.
+	
+	\chapter*{Conclusion générale et perspectives}
+	\addcontentsline{toc}{chapter}{Conclusion générale et perspectives}
 	
 	\section*{Conclusion générale}
 	\addcontentsline{toc}{section}{Conclusion générale}
@@ -1155,8 +1195,8 @@
 		
 	\end{itemize}
 	
-	\section*{Limites et perspectives}
-	\addcontentsline{toc}{section}{Limites et perspectives}
+	\section*{Perspectives}
+	\addcontentsline{toc}{section}{Perspectives}
 	
 	Comme tout projet informatique, notre solution présente à la fois certaines limitations inhérentes à sa conception actuelle et des perspectives d'amélioration qui ouvrent la voie à des évolutions futures.
 	
@@ -1164,17 +1204,19 @@
 	
 	\begin{itemize}
 		
+		\item L'ajout d'un deuxième agent AI qui a pour rôle de juger la pertinence des réponses et/ou leur respect de certaines normes (comme RGPD).
+		
+		\item L’intégration d’un fine-tuning du modèle sur des bases de code spécifiques.
+		
 		\item L'ajout d'un système d'authentification pour un suivi personnalisé des analyses.
 		
 		\item  L'intégration avec des plateformes comme GitHub pour une analyse directe des dépôts. 
 		
 		\item L'amélioration des prompts IA pour couvrir un spectre plus large d'erreurs.
 	
-		\item Les performances pourraient être optimisées via du caching des analyses récurrentes.
+		\item L'optimisation des performances via le caching des analyses récurrentes.
 		
 	\end{itemize}
-	
-	
 	
 	\chapter*{Annexe}
 	
