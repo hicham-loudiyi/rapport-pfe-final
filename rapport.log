@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  25 JUN 2025 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  25 JUN 2025 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -74,6 +74,156 @@ ts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
+(C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/arabi\arabi
+c.ldf
+File: arabic.ldf 
+Language: arabic 2006/01/01 v0.1 Arabic support for the babel system
+
+(C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/generic/babel/loc
+ale/ar\babel-arabic.tex
+Package babel Info: Importing font and identification data for arabic
+(babel)             from babel-ar.ini. Reported on input line 11.
+)
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'Arabic' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 35.
+
+Package babel Info: Hyphen rules for 'arabic' set to \l@english
+(babel)             (\language0). Reported on input line 36.
+Loading the definitions for the LaTeX{} Arabic encoding
+(C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/arabi\laeen
+c.def
+File: laeenc.def 2006/01/01 v0.1 Local Arabic font encoding (test version: may 
+change)
+Now handling font encoding LAE ...
+... processing UTF-8 mapping file for font encoding LAE
+
+(C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/arabi\laeen
+c.dfu
+File: laeenc.dfu 2006/01/01 v1.0 UTF-8 support for Arabic and Farsi for use wit
+h inputenc
+   defining Unicode char U+066A (decimal 1642)
+   defining Unicode char U+060C (decimal 1548)
+   defining Unicode char U+0660 (decimal 1632)
+   defining Unicode char U+0661 (decimal 1633)
+   defining Unicode char U+0662 (decimal 1634)
+   defining Unicode char U+0663 (decimal 1635)
+   defining Unicode char U+0664 (decimal 1636)
+   defining Unicode char U+0665 (decimal 1637)
+   defining Unicode char U+0666 (decimal 1638)
+   defining Unicode char U+0667 (decimal 1639)
+   defining Unicode char U+0668 (decimal 1640)
+   defining Unicode char U+0669 (decimal 1641)
+   defining Unicode char U+061B (decimal 1563)
+   defining Unicode char U+061F (decimal 1567)
+   defining Unicode char U+0621 (decimal 1569)
+   defining Unicode char U+0622 (decimal 1570)
+   defining Unicode char U+0623 (decimal 1571)
+   defining Unicode char U+0624 (decimal 1572)
+   defining Unicode char U+0625 (decimal 1573)
+   defining Unicode char U+0626 (decimal 1574)
+   defining Unicode char U+0627 (decimal 1575)
+   defining Unicode char U+0628 (decimal 1576)
+   defining Unicode char U+0629 (decimal 1577)
+   defining Unicode char U+062A (decimal 1578)
+   defining Unicode char U+062B (decimal 1579)
+   defining Unicode char U+062C (decimal 1580)
+   defining Unicode char U+062D (decimal 1581)
+   defining Unicode char U+062E (decimal 1582)
+   defining Unicode char U+062F (decimal 1583)
+   defining Unicode char U+0630 (decimal 1584)
+   defining Unicode char U+0631 (decimal 1585)
+   defining Unicode char U+0632 (decimal 1586)
+   defining Unicode char U+0633 (decimal 1587)
+   defining Unicode char U+0634 (decimal 1588)
+   defining Unicode char U+0635 (decimal 1589)
+   defining Unicode char U+0636 (decimal 1590)
+   defining Unicode char U+0637 (decimal 1591)
+   defining Unicode char U+0638 (decimal 1592)
+   defining Unicode char U+0639 (decimal 1593)
+   defining Unicode char U+063A (decimal 1594)
+   defining Unicode char U+0640 (decimal 1600)
+   defining Unicode char U+0641 (decimal 1601)
+   defining Unicode char U+0642 (decimal 1602)
+   defining Unicode char U+0643 (decimal 1603)
+   defining Unicode char U+0644 (decimal 1604)
+   defining Unicode char U+0645 (decimal 1605)
+   defining Unicode char U+0646 (decimal 1606)
+   defining Unicode char U+0647 (decimal 1607)
+   defining Unicode char U+0648 (decimal 1608)
+   defining Unicode char U+0649 (decimal 1609)
+   defining Unicode char U+064A (decimal 1610)
+   defining Unicode char U+064B (decimal 1611)
+   defining Unicode char U+064C (decimal 1612)
+   defining Unicode char U+064D (decimal 1613)
+   defining Unicode char U+064E (decimal 1614)
+   defining Unicode char U+064F (decimal 1615)
+   defining Unicode char U+0650 (decimal 1616)
+   defining Unicode char U+0651 (decimal 1617)
+   defining Unicode char U+0652 (decimal 1618)
+   defining Unicode char U+067E (decimal 1662)
+   defining Unicode char U+0686 (decimal 1670)
+   defining Unicode char U+0698 (decimal 1688)
+   defining Unicode char U+06A9 (decimal 1705)
+   defining Unicode char U+06AF (decimal 1711)
+   defining Unicode char U+06CC (decimal 1740)
+   defining Unicode char U+06F0 (decimal 1776)
+   defining Unicode char U+06F1 (decimal 1777)
+   defining Unicode char U+06F2 (decimal 1778)
+   defining Unicode char U+06F3 (decimal 1779)
+   defining Unicode char U+06F4 (decimal 1780)
+   defining Unicode char U+06F5 (decimal 1781)
+   defining Unicode char U+06F6 (decimal 1782)
+   defining Unicode char U+06F7 (decimal 1783)
+   defining Unicode char U+06F8 (decimal 1784)
+   defining Unicode char U+06F9 (decimal 1785)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+06D5 (decimal 1749)
+)) Loading the Common definitions for Arabic and Farsi
+(C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/arabi\arabi
+core.sty   Arabi Core switching commands v1.0  2006/01/01
+  (may still change)  
+\n@everypar=\toks19
+\@Arabitempboxa=\box53
+\llahheight=\skip51
+\Decimalheight=\skip52
+)
+LaTeX Font Info:    Redeclaring font encoding LAE on input line 144.
+ Loading the Arabi fonts definitions for Arabic
+(C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/arabi\arabi
+cfnt.sty   Arabic font switching commands v1.0  2006/01/01
+  (may still change)  
+LaTeX Info: Redefining \texttimes on input line 101.
+LaTeX Info: Redefining \times on input line 102.
+LaTeX Info: Redefining \omega on input line 137.
+) Loading the Common definitions for Arabic and Farsi
+(C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/arabi\arabn
+ovowel.sty
+File: arabnovowel.sty 2005/09/07 v0.1 Arabic dummy vowel slots when needed
+\ArabiStruthightOFF=\skip53
+\ArabiStrutdepthOFF=\skip54
+\ArabiStruthightON=\skip55
+\ArabiStrutdepthON=\skip56
+LaTeX Font Info:    Trying to load font information for LAE+cmr on input line 1
+33.
+
+(C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/arabi\laecm
+r.fd
+File: laecmr.fd 2006/01/01 v0.1 LaTeX Arabic default font description (test ver
+sion: may change)
+)
+LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
+(Font)              scaled to size 15.0pt on input line 133.
+)
+*************************************
+* Local config file arabic.cfg used
+*
+
+(C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/arabi\arabi
+c.cfg))
 (C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/generic/babel-fre
 nch\french.ldf
 Language: french 2024-07-25 v3.6c French support from the babel system
@@ -93,7 +243,7 @@ Package babel Info: Making ; an active character on input line 422.
 Package babel Info: Making ! an active character on input line 423.
 Package babel Info: Making ? an active character on input line 424.
 \FBguill@level=\count287
-\FBold@everypar=\toks19
+\FBold@everypar=\toks20
 \FB@Mht=\dimen150
 \mc@charclass=\count288
 \mc@charfam=\count289
@@ -118,7 +268,7 @@ Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 (C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\ke
 yval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks20
+\KV@toks@=\toks21
 )
 (C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\gr
 aphics.sty
@@ -164,7 +314,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutheight=\dimen166
 \Gm@layouthoffset=\dimen167
 \Gm@layoutvoffset=\dimen168
-\Gm@dimlist=\toks21
+\Gm@dimlist=\toks22
 
 (C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\ge
 ometry.cfg))
@@ -329,17 +479,17 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip51
+\Hy@SectionHShift=\skip57
 )
 (C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\ti
 tlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box53
-\beforetitleunit=\skip52
-\aftertitleunit=\skip53
+\ttl@box=\box54
+\beforetitleunit=\skip58
+\aftertitleunit=\skip59
 \ttl@plus=\dimen173
 \ttl@minus=\dimen174
-\ttl@toksa=\toks22
+\ttl@toksa=\toks23
 \titlewidth=\dimen175
 \titlewidthlast=\dimen176
 \titlewidthfirst=\dimen177
@@ -370,28 +520,28 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 .sty
 Package: array 2025/05/19 v2.6i Tabular extension package (FMi)
 \col@sep=\dimen178
-\ar@mcellbox=\box54
+\ar@mcellbox=\box55
 \extrarowheight=\dimen179
-\NC@list=\toks23
-\extratabsurround=\skip54
-\backup@length=\skip55
-\ar@cellbox=\box55
+\NC@list=\toks24
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box56
 )
 (C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/float\float
 .sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count308
-\float@exts=\toks24
-\float@box=\box56
-\@float@everytoks=\toks25
-\@floatcapt=\box57
+\float@exts=\toks25
+\float@box=\box57
+\@float@everytoks=\toks26
+\@floatcapt=\box58
 )
 (C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/makecell\ma
 kecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen180
 \c@nlinenum=\count309
-\TeXr@lab=\toks26
+\TeXr@lab=\toks27
 )
 (C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l
 3backend-pdftex.def
@@ -403,41 +553,57 @@ Package babel Info: 'french' activates 'french' shorthands.
 )
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Info: Redefining \degres on input line 24.
-LaTeX Info: Redefining \up on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for LAE/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+
+(C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen
+.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+LaTeX Info: Redefining \degres on input line 23.
+
+
+Package french.ldf Warning: Figures' and tables' captions might look like
+(french.ldf)                `Figure 1:' in French instead of `Figure 1 :'.
+(french.ldf)                If this happens, to fix this issue
+(french.ldf)                switch to LuaLaTeX or XeLaTeX or
+(french.ldf)                try to add \usepackage{caption} or
+(french.ldf)                ... leave it as it is; reported on input line 23.
+
+LaTeX Info: Redefining \up on input line 23.
 
 (C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii
 \supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count311
 \scratchdimen=\dimen181
-\scratchbox=\box58
+\scratchbox=\box59
 \nofMPsegments=\count312
 \nofMParguments=\count313
-\everyMPshowfont=\toks27
+\everyMPshowfont=\toks28
 \MPscratchCnt=\count314
 \MPscratchDim=\dimen182
 \MPnumerator=\count315
 \makeMPintoPDFobject=\count316
-\everyMPtoPDFconversion=\toks28
+\everyMPtoPDFconversion=\toks29
 )
 (C:\Users\Electro_Laaroussi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pk
 g\epstopdf-base.sty
@@ -483,31 +649,61 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 23.
 (rapport.out) (rapport.out)
 \@outlinefile=\write3
 \openout3 = `rapport.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 49.
+(Font)              <12> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 49.
+(Font)              <8> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 49.
+(Font)              <6> on input line 48.
 
 
 [1
 
 
 {C:/Users/Electro_Laaroussi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.85 	\chapter
-              *{RÃ©sumÃ©} [2
+l.69 	\chapter
+              *{Liste des abrÃ©viations} [2
 
 ]
 
@@ -516,8 +712,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.95 	\chapter
-              *{Abstract} [3
+l.109 	\chapter
+               *{RÃ©sumÃ©} [3
 
 ]
 
@@ -526,8 +722,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.105 	\chapter
-               *{Liste des abrÃ©viations} [4
+l.120 	\chapter
+               *{Abstract} [4
 
 ]
 
@@ -536,88 +732,332 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.146 	\listoffigures
-                      [5
-
-] (rapport.lof
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.27 ...ructure du projet Java}}}{47}{figure.3.17}
-                                                  % [6
-
-])
-\tf@lof=\write4
-\openout4 = `rapport.lof'.
-
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.149 	\listoftables
-                     [7] (rapport.lot)
-\tf@lot=\write5
-\openout5 = `rapport.lot'.
-
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.152 	\tableofcontents
-                        [8
+l.132 	\tableofcontents
+                        [5
 
 ] (rapport.toc
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 ... {2.5.1}DÃ©finition}{12}{subsection.2.5.1}
-                                                  % [9
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 35.
+
+[6
 
 ]
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.74 ...du Projet de Fin d'Ã‰tudes}{54}{chapter.4}
-                                                  % [10])
-\tf@toc=\write6
-\openout6 = `rapport.toc'.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 92.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 92.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 92.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 92.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 92.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 92.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 92.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 92.
+
+[7])
+\tf@toc=\write4
+\openout4 = `rapport.toc'.
 
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.155 	\clearpage
-                  [11]
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 135.
+
+[8] (rapport.lof
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 27.
+
+[9
+
+])
+\tf@lof=\write5
+\openout5 = `rapport.lof'.
+
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 138.
+
+[10] (rapport.lot)
+\tf@lot=\write6
+\openout6 = `rapport.lot'.
+
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 141.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 141.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 141.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 141.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 141.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 141.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 141.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 141.
+
+[11
+
+]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 154.
 
 [1
 
 
 ]
 Chapitre 1.
-<algolus-logo.png, id=397, 471.7625pt x 139.52126pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 154.
+
+<algolus-logo.png, id=405, 471.7625pt x 139.52126pt>
 File: algolus-logo.png Graphic file (type png)
 <use algolus-logo.png>
-Package pdftex.def Info: algolus-logo.png  used on input line 182.
+Package pdftex.def Info: algolus-logo.png  used on input line 166.
 (pdftex.def)             Requested size: 181.18454pt x 53.58492pt.
+LaTeX Font Info:    Font shape `LAE/cmr/m/it' will be
+(Font)              scaled to size 15.0pt on input line 167.
+Missing character: There is no o in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no o in font aedimnah!
 
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 174.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 174.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 174.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 174.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 174.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 174.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 174.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 174.
 
 [2
 
@@ -626,635 +1066,2915 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.190 	
+l.174 	
         <./algolus-logo.png>]
-<algolus-organigramme.png, id=407, 859.71187pt x 1047.915pt>
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no o in font aedimnah!
+<algolus-organigramme.png, id=414, 859.71187pt x 1047.915pt>
 File: algolus-organigramme.png Graphic file (type png)
 <use algolus-organigramme.png>
-Package pdftex.def Info: algolus-organigramme.png  used on input line 237.
+Package pdftex.def Info: algolus-organigramme.png  used on input line 221.
 (pdftex.def)             Requested size: 452.96826pt x 552.13037pt.
+Missing character: There is no g in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no o in font aedimnah!
 
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 224.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 224.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 224.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 224.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 224.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 224.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 224.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 224.
 
 [3
 pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.240 	\end{figure}
+l.224 	\end{figure}
                    ]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 231.
 
 [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.247 	
+l.231 	
         <./algolus-organigramme.png>]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 239.
 
 [5]
 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 265.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.265 		\item \textbf
+                     {SÃ©curitÃ© et ConfidentialitÃ©} : Protection des donnÃ...
 [6]
-Overfull \hbox (4.19505pt too wide) in paragraph at lines 281--282
+Overfull \hbox (4.19505pt too wide) in paragraph at lines 265--266
 []\T1/cmr/bx/n/12 Sécurité et Confi-den-tia-lité \T1/cmr/m/n/12 : Pro-tec-tion 
 des don-nées par chif-fre-ment des échanges
  []
 
 
 
-[7]
 
-[8]
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 295.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 295.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 295.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 295.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 295.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 295.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 295.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 295.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.295 		
+         [7]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 302.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 302.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 302.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 302.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 302.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 302.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 302.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 302.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.302 	\chapter
+               {Analyse fonctionnelle et modÃ©lisation} [8]
 Chapitre 2.
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 302.
 
-[9
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 302.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 302.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 302.
+
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 314.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.314 	\section{Unified Modeling Language}
+                                           [9
 
 ]
 
-[10]
-<use-case.drawio.png, id=457, 472.76625pt x 482.80376pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 331.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.331 	
+        [10]
+<use-case.drawio.png, id=459, 472.76625pt x 482.80376pt>
 File: use-case.drawio.png Graphic file (type png)
 <use use-case.drawio.png>
-Package pdftex.def Info: use-case.drawio.png  used on input line 364.
+Package pdftex.def Info: use-case.drawio.png  used on input line 348.
 (pdftex.def)             Requested size: 472.76509pt x 482.80258pt.
 
-Overfull \hbox (19.79683pt too wide) in paragraph at lines 364--365
+Overfull \hbox (19.79683pt too wide) in paragraph at lines 348--349
  [][] 
  []
 
+Missing character: There is no D in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
 
 
-[11]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 352.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 352.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 352.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 352.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 352.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 352.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 352.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 352.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.352 	
+        [11]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 358.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 358.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 358.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 358.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 358.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 358.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 358.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 358.
 
 [12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.374 	
+l.358 	
         <./use-case.drawio.png>]
 
-[13]
-<ds-ai-agent.drawio.png, id=472, 884.30376pt x 392.46625pt>
-File: ds-ai-agent.drawio.png Graphic file (type png)
-<use ds-ai-agent.drawio.png>
-Package pdftex.def Info: ds-ai-agent.drawio.png  used on input line 425.
-(pdftex.def)             Requested size: 452.96826pt x 201.03545pt.
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 375.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 375.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 375.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 375.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 375.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 375.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 375.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 375.
+
+[13]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 407.
 
 [14]
 
-[15
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 445.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 445.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 445.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 445.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 445.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 445.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 445.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 445.
+
+[15]
+<ds-ai-agent.drawio.png, id=488, 884.30376pt x 392.46625pt>
+File: ds-ai-agent.drawio.png Graphic file (type png)
+<use ds-ai-agent.drawio.png>
+Package pdftex.def Info: ds-ai-agent.drawio.png  used on input line 507.
+(pdftex.def)             Requested size: 452.96826pt x 201.03545pt.
+
+Missing character: There is no D in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no v in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no e in font aedimnah!
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 510.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 510.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 510.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 510.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 510.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 510.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 510.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 510.
+
+[16]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 525.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 525.
+
+[17
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.439 		
+l.525 		
          <./ds-ai-agent.drawio.png>]
 
-[16]
-<diagramme-rag.png, id=488, 614.295pt x 356.532pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 531.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 531.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 531.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 531.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 531.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 531.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 531.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 531.
+
+[18]
+<diagramme-rag.png, id=506, 614.295pt x 356.532pt>
 File: diagramme-rag.png Graphic file (type png)
 <use diagramme-rag.png>
-Package pdftex.def Info: diagramme-rag.png  used on input line 458.
+Package pdftex.def Info: diagramme-rag.png  used on input line 544.
 (pdftex.def)             Requested size: 452.96826pt x 262.89926pt.
 
+Missing character: There is no D in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no v in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no G in font aedimnah!
 
-[17]
-<ds-rag.drawio.png, id=494, 1004.75375pt x 452.69125pt>
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 548.
+
+[19]
+<ds-rag.drawio.png, id=512, 1004.75375pt x 452.69125pt>
 File: ds-rag.drawio.png Graphic file (type png)
 <use ds-rag.drawio.png>
-Package pdftex.def Info: ds-rag.drawio.png  used on input line 467.
+Package pdftex.def Info: ds-rag.drawio.png  used on input line 555.
 (pdftex.def)             Requested size: 452.96826pt x 204.08218pt.
 
+Missing character: There is no D in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no v in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no G in font aedimnah!
 
-[18
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 563.
+
+[20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.475 	
+l.563 	
        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.475 	
+l.563 	
         <./diagramme-rag.png> <./ds-rag.drawio.png>]
 
-[19]
-Chapitre 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 566.
 
 
-[20
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 566.
 
-]
-<scrum.png, id=511, 572.73975pt x 272.217pt>
-File: scrum.png Graphic file (type png)
-<use scrum.png>
-Package pdftex.def Info: scrum.png  used on input line 529.
-(pdftex.def)             Requested size: 452.96826pt x 215.29411pt.
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 566.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 566.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 566.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 566.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 566.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 566.
 
 [21]
+Chapitre 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 566.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 566.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 566.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 566.
+
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 579.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 579.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 579.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 579.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 579.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 579.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 579.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 579.
 
 [22
+
+]
+<scrum.png, id=529, 572.73975pt x 272.217pt>
+File: scrum.png Graphic file (type png)
+<use scrum.png>
+Package pdftex.def Info: scrum.png  used on input line 617.
+(pdftex.def)             Requested size: 452.96826pt x 215.29411pt.
+
+Missing character: There is no G in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no j in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no v in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 621.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 621.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 621.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 621.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 621.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 621.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 621.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 621.
+
+[23]
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 649.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 649.
+
+[24
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.561 	\section{Stack technique}
+l.649 	\section{Stack technique}
                                 
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.561 	\section{Stack technique}
+l.649 	\section{Stack technique}
                                  <./scrum.png>]
-<java-logo.png, id=521, 401.5pt x 513.92pt>
+<java-logo.png, id=539, 401.5pt x 513.92pt>
 File: java-logo.png Graphic file (type png)
 <use java-logo.png>
-Package pdftex.def Info: java-logo.png  used on input line 575.
+Package pdftex.def Info: java-logo.png  used on input line 663.
 (pdftex.def)             Requested size: 67.94247pt x 86.9653pt.
-<spring-logo.png, id=522, 1885.30435pt x 1886.08989pt>
+<spring-logo.png, id=540, 1885.30435pt x 1886.08989pt>
 File: spring-logo.png Graphic file (type png)
 <use spring-logo.png>
-Package pdftex.def Info: spring-logo.png  used on input line 593.
+Package pdftex.def Info: spring-logo.png  used on input line 681.
 (pdftex.def)             Requested size: 67.94247pt x 67.9481pt.
-<spring-boot-logo.png, id=523, 301.125pt x 301.125pt>
+<spring-boot-logo.png, id=541, 301.125pt x 301.125pt>
 File: spring-boot-logo.png Graphic file (type png)
 <use spring-boot-logo.png>
-Package pdftex.def Info: spring-boot-logo.png  used on input line 609.
+Package pdftex.def Info: spring-boot-logo.png  used on input line 697.
 (pdftex.def)             Requested size: 67.94247pt x 67.94318pt.
-<langchain4j-logo.png, id=524, 534.99875pt x 552.0625pt>
+<langchain4j-logo.png, id=542, 534.99875pt x 552.0625pt>
 File: langchain4j-logo.png Graphic file (type png)
 <use langchain4j-logo.png>
-Package pdftex.def Info: langchain4j-logo.png  used on input line 626.
+Package pdftex.def Info: langchain4j-logo.png  used on input line 714.
 (pdftex.def)             Requested size: 67.94247pt x 70.10272pt.
 
 
-[23 <./java-logo.png> <./spring-logo.png> <./spring-boot-logo.png>]
-<apache-commons-logo.png, id=532, 616.3025pt x 149.55875pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 719.
+
+[25 <./java-logo.png> <./spring-logo.png> <./spring-boot-logo.png>]
+<apache-commons-logo.png, id=550, 616.3025pt x 149.55875pt>
 File: apache-commons-logo.png Graphic file (type png)
 <use apache-commons-logo.png>
-Package pdftex.def Info: apache-commons-logo.png  used on input line 644.
+Package pdftex.def Info: apache-commons-logo.png  used on input line 732.
 (pdftex.def)             Requested size: 67.94247pt x 16.48573pt.
-<postgresql-logo.png, id=533, 730.73pt x 752.8125pt>
+<postgresql-logo.png, id=551, 730.73pt x 752.8125pt>
 File: postgresql-logo.png Graphic file (type png)
 <use postgresql-logo.png>
-Package pdftex.def Info: postgresql-logo.png  used on input line 662.
+Package pdftex.def Info: postgresql-logo.png  used on input line 750.
 (pdftex.def)             Requested size: 67.94247pt x 69.99016pt.
-<ollama-logo.png, id=534, 1518.67375pt x 2007.5pt>
+<ollama-logo.png, id=552, 1518.67375pt x 2007.5pt>
 File: ollama-logo.png Graphic file (type png)
 <use ollama-logo.png>
-Package pdftex.def Info: ollama-logo.png  used on input line 680.
+Package pdftex.def Info: ollama-logo.png  used on input line 768.
 (pdftex.def)             Requested size: 67.94247pt x 89.78223pt.
 
 
-[24 <./langchain4j-logo.png> <./apache-commons-logo.png> <./postgresql-logo.png
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 773.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 773.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 773.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 773.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 773.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 773.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 773.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 773.
+
+[26 <./langchain4j-logo.png> <./apache-commons-logo.png> <./postgresql-logo.png
 >]
-<maven-logo.png, id=542, 1173.38374pt x 305.14pt>
+<maven-logo.png, id=561, 1173.38374pt x 305.14pt>
 File: maven-logo.png Graphic file (type png)
 <use maven-logo.png>
-Package pdftex.def Info: maven-logo.png  used on input line 696.
+Package pdftex.def Info: maven-logo.png  used on input line 784.
 (pdftex.def)             Requested size: 67.94247pt x 17.66507pt.
-<intellij-logo.png, id=543, 803.0pt x 803.0pt>
+<intellij-logo.png, id=562, 803.0pt x 803.0pt>
 File: intellij-logo.png Graphic file (type png)
 <use intellij-logo.png>
-Package pdftex.def Info: intellij-logo.png  used on input line 712.
+Package pdftex.def Info: intellij-logo.png  used on input line 800.
 (pdftex.def)             Requested size: 67.94247pt x 67.94165pt.
-<git-logo.png, id=544, 513.92pt x 513.92pt>
+<git-logo.png, id=563, 513.92pt x 513.92pt>
 File: git-logo.png Graphic file (type png)
 <use git-logo.png>
-Package pdftex.def Info: git-logo.png  used on input line 728.
+Package pdftex.def Info: git-logo.png  used on input line 816.
 (pdftex.def)             Requested size: 67.94247pt x 67.94115pt.
 
 
-[25 <./ollama-logo.png> <./maven-logo.png> <./intellij-logo.png> <./git-logo.pn
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 825.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 825.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 825.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 825.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 825.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 825.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 825.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 825.
+
+[27 <./ollama-logo.png> <./maven-logo.png> <./intellij-logo.png> <./git-logo.pn
 g>]
 
-[26]
 
-[27]
-<illustration-graphique.drawio.png, id=563, 810.02625pt x 733.74126pt>
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 842.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 842.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 842.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 842.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 842.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 842.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 842.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 842.
+
+[28]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 854.
+
+[29]
+<illustration-graphique.drawio.png, id=581, 810.02625pt x 733.74126pt>
 File: illustration-graphique.drawio.png Graphic file (type png)
 <use illustration-graphique.drawio.png>
 Package pdftex.def Info: illustration-graphique.drawio.png  used on input line 
-782.
+870.
 (pdftex.def)             Requested size: 452.96826pt x 410.3213pt.
 
+Missing character: There is no D in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
 
-[28]
-Overfull \hbox (8.89972pt too wide) in paragraph at lines 787--787
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 874.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 874.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 874.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 874.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 874.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 874.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 874.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 874.
+
+[30]
+Overfull \hbox (8.89972pt too wide) in paragraph at lines 875--875
 |[]\T1/cmr/bx/n/17.28 Bonnes pra-tiques ap-pli-quées du dé-ve-lop-pe-ment Java|
  
  []
 
 
 
-[29
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 879.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 879.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 879.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 879.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 879.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 879.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 879.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 879.
+
+[31
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.791 ... BibliothÃ¨ques Matures : Apache Commons}
+l.879 ... d'une nomenclature claire et cohÃ©rente}
                                                    <./illustration-graphique.dr
 awio.png>]
-Overfull \hbox (52.46948pt too wide) in paragraph at lines 795--796
+Overfull \hbox (52.46948pt too wide) in paragraph at lines 891--892
 \T1/cmr/m/n/12 exemple la mé-thode [][]\T1/cmtt/m/n/12 estimateTokenCountInText
 (String text) []\T1/cmr/m/n/12 de la classe [][]\T1/cmtt/m/n/12 TokenizerMyAppI
 mpl[]\T1/cmr/m/n/12 ,
  []
 
-<before-string-utils.png, id=574, 325.215pt x 100.57574pt>
+<before-string-utils.png, id=592, 325.215pt x 100.57574pt>
 File: before-string-utils.png Graphic file (type png)
 <use before-string-utils.png>
-Package pdftex.def Info: before-string-utils.png  used on input line 799.
+Package pdftex.def Info: before-string-utils.png  used on input line 895.
 (pdftex.def)             Requested size: 325.2142pt x 100.57549pt.
-<after-string-utils.png, id=576, 323.40825pt x 100.57574pt>
+Missing character: There is no p in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no o in font aedimnah!
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 899.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 899.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 899.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 899.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 899.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 899.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 899.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 899.
+
+[32]
+<after-string-utils.png, id=599, 323.40825pt x 100.57574pt>
 File: after-string-utils.png Graphic file (type png)
 <use after-string-utils.png>
-Package pdftex.def Info: after-string-utils.png  used on input line 810.
+Package pdftex.def Info: after-string-utils.png  used on input line 906.
 (pdftex.def)             Requested size: 323.40744pt x 100.57549pt.
 
+Missing character: There is no p in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no o in font aedimnah!
 
-[30
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 919.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 919.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 919.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 919.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 919.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 919.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 919.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 919.
+
+[33
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.816 	
-       
+l.919 		\item \textbf
+                     {La boucle for traditionnelle} : Approche historique de...
+
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.816 	
-        <./before-string-utils.png> <./after-string-utils.png>]
+l.919 		\item \textbf
+                     {La boucle for traditionnelle} : Approche historique de...
+ <./before-string-utils.png> <./after-string-utils.png>]
 
-[31]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 934.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 934.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 934.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 934.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 934.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 934.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 934.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 934.
+
+[34]
+Missing character: There is no o in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no v in font aedimnah!
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 885.
-
-
-[32]
-<before-stream.png, id=595, 447.47176pt x 164.41425pt>
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 981.
+<before-stream.png, id=612, 447.47176pt x 164.41425pt>
 File: before-stream.png Graphic file (type png)
 <use before-stream.png>
-Package pdftex.def Info: before-stream.png  used on input line 892.
+Package pdftex.def Info: before-stream.png  used on input line 988.
 (pdftex.def)             Requested size: 447.47066pt x 164.41383pt.
 
-Overfull \hbox (1.30238pt too wide) in paragraph at lines 892--893
+Overfull \hbox (1.30238pt too wide) in paragraph at lines 988--989
  [][] 
  []
 
+Missing character: There is no p in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
 
 
-[33
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 992.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 992.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 992.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 992.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 992.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 992.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 992.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 992.
+
+[35
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.896 	
+l.992 	
        ]
-<after-stream.png, id=601, 473.97075pt x 131.2905pt>
+<after-stream.png, id=618, 473.97075pt x 131.2905pt>
 File: after-stream.png Graphic file (type png)
 <use after-stream.png>
-Package pdftex.def Info: after-stream.png  used on input line 901.
+Package pdftex.def Info: after-stream.png  used on input line 997.
 (pdftex.def)             Requested size: 452.96826pt x 125.47249pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 901--902
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 997--998
  [][] 
  []
 
+Missing character: There is no p in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
 
-Overfull \hbox (52.95128pt too wide) in paragraph at lines 906--907
+Overfull \hbox (52.95128pt too wide) in paragraph at lines 1002--1003
 []\T1/cmr/m/n/12 Cette im-plé-men-ta-tion, of-frant une ges-tion ro-buste des n
 ull avec [][]\T1/cmtt/m/n/12 IterableUtils.emptyIfNull()[]\T1/cmr/m/n/12 ,
  []
 
 
 
-[34
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1007.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1007.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1007.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1007.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1007.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1007.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1007.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1007.
+
+[36
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.911 	
-       
+l.1007 	
+        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.911 	
-        <./before-stream.png> <./after-stream.png>]
-<before-factorisation.png, id=609, 657.657pt x 281.25075pt>
+l.1007 	
+         <./before-stream.png> <./after-stream.png>]
+<before-factorisation.png, id=626, 657.657pt x 281.25075pt>
 File: before-factorisation.png Graphic file (type png)
 <use before-factorisation.png>
-Package pdftex.def Info: before-factorisation.png  used on input line 918.
+Package pdftex.def Info: before-factorisation.png  used on input line 1014.
 (pdftex.def)             Requested size: 452.96826pt x 193.7199pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 918--919
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1014--1015
  [][] 
  []
 
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no v in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no o in font aedimnah!
 
-Overfull \hbox (5.50728pt too wide) in paragraph at lines 923--924
-[]\T1/cmr/m/n/12 Dans la fi-gure []3.7[], cha-cune des mé-thodes [][]\T1/cmtt/m
-/n/12 estimateTokenCountInToolSpecifications
+Overfull \hbox (5.50728pt too wide) in paragraph at lines 1019--1020
+[]\T1/cmr/m/n/12 Dans la fi-gure [][]3.7[][], cha-cune des mé-thodes [][]\T1/cm
+tt/m/n/12 estimateTokenCountInToolSpecifications
  []
 
-<after-factorisation.png, id=612, 751.00575pt x 281.25075pt>
+<after-factorisation.png, id=629, 751.00575pt x 281.25075pt>
 File: after-factorisation.png Graphic file (type png)
 <use after-factorisation.png>
-Package pdftex.def Info: after-factorisation.png  used on input line 927.
+Package pdftex.def Info: after-factorisation.png  used on input line 1023.
 (pdftex.def)             Requested size: 452.96826pt x 169.63579pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 927--928
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1023--1024
  [][] 
  []
 
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no v in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
 
 
-[35
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1027.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1027.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1027.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1027.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1027.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1027.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1027.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1027.
+
+[37
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.931 	
-        <./before-factorisation.png>]
-Overfull \hbox (7.13326pt too wide) in paragraph at lines 932--933
+l.1027 	
+         <./before-factorisation.png>]
+Overfull \hbox (7.13326pt too wide) in paragraph at lines 1028--1029
 [][]\T1/cmtt/m/n/12 countTokensInIterable(Iterable<T> iterable, ToIntFunction<T
 > tokenCounter)[]\T1/cmr/m/n/12 ,
  []
 
-<configuration-property-value.png, id=619, 371.58826pt x 396.2805pt>
+<configuration-property-value.png, id=636, 371.58826pt x 396.2805pt>
 File: configuration-property-value.png Graphic file (type png)
 <use configuration-property-value.png>
-Package pdftex.def Info: configuration-property-value.png  used on input line 9
-44.
+Package pdftex.def Info: configuration-property-value.png  used on input line 1
+040.
 (pdftex.def)             Requested size: 317.0764pt x 338.16425pt.
+Missing character: There is no o in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no o in font aedimnah!
 
 
-[36
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1044.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1044.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1044.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1044.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1044.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1044.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1044.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1044.
+
+[38
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.948 	
-        <./after-factorisation.png>]
-<using-configuration-property-value.png, id=626, 433.62pt x 259.56975pt>
+l.1044 	
+         <./after-factorisation.png>]
+<using-configuration-property-value.png, id=644, 433.62pt x 259.56975pt>
 File: using-configuration-property-value.png Graphic file (type png)
 <use using-configuration-property-value.png>
 Package pdftex.def Info: using-configuration-property-value.png  used on input 
-line 953.
+line 1049.
 (pdftex.def)             Requested size: 362.37598pt x 216.93205pt.
 
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no o in font aedimnah!
 
-[37
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1053.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1053.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1053.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1053.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1053.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1053.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1053.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1053.
+
+[39
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.957 	
-        <./configuration-property-value.png>]
+l.1053 	
+         <./configuration-property-value.png>]
 
-[38
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1065.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1065.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1065.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1065.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1065.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1065.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1065.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1065.
+
+[40
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.969 	
-        <./using-configuration-property-value.png>]
-<test-rag.png, id=639, 919.18407pt x 119.69719pt>
+l.1065 	
+         <./using-configuration-property-value.png>]
+<test-rag.png, id=656, 919.18407pt x 119.69719pt>
 File: test-rag.png Graphic file (type png)
 <use test-rag.png>
-Package pdftex.def Info: test-rag.png  used on input line 972.
+Package pdftex.def Info: test-rag.png  used on input line 1068.
 (pdftex.def)             Requested size: 452.96826pt x 58.98636pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 972--973
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1068--1069
  [][] 
  []
 
-<structure-projet.png, id=641, 295.85532pt x 741.52031pt>
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no e in font aedimnah!
+<structure-projet.png, id=658, 295.85532pt x 741.52031pt>
 File: structure-projet.png Graphic file (type png)
 <use structure-projet.png>
-Package pdftex.def Info: structure-projet.png  used on input line 989.
+Package pdftex.def Info: structure-projet.png  used on input line 1085.
 (pdftex.def)             Requested size: 258.19522pt x 647.1541pt.
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no j in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no v in font aedimnah!
 
 
-[39
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1089.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1089.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1089.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1089.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1089.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1089.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1089.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1089.
+
+[41
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.993 	
-        <./test-rag.png>]
+l.1089 	
+         <./test-rag.png>]
 
-[40
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1093.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1093.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1093.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1093.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1093.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1093.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1093.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1093.
+
+[42
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.997 	
-        <./structure-projet.png>]
-<ai-agent.png, id=653, 608.2725pt x 412.54124pt>
+l.1093 	
+         <./structure-projet.png>]
+<ai-agent.png, id=670, 608.2725pt x 412.54124pt>
 File: ai-agent.png Graphic file (type png)
 <use ai-agent.png>
-Package pdftex.def Info: ai-agent.png  used on input line 1008.
+Package pdftex.def Info: ai-agent.png  used on input line 1104.
 (pdftex.def)             Requested size: 452.96826pt x 307.22086pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1008--1009
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1104--1105
  [][] 
  []
 
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no v in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no e in font aedimnah!
 
 
-[41]
-Overfull \hbox (0.18645pt too wide) in paragraph at lines 1013--1014
-[]\T1/cmr/m/n/12 La fi-gure []3.14[] montre une par-tie du fi-chier de confi-gu
--ra-tion [][]\T1/cmtt/m/n/12 application.properties[]\T1/cmr/m/n/12 . 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1108.
+
+[43]
+Overfull \hbox (0.18645pt too wide) in paragraph at lines 1109--1110
+[]\T1/cmr/m/n/12 La fi-gure [][]3.14[][] montre une par-tie du fi-chier de conf
+i-gu-ra-tion [][]\T1/cmtt/m/n/12 application.properties[]\T1/cmr/m/n/12 . 
  []
 
-<properties.png, id=659, 464.937pt x 352.9185pt>
+<properties.png, id=676, 464.937pt x 352.9185pt>
 File: properties.png Graphic file (type png)
 <use properties.png>
-Package pdftex.def Info: properties.png  used on input line 1017.
+Package pdftex.def Info: properties.png  used on input line 1113.
 (pdftex.def)             Requested size: 362.37598pt x 275.08145pt.
+Missing character: There is no o in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
 
 
-[42
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1117.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1117.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1117.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1117.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1117.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1117.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1117.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1117.
+
+[44
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1021 	
+l.1117 	
          <./ai-agent.png>]
-Overfull \hbox (22.40591pt too wide) in paragraph at lines 1024--1025
+Overfull \hbox (22.40591pt too wide) in paragraph at lines 1120--1121
 \T1/cmr/m/n/12 au-to-ma-tique, la scan des com-po-sants et les pro-prié-tés dé-
 fi-nies dans [][]\T1/cmtt/m/n/12 application.properties[]\T1/cmr/m/n/12 .
  []
 
 
-Overfull \hbox (1.96092pt too wide) in paragraph at lines 1028--1029
+Overfull \hbox (1.96092pt too wide) in paragraph at lines 1124--1125
 [][]\T1/cmtt/m/n/12 MediaType.MULTIPART_FORM_DATA_VALUE []\T1/cmr/m/n/12 ga-ran
 -tit une sé-ria-li-sa-tion/désérialisation trans-
  []
 
 
 
-[43
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1125.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1125.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1125.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1125.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1125.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1125.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1125.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1125.
+
+[45
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1029 	
+l.1125 	
          <./properties.png>]
-Overfull \hbox (7.27081pt too wide) in paragraph at lines 1030--1031
+Overfull \hbox (7.27081pt too wide) in paragraph at lines 1126--1127
 []\T1/cmr/m/n/12 De plus, l'API dé-ve-lop-pée est do-cu-men-tée via Swag-ger (a
 n-no-ta-tions [][]\T1/cmtt/m/n/12 @Tag[]\T1/cmr/m/n/12 , [][]\T1/cmtt/m/n/12 @O
 peration[]\T1/cmr/m/n/12 ),
  []
 
-<interface.png, id=671, 637.1805pt x 486.618pt>
+<interface.png, id=689, 637.1805pt x 486.618pt>
 File: interface.png Graphic file (type png)
 <use interface.png>
-Package pdftex.def Info: interface.png  used on input line 1040.
+Package pdftex.def Info: interface.png  used on input line 1136.
 (pdftex.def)             Requested size: 452.96826pt x 345.93927pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1040--1041
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1136--1137
  [][] 
  []
 
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
 
 
-[44]
-<simulation-erreur.png, id=678, 576.35326pt x 190.91325pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1140.
+
+[46]
+<simulation-erreur.png, id=695, 576.35326pt x 190.91325pt>
 File: simulation-erreur.png Graphic file (type png)
 <use simulation-erreur.png>
-Package pdftex.def Info: simulation-erreur.png  used on input line 1054.
+Package pdftex.def Info: simulation-erreur.png  used on input line 1150.
 (pdftex.def)             Requested size: 452.96826pt x 150.042pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1054--1055
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1150--1151
  [][] 
  []
 
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
 
 
-[45
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1154.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1154.
+
+[47
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1058 	
+l.1154 	
          <./interface.png>]
-<premier-test.png, id=686, 1051.93pt x 2043.635pt>
+<premier-test.png, id=703, 1051.93pt x 2043.635pt>
 File: premier-test.png Graphic file (type png)
 <use premier-test.png>
-Package pdftex.def Info: premier-test.png  used on input line 1065.
+Package pdftex.def Info: premier-test.png  used on input line 1161.
 (pdftex.def)             Requested size: 339.7262pt x 659.99495pt.
 
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no j in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no v in font aedimnah!
 
-[46
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1165.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1165.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1165.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1165.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1165.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1165.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1165.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1165.
+
+[48
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.16})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1069 	
+l.1165 	
          <./simulation-erreur.png>]
 
-[47
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1167.
+
+[49
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.17})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1071 	
+l.1167 	
          <./premier-test.png>]
-<swagger-ui.png, id=698, 626.34pt x 1123.19624pt>
+<swagger-ui.png, id=715, 626.34pt x 1123.19624pt>
 File: swagger-ui.png Graphic file (type png)
 <use swagger-ui.png>
-Package pdftex.def Info: swagger-ui.png  used on input line 1076.
+Package pdftex.def Info: swagger-ui.png  used on input line 1172.
 (pdftex.def)             Requested size: 362.37598pt x 649.8604pt.
 
+Missing character: There is no e in font aedimnah!
+Missing character: There is no c in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no e in font aedimnah!
 
-[48]
-<image-tros-grande.png, id=704, 1050.92625pt x 903.375pt>
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1176.
+
+[50]
+<image-tros-grande.png, id=722, 1050.92625pt x 903.375pt>
 File: image-tros-grande.png Graphic file (type png)
 <use image-tros-grande.png>
-Package pdftex.def Info: image-tros-grande.png  used on input line 1087.
+Package pdftex.def Info: image-tros-grande.png  used on input line 1183.
 (pdftex.def)             Requested size: 362.37598pt x 311.4993pt.
 
+Missing character: There is no g in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no v in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
 
-[49
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1186.
+
+[51
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.18})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1090 	\end{figure}
+l.1186 	\end{figure}
                      <./swagger-ui.png>]
-<format-non-supportÃ©.png, id=711, 1043.9pt x 642.4pt>
+<format-non-supportÃ©.png, id=729, 1043.9pt x 642.4pt>
 File: format-non-supportÃ©.png Graphic file (type png)
 <use format-non-supportÃ©.png>
-Package pdftex.def Info: format-non-supportÃ©.png  used on input line 1098.
+Package pdftex.def Info: format-non-supportÃ©.png  used on input line 1194.
 (pdftex.def)             Requested size: 362.37598pt x 223.00055pt.
 
+Missing character: There is no p in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no g in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
 
-[50
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1198.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1198.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1198.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1198.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1198.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1198.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1198.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1198.
+
+[52
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.19})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1102 	
+l.1198 	
          <./image-tros-grande.png>]
-<video.png, id=719, 629.35126pt x 522.15076pt>
+<video.png, id=736, 629.35126pt x 522.15076pt>
 File: video.png Graphic file (type png)
 <use video.png>
-Package pdftex.def Info: video.png  used on input line 1111.
+Package pdftex.def Info: video.png  used on input line 1207.
 (pdftex.def)             Requested size: 362.37598pt x 300.64867pt.
 
+Missing character: There is no p in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no v in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
 
-[51
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1211.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1211.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1211.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1211.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1211.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1211.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1211.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1211.
+
+[53
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.20})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1115 	
+l.1211 	
          <./format-non-supportÃ©.png>]
 
-[52
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1216.
+
+[54
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.21})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1131 		
-          <./video.png>]
-
-[53]
+l.1216 	\chapter
+                {Acquis du Projet de Fin d'Ã‰tudes} <./video.png>]
 Chapitre 4.
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1216.
 
-[54
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1216.
+
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1231.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1231.
+
+[55
 
 ]
 
-[55]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1236.
+
+[56]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 1170.
+(hyperref)                be the same. Added a new anchor on input line 1240.
 
 
 
-[56
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1265.
+
+[57
 
 ]
 
-[57]
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 1272.
 
-[58
 
-]
 
-[59
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1301.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1301.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1301.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1301.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1301.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1301.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1301.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1301.
+
+[58]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1320.
+
+[59]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1322.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1322.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1322.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1322.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beginL' on input line 1322.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1322.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\encodingdefault' on input line 1322.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endL' on input line 1322.
+
+[60
 
 ] (rapport.aux)
  ***********
@@ -1262,34 +3982,32 @@ LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 458E0A987DD465AA0B5755143628C566;10182.
+(rerunfilecheck)             Checksum: 538BC291232D5F9D0A5C17F658EA0FE7;10519.
  ) 
 Here is how much of TeX's memory you used:
- 12793 strings out of 468225
- 208306 string characters out of 5427165
- 637337 words of memory out of 5000000
- 40999 multiletter control sequences out of 15000+600000
- 637998 words of font info for 61 fonts, out of 8000000 for 9000
+ 13600 strings out of 468225
+ 217970 string characters out of 5427165
+ 649327 words of memory out of 5000000
+ 41768 multiletter control sequences out of 15000+600000
+ 646335 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,79p,1136b,739s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,79p,1120b,936s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Electro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\ectt1200.pk> <C:\Users\Electro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/
 ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Electro_Laaroussi\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Electro_Laar
-oussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Electro_Laar
+oussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\
 Users\Electro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecti1200.pk> <C:\Users\Electro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Electro_Laaroussi\AppData\Local\MiKTe
+\ecbx1200.pk> <C:\Users\Electro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/
+jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Electro_Laaroussi\AppData\Local\MiKTe
 X\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Electro_Laaroussi\A
-ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1440.pk> <C:\Users\E
-lectro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm14
-40.pk> <C:\Users\Electro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
-n/ec/dpi600\ecti1728.pk> <C:\Users\Electro_Laaroussi\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/Electro_Laaroussi/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on rapport.pdf (70 pages, 3568268 bytes).
+ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1728.pk> <C:\Users\E
+lectro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx24
+88.pk><C:/Users/Electro_Laaroussi/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb>
+Output written on rapport.pdf (71 pages, 3558974 bytes).
 PDF statistics:
- 1381 PDF objects out of 1440 (max. 8388607)
- 168 named destinations out of 1000 (max. 500000)
- 634 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1348 PDF objects out of 1440 (max. 8388607)
+ 175 named destinations out of 1000 (max. 500000)
+ 642 words of extra memory for PDF output out of 10000 (max. 10000000)
 

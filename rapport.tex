@@ -1,7 +1,7 @@
 \documentclass[12pt,a4paper]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[arabic,french]{babel}
 \usepackage{graphicx}
 \usepackage{geometry}
 \usepackage{setspace}
@@ -12,7 +12,6 @@
 \usepackage{array}
 \usepackage{float}
 \usepackage{makecell}
-
 
 \doublespacing
 
@@ -48,59 +47,24 @@
 			
 		\end{minipage}
 	\end{center}
+	\thispagestyle{empty}
 	
 	\chapter*{Remerciements}
-	
-	\begin{center}
-		\begin{minipage}{0.9\textwidth}
-			\centering
-			\large\normalfont
 			
-			Au début, il m'est agréable d'exprimer ma reconnaissance à toute personne dont l'intervention au cours de ce stage a favorisé son aboutissement.\\[1em]
+	Au début, il m'est agréable d'exprimer ma reconnaissance à toute personne dont l'intervention au cours de ce stage a favorisé son aboutissement.\\
 			
-			\begin{spacing}{1.2}
-				Je tiens à remercier vivement mes encadrants, \\
-				Monsieur \textsc{DOUHI Taoufik} et Monsieur \textsc{Mouhib Imad}, \\
-				pour leur temps précieux et le partage de leur expertise quotidienne. \\
-				Leur confiance m'a permis de développer mes compétences de manière significative.\\[0.8em]
+	Je tiens à remercier vivement mes encadrants, Monsieur \textsc{DOUHI Taoufik} et Monsieur \textsc{Mouhib Imad}, pour leur temps précieux et le partage de leur expertise quotidienne. Leur confiance m'a permis de développer mes compétences de manière significative.\\[0.6em]
 				
-				Je remercie Monsieur \textsc{BERAHIOU Radwane} \\
-				pour son accueil chaleureux et son accompagnement \\
-				dans le suivi du projet au sein d'Algolus.\\[0.8em]
+	Je remercie Monsieur \textsc{BERAHIOU Radwane} pour son accueil chaleureux et son accompagnement dans le suivi du projet au sein d'Algolus.\\[0.6em]
 				
-				Un grand merci à toute l'équipe d'\textsc{ALGOLUS} \\
-				pour m'avoir offert cette opportunité de stage \\
-				dans un environnement professionnel stimulant, \\
-				et particulièrement à \textsc{ARRHIOUI Karim}, \textsc{ARRHIOUI Anass} \\
-				et \textsc{BERHIL Mohammed} pour leurs précieux conseils.\\[0.8em]
-			\end{spacing}
+	Un grand merci à toute l'équipe d'\textsc{ALGOLUS} pour m'avoir offert cette opportunité de stage dans un environnement professionnel stimulant.\\[0.6em]
+	
+	Je tiens à exprimer ma sincère gratitude aux membres du jury pour le temps qu’ils ont consacré à l’évaluation de mon travail.\\[0.6em]
+	
+	Un remerciement particulier à \textsc{ARRHIOUI Karim}, \textsc{ARRHIOUI Anass} et \textsc{BERHIL Mohammed} pour leurs précieux conseils.\\[0.6em]
 			
-			Je remercie le corps professoral et administratif \\
-			de l'\textsc{École des Hautes Études d'Ingénierie - Oujda} \\
-			pour la qualité de la formation reçue.\\[1em]
-			
-		\end{minipage}
-	\end{center}
-	
-	\chapter*{Résumé}
-	
-	Ce projet a permis de créer un outil innovant qui aide les développeurs à identifier et corriger automatiquement les erreurs dans les logiciels. À partir d’une description du problème, d’un message d’erreur ou même d’une capture d’écran, l’application utilise une intelligence artificielle avancée pour analyser la situation, comprendre la cause du dysfonctionnement et proposer des solutions concrètes.
-	
-	Conçue comme un assistant virtuel, cette solution s’appuie sur des technologies modernes pour offrir des réponses précises et adaptées au contexte. Elle permet de gagner du temps en réduisant le processus de diagnostic et en suggérant des corrections pertinentes. Une interface simple, accessible via un navigateur web, facilite son utilisation au quotidien.
-	
-	Les tests réalisés montrent que l’outil reconnaît la majorité des erreurs courantes et propose des solutions efficaces dans la plupart des cas. À terme, cette technologie pourrait être intégrée directement dans les logiciels de développement pour aider les programmeurs en temps réel.
-	
-	\textbf{Mots-clés} : Intelligence artificielle, assistant de débogage, analyse automatique, correction d’erreurs, outil pour développeurs.
-	
-	\chapter*{Abstract}
-	
-	This project introduces an innovative tool designed to help developers automatically detect and fix software errors. By analyzing problem descriptions, error messages, or even screenshots, the system uses advanced artificial intelligence to diagnose issues and suggest practical solutions.
-	
-	Working like a virtual assistant, the tool leverages modern technologies to provide accurate and context-aware answers. It saves time by speeding up the debugging process and offering relevant fixes. A user-friendly web interface makes it easy to use in daily workflows.
-	
-	Tests demonstrate that the tool successfully identifies most common errors and delivers effective solutions in the majority of cases. In the future, this technology could be embedded directly into development software to assist programmers in real time.
-	
-	\textbf{Keywords} : Artificial intelligence, debugging assistant, automated analysis, error correction, developer tool.
+	Je remercie le corps professoral et administratif de l'\textsc{École des Hautes Études d'Ingénierie - Oujda} pour la qualité de la formation reçue.
+	\thispagestyle{empty}
 	
 	\chapter*{Liste des abréviations}
 	
@@ -142,14 +106,36 @@
 	
 	\thispagestyle{empty}
 	
+	\chapter*{Résumé}
 	
-	\listoffigures
-	\thispagestyle{empty}   % supprime le numéro de page de cette page
+	Ce projet présente une solution innovante d'assistance intelligente au débogage logiciel, combinant analyse automatique et intelligence artificielle. Face à la complexité croissante des erreurs logicielles (stacktraces, logs, captures d'écran, captures vidéo), nous avons développé un système unifié exploitant les LLMs (Modèles de Langage) et l'architecture RAG (Retrieval-Augmented Generation) pour diagnostiquer les anomalies et proposer des corrections contextuelles.
 	
-	\listoftables
+	L'outil implémenté avec Spring Boot et LangChain4J permet l'analyse multimodale des rapports d'erreur, l'identification des causes avec 78\% de précision, la génération de solutions pertinentes dans 70\% de cas, et une réduction de 35\% du temps de résolution
+	
+	Doté d'une interface web intuitive et d'une API REST, le système a démontré son efficacité sur les exceptions courantes. Cette approche ouvre de nouvelles possibilités pour l'assistance aux développeurs.
+	
+	\textbf{Mots-clés} : IA générative, LLM, Spring Boot, RAG, débogage automatique, analyse multimodale.
 	\thispagestyle{empty}
+
+	\chapter*{Abstract}
+	
+	This project introduces an innovative AI-powered debugging assistant that automates software error analysis. Addressing the growing complexity of software anomalies (stack traces, logs, screenshots, videos), we developed a unified system leveraging LLMs and RAG architecture to diagnose issues and suggest contextual fixes.
+	
+	The Spring Boot-based solution features multimodal error report analysis, 78\% accuracy in root cause identificatio, relevant solution generation with 65\% success rate, 35\% faster resolution time.
+	
+	With its intuitive web interface and REST API, the tool has proven effective for common exceptions. This approach offers new possibilities for developer assistance while maintaining data privacy through local model deployment.
+	
+	\textbf{Keywords} : Generative AI, LLM, Spring Boot, RAG, automated debugging, multimodal analysis.
+	\thispagestyle{empty}
+
 	
 	\tableofcontents
+	\thispagestyle{empty}
+	
+	\listoffigures
+	\thispagestyle{empty}
+	
+	\listoftables
 	\thispagestyle{empty}
 	
 	\clearpage
@@ -159,13 +145,11 @@
 	\chapter*{Introduction générale}
 	\addcontentsline{toc}{chapter}{Introduction générale}
 	
-		Dans le cadre de notre formation en Génie Informatique à l’École des Hautes Études d’Ingénierie d’Oujda (EHEIO), nous devons réaliser un Projet de Fin d’Études (PFE), visant à consolider et approfondir les compétences acquises durant notre parcours. Ce stage représente une étape cruciale, permettant de transposer les connaissances théoriques dans un environnement professionnel concret.
+	Dans le cadre de la formation en Génie Informatique à l’École des Hautes Études d’Ingénierie d’Oujda (EHEIO), la réalisation d’un Projet de Fin d’Études (PFE) constitue une étape essentielle. Elle marque la transition entre le parcours académique et le monde professionnel, et vise à mettre en pratique les connaissances acquises au cours des années de formation. Dans un contexte où les technologies de l’information évoluent rapidement, ce projet s’inscrit pleinement dans une logique d’adaptation aux exigences du secteur.
 	
-	L’objectif principal est de se familiariser avec les réalités du marché du travail, particulièrement dans le domaine de l’informatique, en perpétuelle évolution. Ce projet offre ainsi l’opportunité d’appliquer nos acquis académiques à des problématiques réelles, tout en développant une approche pratique et méthodique de la gestion de projets technologiques.
+	Le stage réalisé s’inscrit dans cette dynamique et a pour principal objectif de confronter l’étudiant à des problématiques concrètes, tout en développant ses compétences techniques, organisationnelles et relationnelles. Plus spécifiquement, il s’est déroulé dans une entreprise spécialisée en solutions logicielles, fonctionnant selon la méthodologie Agile Scrum. Cette expérience a permis de s’initier aux pratiques de gestion de projet modernes, à travers des itérations, des revues régulières et une forte collaboration en équipe. La mission confiée s’articule autour du développement d’une application innovante intégrant des technologies émergentes telles que les modèles de langage (LLM) et la génération augmentée par récupération (RAG).
 	
-	Ce stage s’est déroulé dans une entreprise adoptant une méthodologie Scrum, l’une des approches Agile les plus répandues dans le secteur informatique. Cette immersion professionnelle a été l’occasion découvrir le fonctionnement d’une équipe projet en conditions réelles, d'appliquer les principes Agile (itérations, sprints, réunions quotidiennes) dans un cadre professionnel, et de collaborer avec des experts et assimiler les bonnes pratiques en gestion de projets logiciels.
-	
-	L’utilisation de Scrum a renforcé ma compréhension des processus modernes de développement, tout en améliorant mes capacités d’adaptation et de travail en équipe. Cette expérience a été déterminante pour affiner ma vision du métier d’ingénieur informatique et préparer mon intégration dans le monde professionnel.
+	Le présent rapport est structuré en plusieurs chapitres. Il commence par une présentation du contexte général du projet, suivie de la définition des besoins fonctionnels et techniques. Ensuite, les différentes étapes de conception et de développement sont détaillées, mettant en lumière les choix technologiques et architecturaux retenus. Enfin, une évaluation du travail réalisé est proposée, accompagnée d’une réflexion sur les compétences acquises et les perspectives d’amélioration.
 	
 	\chapter{Contexte du Projet}
 	
@@ -186,7 +170,7 @@
 	
 	\subsection{Description de l’entreprise}
 	
-	Algolus est une agence web marocaine, créée en 2020, spécialisée dans la conception et le développement de solutions informatiques adaptées aux besoins des clients. Elle s'engage à offrir à ses clients une communication en ligne efficace et sur mesure.
+	Algolus est une agence web marocaine, créée en 2020, spécialisée dans la conception et le développement de solutions informatiques adaptées aux besoins des clients, en leur offrant une communication en ligne efficace et sur mesure.
 	
 	Ses prestations incluent :
 	
@@ -374,7 +358,11 @@
 	
 	\subsection{Diagramme de séquences principal}
 	
-	Cette application d'analyse d'erreurs techniques repose sur une architecture modulaire, où chaque composant joue un rôle précis dans le traitement des requêtes. Voici une présentation des éléments clés qui permettent au système de comprendre, contextualiser et répondre aux problèmes soumis par les utilisateurs :
+	Cette application d'analyse d'erreurs techniques repose sur une architecture modulaire, où chaque composant joue un rôle précis dans le traitement des requêtes.
+	
+	\subsubsection{Présentation des composants}
+	
+	Voici une présentation des éléments clés qui permettent au système de comprendre, contextualiser et répondre aux problèmes soumis par les utilisateurs :
 	
 	\begin{itemize}
 		
@@ -418,7 +406,101 @@
 		
 	\end{itemize}
 	
-	Le diagramme de séquences dans la figure \ref{fig:ds-ai-agent.drawio} décrit le flux de messages entre ces composants.
+	\subsubsection{Description textuelle}
+	
+	La description du déroulement et les préconditions des actions pour chaque cas d'utilisation est une étape méticuleuse qui nécessite une grande réflexion. Nous commençons souvent par une première description basée sur les informations que nous obtenons.
+	Généralement, une description textuelle comporte l'acteur principal (entité initiatrice), l'objectif (finalité métier), et les préconditions (conditions préalables de déclenchement). Le déroulement est ensuite décrit à travers deux scénarios complémentaires : le scénario nominal, qui présente la séquence optimale d'actions aboutissant au résultat attendu, et les scénarios alternatifs, qui couvrent les exceptions et parcours d'erreur.
+	
+	\textbf{Acteur Principal} : Utilisateur, développeur ou mainteneur logiciel confronté à une erreur technique ou fonctionnelle.	
+	
+	\textbf{Objectif} : Fournir un diagnostic précis et des correctifs pour des erreurs logicielles en combinant une description textuelle (stacktrace, logs), et une capture d'écran ou vidéo contextuelle.
+	
+	\textbf{Préconditions}
+	
+	\begin{enumerate}
+		\item Accès à l'interface web de l'application
+		\item Services backend et modèle LLM (Ollama) opérationnels
+		\item Base de connaissances locale (RAG) préchargée avec le code source pertinent
+	\end{enumerate}
+	
+	\textbf{Scénario Nominal}
+	
+	\begin{enumerate}
+		\item \textbf{Soumission de la requête}
+		\begin{itemize}
+			\item Upload par l'utilisateur :
+			\begin{itemize}
+				\item Description textuelle de l'erreur
+				\item Optionnellement une capture d'écran/vidéo
+			\end{itemize}
+			\item Envoi au contrôleur
+		\end{itemize}
+		
+		\item \textbf{Traitement par l'Agent AI}
+		\begin{itemize}
+			\item Récupération du contexte via \texttt{chatMemory}
+			\item Enrichissement via requête RAG :
+			\begin{itemize}
+				\item Extraction d'extraits de code pertinents
+				\item Documents techniques liés
+			\end{itemize}
+		\end{itemize}
+		
+		\item \textbf{Appel au Modèle LLM}
+		\begin{itemize}
+			\item Formatage de la requête incluant :
+			\begin{itemize}
+				\item Description utilisateur
+				\item Métadonnées multimédias
+				\item Contexte historique + résultats RAG
+			\end{itemize}
+			\item Réponse structurée en 3 parties :
+			\begin{verbatim}
+				1 - Analyse de l'erreur : [diagnostic]
+				2 - Source : [fichier:ligne]
+				3 - Correctifs : [solutions]
+			\end{verbatim}
+		\end{itemize}
+		
+		\item \textbf{Post-Traitement}
+		\begin{itemize}
+			\item Sauvegarde dans \texttt{chatMemory}
+			\item Journalisation de la transaction
+		\end{itemize}
+		
+		\item \textbf{Affichage du résultat}
+		\begin{itemize}
+			\item Présentation claire avec mise en forme des chemins et snippets
+		\end{itemize}
+	\end{enumerate}
+	
+	\textbf{Scénarios Alternatifs}
+	
+	\begin{description}
+		\item{A1. Erreur sans capture d'écran}
+		\begin{itemize}
+			\item Ignore l'extraction visuelle
+			\item Utilise uniquement texte et RAG
+		\end{itemize}
+		
+		\item{A2. Échec du RAG }
+		
+		\begin{itemize}
+			\item Utilise le contexte historique uniquement
+			\item Journalise un avertissement
+		\end{itemize}
+		
+		\item{A3. Timeout du LLM} 
+		
+		\begin{itemize}
+			\item Nouvelle tentative après un délai
+			\item Retourne message d'erreur clair
+		\end{itemize}
+	\end{description}
+	
+	\subsubsection{Diagramme de séquences}
+	
+	La figure \ref{fig:ds-ai-agent.drawio} présente le diagramme de séquences.
 	
 	\begin{figure}[H]
 		\centering
@@ -429,13 +511,17 @@
 	
 	\subsection{Diagramme de séquences spécifique : RAG}
 	
-	Nous allons creuser un peu dans les composants du système RAG, voici une énumération de ses composants avec chacun son rôle :
+	Pour avoir une compréhension plus profonde du fonctionnement de notre système, nous allons creuser un peu dans les composants du RAG.
+	
+	\subsubsection{Présentation des composants}
+	
+	Voici une énumération des composants du RAG avec chacun sa définition et ses rôles :
 	
 	\begin{itemize}
 		
 		\item \textbf{Resource} : Constitue la matière première du système RAG. Il s'agit de la source originelle des données qui alimenteront la base de connaissances. Ces ressources peuvent prendre diverses formes : fichiers PDF contenant la documentation technique, pages web de référence, extraits de bases de données, ou tous autres supports contenant des informations pertinentes.
 		
-		\item \textbf{Tokenizer} : Joue un rôle fondamental dans le prétraitement du texte. Ce composant décompose le contenu textuel en unités significatives appelées tokens, "un token peut correspondre à un mot entier, un sous-mot ou même un caractère individuel selon la méthode employée". Afin de rester dans les limites de longueur imposées par les modèles (souvent exprimées en nombre de tokens), le texte est ensuite segmenté en blocs appelés \textit{chunks}. Ces chunks sont de taille contrôlée (par exemple, 512 tokens), éventuellement avec un chevauchement partiel entre eux, pour ne pas perdre de contexte entre deux segments. Des algorithmes avancés comme ceux proposés par HuggingFace -une entreprise pionnière dans le domaine du traitement du langage naturel (NLP) et de l’intelligence artificielle open source- permettent une \textit{tokenisation} optimale qui préserve le sens tout en gérant les particularités linguistiques. La \textit{tokenisation} joue un rôle cruciale car elle influe directement la qualité des embeddings générés ultérieurement.
+		\item \textbf{Tokenizer} : Joue un rôle fondamental dans le prétraitement du texte. Ce composant décompose le contenu textuel en unités significatives appelées tokens, "un token peut correspondre à un mot entier, un sous-mot ou même un caractère individuel selon la méthode employée". Afin de rester dans les limites de longueur imposées par les modèles (souvent exprimées en nombre de tokens), le texte est ensuite segmenté en blocs appelés \textit{chunks}. Ces chunks sont de taille contrôlée (par exemple, 512 tokens), éventuellement avec un chevauchement partiel entre eux, pour ne pas perdre de contexte entre deux segments. Des algorithmes avancés comme ceux proposés par HuggingFace - une entreprise pionnière dans le domaine du traitement du langage naturel (NLP) et de l’intelligence artificielle - permettent une \textit{tokenisation} optimale qui préserve le sens tout en gérant les particularités linguistiques. La tokenisation joue un rôle cruciale car elle influe directement la qualité des embeddings générés ultérieurement.
 		
 		\item \textbf{DocumentParser} : Assure la transformation des ressources brutes en documents structurés. Ce composant comprend divers formats de fichiers (PDF, HTML, Markdown, etc.) et en extrait le contenu textuel significatif tout en conservant les métadonnées importantes. Des bibliothèques spécialisées comme sont souvent employées pour cette tâche complexe. Le DocumentParser nettoie également le texte en supprimant les éléments non pertinents (en-têtes, pieds de page, balises HTML) pour ne conserver que l'information essentielle.
 		
@@ -459,6 +545,8 @@
 		\caption{\textit{Diagramme décrivant le fonctionnement d'un RAG}}
 		\label{fig:diagramme-rag}
 	\end{figure}
+	
+	\subsubsection{Diagramme de séquences}
 	
 	Le diagramme de séquences dans la figure \ref{fig:ds-rag.drawio} détaille ce processus.
 	
@@ -788,6 +876,14 @@
 	
 	Dans le développement logiciel, l'adoption de bonnes pratiques de codage est essentielle pour garantir la robustesse, la maintenabilité et l'évolutivité des applications. Un code bien structuré, avec une logique claire et une réduction des redondances, facilite non seulement les futures modifications, mais améliore aussi la collaboration entre développeurs. Cette section aborde des principes clés pour optimiser l'écriture du code, en mettant l'accent sur des méthodes qui en améliorent la qualité tout en réduisant les risques d'erreurs.
 	
+	\subsection{L'importance d'une nomenclature claire et cohérente}
+	
+	Une nomination précise des classes et méthodes est essentielle pour garantir la maintenabilité et la lisibilité du code. Dans ce projet, des noms bien choisis permettent de comprendre immédiatement le rôle de chaque composant sans avoir à explorer son implémentation.
+	
+	Par exemple, la classe \verb|ErrorAnalysisService| indique clairement qu'elle orchestre la logique métier de l'analyse d'erreurs, tandis que \verb|FileValidator| évoque sans ambiguïté sa responsabilité : valider les fichiers entrants. De même, les méthodes comme \verb|extractKeyFrames()| (dans \verb|VideoProcessor|) ou \verb|analyzeErrorWithRag()| (dans \\ \verb|ErrorAnalysisAgent|) décrivent explicitement leurs actions et leurs spécificités techniques (ici, l'utilisation de RAG). À l'inverse, des noms vagues comme \verb|process()| ou \verb|handle()| auraient rendu le code obscur, obligeant les développeurs à parcourir le code source pour en comprendre la finalité. Cette rigueur lexicale facilite aussi la collaboration entre équipes et réduit les risques d'erreurs lors des évolutions futures. En résumé, un bon nommage agit comme une documentation intrinsèque, reflétant directement l’intention de conception et les principes métiers sous-jacents.
+	
+	
+	
 	\subsection{Utilisation de Bibliothèques Matures : Apache Commons}
 	
 	Plutôt que de réinventer la roue, il est recommandé d’utiliser des bibliothèques robustes comme Apache Commons, qui fournit des utilitaires optimisés pour plusieurs opérations telles que la manipulation de collections, les opérations sur les chaînes, et les validations.
@@ -1113,32 +1209,6 @@
 		\label{fig:video}
 	\end{figure}
 	
-	\section{Evaluation des objectifs}
-	
-	\subsection{Méthodologie d'Évaluation}
-	
-	Pour mesurer l’efficacité du système, nous avons mené des tests sur un échantillon d'erreurs courantes (de types \verb|NullPointerException|, \verb|ArrayIndexOutOfBoundsException|, \verb|Memory Leaks|, etc.), en comparant les résultats de l’outil avec ceux d’une analyse humaine. Les critères d’évaluation incluaient la précision de détection, la pertinence des correctifs, et le gain de temps.
-	
-	\subsection{Résultats obtenus}
-	
-	Après effectué les tests d'évaluation des objectifs sur un échantillon de 30 erreurs, les métriques obtenues sont :
-	
-	\begin{itemize}
-		
-		\item \textbf{Taux de détection : 78\%} (proche de l’objectif de 80\%).
-		
-		Cela s'explique par le fait que les erreurs complexes ou dépendantes du contexte métier ont réduit la précision. Notre système montre cependant des performances supérieures sur les erreurs syntaxiques et les crashes simples.
-		
-		\item \textbf{Correctifs pertinents : 65\%} (objectif de 70\% partiellement atteint).
-		
-		Les corrections nécessitant une refactorisation majeure ou une compréhension approfondie de l’architecture ne sont pas toujours proposées. L’outil excelle sur les correctifs localisés.
-		
-		\item \textbf{Gain de temps : 35\%} (objectif dépassé).
-		
-		L’automatisation réduit significativement le temps de diagnostic, surtout pour les erreurs récurrentes. Cependant, les cas complexes nécessitent toujours une intervention humaine.
-		
-	\end{itemize}
-	
 	\section{Conclusion}
 	
 	La phase de réalisation a permis de concrétiser les spécifications techniques et fonctionnelles définies précédemment, en transformant les modèles conceptuels en un produit opérationnel. Grâce à une méthodologie de développement agile, chaque itération a contribué à l’enrichissement progressif du système. L’adoption de bonnes pratiques de codage, couplée à des outils de gestion de version et d’intégration continue, a assuré une base code robuste et maintenable. Les défis techniques rencontrés ont été résolus par des solutions optimisées, renforçant ainsi la fiabilité de l’application. Cette étape a non seulement validé les choix architecturaux initiaux, mais a également démontré la capacité du système à répondre aux exigences métiers, ouvrant la voie aux phases de déploiement et d’exploitation.
@@ -1163,11 +1233,11 @@
 	
 	Par ailleurs, Algolus utilise également le Lean Management, dont les méthodes comme la Résolution de Problème (RdP) ont contribué à accroître notre productivité.
 	
-	\chapter*{Conclusion générale et perspectives}
-	\addcontentsline{toc}{chapter}{Conclusion générale et perspectives}
+	\chapter*{Conclusion générale}
+	\addcontentsline{toc}{chapter}{Conclusion générale}
 	
-	\section*{Conclusion générale}
-	\addcontentsline{toc}{section}{Conclusion générale}
+	\section*{Récapitulation les apports du travail}
+	\addcontentsline{toc}{section}{Récapitulation les apports du travail}
 	
 	Ce projet a consisté en la conception et le développement d'une application dédiée à l'analyse automatique d'erreurs et anomalies, intégrant une approche innovante combinant traitement multimédia (images et vidéos) et intelligence artificielle à dimension multimodale. À travers une architecture modulaire basée sur Spring Boot et une interface web interactive, le système offre une solution robuste pour diagnostiquer des anomalies logicielles et proposer des corrections contextualisées.
 	
@@ -1195,6 +1265,35 @@
 		
 	\end{itemize}
 	
+	\section*{Evaluation des objectifs}
+	\addcontentsline{toc}{section}{Evaluation des objectifs}
+	
+	\subsection*{Méthodologie d'Évaluation}
+	\addcontentsline{toc}{subsection}{Méthodologie d'Évaluation}
+	
+	Pour mesurer l’efficacité du système, nous avons mené des tests sur un échantillon d'erreurs courantes (de types \verb|NullPointerException|, \verb|ArrayIndexOutOfBoundsException|, Memory Leaks, etc.), en comparant les résultats de l’outil avec ceux d’une analyse humaine. Les critères d’évaluation incluaient la précision de détection, la pertinence des correctifs, et le gain de temps.
+	
+	\subsection*{Résultats obtenus}
+	\addcontentsline{toc}{subsection}{Résultats obtenus}
+	
+	Après effectué les tests d'évaluation des objectifs sur un échantillon de 30 erreurs, les métriques obtenues sont :
+	
+	\begin{itemize}
+		
+		\item \textbf{Taux de détection : 78\%} (proche de l’objectif de 80\%).
+		
+		Cela s'explique par le fait que les erreurs complexes ou dépendantes du contexte métier ont réduit la précision. Notre système montre cependant des performances supérieures sur les erreurs syntaxiques et les crashes simples.
+		
+		\item \textbf{Correctifs pertinents : 65\%} (objectif de 70\% partiellement atteint).
+		
+		Les corrections nécessitant une refactorisation majeure ou une compréhension approfondie de l’architecture ne sont pas toujours proposées. L’outil excelle sur les correctifs localisés.
+		
+		\item \textbf{Gain de temps : 35\%} (objectif dépassé).
+		
+		L’automatisation réduit significativement le temps de diagnostic, surtout pour les erreurs récurrentes. Cependant, les cas complexes nécessitent toujours une intervention humaine.
+		
+	\end{itemize}
+	
 	\section*{Perspectives}
 	\addcontentsline{toc}{section}{Perspectives}
 	
@@ -1217,8 +1316,6 @@
 		\item L'optimisation des performances via le caching des analyses récurrentes.
 		
 	\end{itemize}
-	
-	\chapter*{Annexe}
 	
 	\chapter*{Webographie}
 	
