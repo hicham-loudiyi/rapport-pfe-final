@@ -1,7 +1,7 @@
 \documentclass[12pt,a4paper]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[arabic,french]{babel}
+\usepackage[arabic, french]{babel}
 \usepackage{graphicx}
 \usepackage{geometry}
 \usepackage{setspace}
@@ -13,6 +13,25 @@
 \usepackage{float}
 \usepackage{makecell}
 
+\usepackage{fancyhdr}
+\usepackage{etoolbox} % Pour les corrections profondes
+
+\makeatletter
+% 1. Réinitialisation complète
+\fancyhf{} % Efface tout
+\renewcommand{\headrulewidth}{0pt} % Supprime la barre d'en-tête
+
+% 2. Forçage du pied de page droit
+\fancyfoot[R]{\vspace{-1cm}\thepage} % Ajustez le vspace au besoin
+
+% 3. Correction pour les chapitres (classes book/report)
+\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
+\makeatother
+
+% ===== APPLICATION =====
+\pagestyle{fancy} % Active le style
+
+
 \doublespacing
 
 \titleformat{\chapter}[display]
@@ -21,8 +40,10 @@
 {\normalfont\Large\bfseries}{\thesection}{1em}{}
 
 \begin{document}
-	\pagestyle{empty} 
-	\pagenumbering{gobble}  % supprime la numérotation complètement
+	 
+	
+	\pagenumbering{roman}   % numérotation romaine : i, ii, iii...
+	
 	
 	\chapter*{Dédicace}
 	
@@ -47,7 +68,7 @@
 			
 		\end{minipage}
 	\end{center}
-	\thispagestyle{empty}
+	
 	
 	\chapter*{Remerciements}
 			
@@ -64,7 +85,7 @@
 	Un remerciement particulier à \textsc{ARRHIOUI Karim}, \textsc{ARRHIOUI Anass} et \textsc{BERHIL Mohammed} pour leurs précieux conseils.\\[0.6em]
 			
 	Je remercie le corps professoral et administratif de l'\textsc{École des Hautes Études d'Ingénierie - Oujda} pour la qualité de la formation reçue.
-	\thispagestyle{empty}
+	
 	
 	\chapter*{Liste des abréviations}
 	
@@ -104,7 +125,7 @@
 		\label{tab:liste-abréviations}
 	\end{table}
 	
-	\thispagestyle{empty}
+	
 	
 	\chapter*{Résumé}
 	
@@ -115,7 +136,6 @@
 	Doté d'une interface web intuitive et d'une API REST, le système a démontré son efficacité sur les exceptions courantes. Cette approche ouvre de nouvelles possibilités pour l'assistance aux développeurs.
 	
 	\textbf{Mots-clés} : IA générative, LLM, Spring Boot, RAG, débogage automatique, analyse multimodale.
-	\thispagestyle{empty}
 
 	\chapter*{Abstract}
 	
@@ -126,21 +146,21 @@
 	With its intuitive web interface and REST API, the tool has proven effective for common exceptions. This approach offers new possibilities for developer assistance while maintaining data privacy through local model deployment.
 	
 	\textbf{Keywords} : Generative AI, LLM, Spring Boot, RAG, automated debugging, multimodal analysis.
-	\thispagestyle{empty}
+
 
 	
 	\tableofcontents
-	\thispagestyle{empty}
+
 	
 	\listoffigures
-	\thispagestyle{empty}
+
 	
 	\listoftables
-	\thispagestyle{empty}
+
 	
 	\clearpage
-	\pagestyle{plain}
-	\pagenumbering{arabic}
+	\pagenumbering{arabic}  % numérotation classique : 1, 2, 3...
+	
 	
 	\chapter*{Introduction générale}
 	\addcontentsline{toc}{chapter}{Introduction générale}
@@ -370,7 +390,7 @@
 		
 		\item \textbf{LLM (Large Language Model)} : Est un modèle d'intelligence artificielle entraîné sur des volumes massifs de données textuelles, capable de comprendre, générer et manipuler du langage naturel de manière contextuelle. Basé sur des architectures de deep learning (comme les transformers), il excelle dans des tâches variées (réponse aux questions, traduction, synthèse de texte, etc.) en prédisant des séquences de mots probabilistes. Contrairement aux systèmes traditionnels, un LLM ne suit pas de règles prédéfinies, mais apprend des motifs linguistiques à partir de ses données d'entraînement.
 		
-		\item \textbf{RAG (Retrieval-Augmented Generation)} : Est une architecture hybride combinant un système de recherche d'information (retrieval) et un modèle de génération de langage (LLM). Contrairement à un LLM standard qui repose uniquement sur ses connaissances internes, le RAG enrichit ses réponses en recherchant des documents pertinents dans une base de connaissances externe, et en générant des réponses contextualisées à partir de ces sources. son plus grand avantage est la mise à jour sans réentraînement du LLM, via la base de connaissances.
+		\item \textbf{RAG (Retrieval-Augmented Generation)} : Est une architecture hybride combinant un système de recherche d'information (retrieval) et un modèle de génération de langage (LLM). Contrairement à un LLM standard qui repose uniquement sur ses connaissances internes, le RAG enrichit ses réponses en recherchant des documents pertinents dans une base de connaissances externe, et en générant des réponses contextualisées à partir de ces sources. son plus grand avantage est la mise à jour sans réentraînement du LLM, via la base de connaissances. \cite{rag}
 		
 		\item \textbf{Agent AI} : Sert de chef d'orchestre principal dans l'architecture. C'est un service intelligent qui coordonne l'ensemble du processus d'analyse. Il reçoit les requêtes brutes de l'utilisateur, les enrichit en combinant plusieurs techniques avancées comme le RAG et la mémoire conversationnelle, puis les présente au modèle de langage sous une forme optimale.
 		
@@ -759,7 +779,7 @@
 	
 	\begin{figure}[H]
 		\begin{minipage}{0.8\textwidth}
-			Ollama est un outil open-source permettant d’exécuter localement des LLMs (comme Llama 3, Mistral, Gemma) sans dépendre d’une API externe. Il est idéal pour prototyper des solutions IA offline, contrôler les coûts et la confidentialité des données, et personnaliser finement les modèles via des modelfiles.
+			Ollama est un outil open-source permettant d’exécuter localement des LLMs (comme Llama 3, Mistral, Gemma) sans dépendre d’une API externe. Il est idéal pour prototyper des solutions IA offline, contrôler les coûts et la confidentialité des données, et personnaliser finement les modèles via des modelfiles. \cite{ollama}
 		\end{minipage}
 		\hfill
 		\begin{minipage}{0.15\textwidth} 
@@ -922,7 +942,7 @@
 		
 		\item \textbf{L'Iterator} : Fournit un contrôle fin sur le parcours, en effet, il permet la suppression d'éléments (méthode \verb|remove()|), et fournit une interface standardisée pour toutes les collections. Par contre, il requiert une gestion manuelle fastidieuse, et le code produit est peu lisible pour des opérations complexes.
 		
-		\item \textbf{Les Streams (approche retenue)} :  Les Streams sont une abstraction introduite avec Java 8 qui permettent de traiter des collections de données de façon fonctionnelle, fluide et lisible. Un Stream représente une séquence d’éléments que l’on peut traiter (filtrer, transformer, agréger, etc.) sans modifier la source d’origine (par exemple, une List ou un Set). Cette approche moderne présente des avantages déterminants : une syntaxe déclarative exprimant l'intention métier, un chaînage des opérations, une possibilité de parallélisation transparente, et une meilleure maintenabilité du code.
+		\item \textbf{Les Streams (approche retenue)} :  Les Streams sont une abstraction introduite avec Java 8 qui permettent de traiter des collections de données de façon fonctionnelle, fluide et lisible. Un Stream représente une séquence d’éléments que l’on peut traiter (filtrer, transformer, agréger, etc.) sans modifier la source d’origine (par exemple, une List ou un Set). Cette approche moderne présente des avantages déterminants : une syntaxe déclarative exprimant l'intention métier, un chaînage des opérations, une possibilité de parallélisation transparente, et une meilleure maintenabilité du code. \cite{stream}
 		
 		\item \textbf{ParallelStream} : Extension des Streams standard introduite avec Java 8, elle permet un traitement parallèle automatisé des collections en tirant parti des architectures multi-cœurs. Contrairement aux Streams séquentiels, ParallelStream partitionne les données en sous-ensembles traités simultanément par différents threads (via le Fork/Join Pool). Ses avantages incluent une accélération des traitements pour les opérations CPU-intensives tels que les traitements de gros volumes de données, une syntaxe identique aux Streams, et une abstraction de la complexité, en effet la gestion du multithreading est effectuée sans manipulation manuelle de threads.
 		%\begin{verbatim}
@@ -1121,9 +1141,9 @@
 	
 	\subsubsection{Conformité aux Normes RESTful et Bonnes Pratiques d'API}
 	
-	Notre projet respecte les principes fondamentaux d'une API RESTful. En effet L'endpoint \verb|/api/errors| suit une sémantique HTTP claire, la méthode POST est utilisée pour la création d'une ressource (analyse d'erreur), conformément aux verbes REST, et les réponses HTTP sont standardisées (200 pour le succès, 400/413/415/500 pour les erreurs métier), avec des codes de statut pertinents et des messages structurés dans le DTO \verb|AnalysisResult|. L'utilisation de \verb|@RestController| et de \\ \verb|MediaType.MULTIPART_FORM_DATA_VALUE| garantit une sérialisation/désérialisation transparente des données.
+	Notre projet respecte les principes fondamentaux d'une API RESTful. En effet L'endpoint \verb|/api/errors| suit une sémantique HTTP claire, la méthode POST est utilisée pour la création d'une ressource (analyse d'erreur), conformément aux verbes REST, et les réponses HTTP sont standardisées (200 pour le succès, 400/413/415/500 pour les erreurs métier), avec des codes de statut pertinents et des messages structurés dans le DTO \verb|AnalysisResult|. L'utilisation de \verb|@RestController| et de \\ \verb|MediaType.MULTIPART_FORM_DATA_VALUE| garantit une sérialisation/désérialisation transparente des données. \cite{rest}
 	
-	De plus, l'API développée est documentée via Swagger (annotations \verb|@Tag|, \verb|@Operation|), offrant une description claire des fonctionnalités et des schémas de réponse. L'acceptation de données binaires (captures d'écran) via MultipartFile et leur validation (taille et type) illustrent également la prise en compte des contraintes RESTful sur les formats de données.
+	De plus, l'API développée est documentée via Swagger (annotations \verb|@Tag|, \verb|@Operation|), offrant une description claire des fonctionnalités et des schémas de réponse. L'acceptation de données binaires (captures d'écran) via MultipartFile et leur validation (taille et type) illustrent également la prise en compte des contraintes RESTful sur les formats de données. \cite{swagger}
 	
 	\subsubsection{Création d'une page web pour effectuer des tests}
 	
@@ -1236,7 +1256,7 @@
 	\chapter*{Conclusion générale}
 	\addcontentsline{toc}{chapter}{Conclusion générale}
 	
-	\section*{Récapitulation les apports du travail}
+	\section*{Récapitulation des apports du travail}
 	\addcontentsline{toc}{section}{Récapitulation les apports du travail}
 	
 	Ce projet a consisté en la conception et le développement d'une application dédiée à l'analyse automatique d'erreurs et anomalies, intégrant une approche innovante combinant traitement multimédia (images et vidéos) et intelligence artificielle à dimension multimodale. À travers une architecture modulaire basée sur Spring Boot et une interface web interactive, le système offre une solution robuste pour diagnostiquer des anomalies logicielles et proposer des corrections contextualisées.
@@ -1317,6 +1337,31 @@
 		
 	\end{itemize}
 	
-	\chapter*{Webographie}
+	\clearpage
+	
+	\begin{thebibliography}{9}  % Le nombre '9' indique le nombre max de références
+		\addcontentsline{toc}{chapter}{Bibliographie}
+		
+		\bibitem{rag}
+		Lewis, P. et al., \emph{Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks}, arXiv, 2020. \\
+		\url{https://arxiv.org/abs/2005.11401}
+		
+		\bibitem{ollama}
+		Ollama, \emph{Model Library}, 2023. \\
+		\url{https://ollama.ai/library}
+		
+		\bibitem{stream}
+		Oracle, \emph{Package java.util.stream}, 2021. \\
+		\url{https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/package-summary.html}
+		
+		\bibitem{rest}
+		Spring Team, \emph{Building REST Services with Spring}, 2023. \\
+		\url{https://spring.io/guides/gs/rest-service/}
+		
+		\bibitem{swagger}
+		OpenAPI Initiative, \emph{OpenAPI Specification}, 2023. \\
+		\url{https://swagger.io/specification/}
+		
+	\end{thebibliography}
 	
 \end{document}

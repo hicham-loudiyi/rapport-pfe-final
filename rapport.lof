@@ -1,32 +1,32 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }{\ignorespaces \textit {Logo de Algolus}}}{\if@rlmain \I {2}\else \textLR {2}\fi }{figure.1.1}%
-\contentsline {figure}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }{\ignorespaces \textit {Organigramme de l'entreprise Algolus}}}{\if@rlmain \I {4}\else \textLR {4}\fi }{figure.1.2}%
+\contentsline {figure}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }{\ignorespaces \textit {Logo de Algolus}}}{2}{figure.1.1}%
+\contentsline {figure}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }{\ignorespaces \textit {Organigramme de l'entreprise Algolus}}}{4}{figure.1.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }{\ignorespaces \textit {Diagramme de cas d'utilisation}}}{\if@rlmain \I {12}\else \textLR {12}\fi }{figure.2.1}%
-\contentsline {figure}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un agent AI}}}{\if@rlmain \I {17}\else \textLR {17}\fi }{figure.2.2}%
-\contentsline {figure}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }{\ignorespaces \textit {Diagramme décrivant le fonctionnement d'un RAG}}}{\if@rlmain \I {20}\else \textLR {20}\fi }{figure.2.3}%
-\contentsline {figure}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un RAG}}}{\if@rlmain \I {20}\else \textLR {20}\fi }{figure.2.4}%
+\contentsline {figure}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }{\ignorespaces \textit {Diagramme de cas d'utilisation}}}{12}{figure.2.1}%
+\contentsline {figure}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un agent AI}}}{17}{figure.2.2}%
+\contentsline {figure}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }{\ignorespaces \textit {Diagramme décrivant le fonctionnement d'un RAG}}}{20}{figure.2.3}%
+\contentsline {figure}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un RAG}}}{20}{figure.2.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces \textit {Gestion de projet avec SCRUM}}}{\if@rlmain \I {24}\else \textLR {24}\fi }{figure.3.1}%
-\contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces \textit {Diagramme d'architecture technique}}}{\if@rlmain \I {31}\else \textLR {31}\fi }{figure.3.2}%
-\contentsline {figure}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }{\ignorespaces \textit {Implémentation sans utiliser Apache Commons}}}{\if@rlmain \I {33}\else \textLR {33}\fi }{figure.3.3}%
-\contentsline {figure}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces \textit {Implémentation en utilisant Apache Commons}}}{\if@rlmain \I {33}\else \textLR {33}\fi }{figure.3.4}%
-\contentsline {figure}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }{\ignorespaces \textit {Implémentation sans utiliser les Streams}}}{\if@rlmain \I {36}\else \textLR {36}\fi }{figure.3.5}%
-\contentsline {figure}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }{\ignorespaces \textit {Implémentation en utilisant les Streams}}}{\if@rlmain \I {36}\else \textLR {36}\fi }{figure.3.6}%
-\contentsline {figure}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }{\ignorespaces \textit {Exemple de code répétitif avant factorisation}}}{\if@rlmain \I {37}\else \textLR {37}\fi }{figure.3.7}%
-\contentsline {figure}{\numberline {\if@rl \I {8.3}\else \textLR {3.8}\fi }{\ignorespaces \textit {Code refactorisé avec méthode utilitaire}}}{\if@rlmain \I {38}\else \textLR {38}\fi }{figure.3.8}%
-\contentsline {figure}{\numberline {\if@rl \I {9.3}\else \textLR {3.9}\fi }{\ignorespaces \textit {Un morceau de la classe de configuration}}}{\if@rlmain \I {39}\else \textLR {39}\fi }{figure.3.9}%
-\contentsline {figure}{\numberline {\if@rl \I {10.3}\else \textLR {3.10}\fi }{\ignorespaces \textit {Utilisation de la classe de configuration}}}{\if@rlmain \I {40}\else \textLR {40}\fi }{figure.3.10}%
-\contentsline {figure}{\numberline {\if@rl \I {11.3}\else \textLR {3.11}\fi }{\ignorespaces \textit {Test du premier prototype}}}{\if@rlmain \I {41}\else \textLR {41}\fi }{figure.3.11}%
-\contentsline {figure}{\numberline {\if@rl \I {12.3}\else \textLR {3.12}\fi }{\ignorespaces \textit {Structure du projet Java}}}{\if@rlmain \I {42}\else \textLR {42}\fi }{figure.3.12}%
-\contentsline {figure}{\numberline {\if@rl \I {13.3}\else \textLR {3.13}\fi }{\ignorespaces \textit {Interface Java de l'agent AI}}}{\if@rlmain \I {44}\else \textLR {44}\fi }{figure.3.13}%
-\contentsline {figure}{\numberline {\if@rl \I {14.3}\else \textLR {3.14}\fi }{\ignorespaces \textit {Morceau du contenu du fichier application.properties}}}{\if@rlmain \I {45}\else \textLR {45}\fi }{figure.3.14}%
-\contentsline {figure}{\numberline {\if@rl \I {15.3}\else \textLR {3.15}\fi }{\ignorespaces \textit {Interface de l'application de test}}}{\if@rlmain \I {47}\else \textLR {47}\fi }{figure.3.15}%
-\contentsline {figure}{\numberline {\if@rl \I {16.3}\else \textLR {3.16}\fi }{\ignorespaces \textit {Résultat d'exécution de l'application de test}}}{\if@rlmain \I {48}\else \textLR {48}\fi }{figure.3.16}%
-\contentsline {figure}{\numberline {\if@rl \I {17.3}\else \textLR {3.17}\fi }{\ignorespaces \textit {Structure du projet Java}}}{\if@rlmain \I {49}\else \textLR {49}\fi }{figure.3.17}%
-\contentsline {figure}{\numberline {\if@rl \I {18.3}\else \textLR {3.18}\fi }{\ignorespaces \textit {Interface Swagger UI}}}{\if@rlmain \I {51}\else \textLR {51}\fi }{figure.3.18}%
-\contentsline {figure}{\numberline {\if@rl \I {19.3}\else \textLR {3.19}\fi }{\ignorespaces \textit {Image trop volumineuse}}}{\if@rlmain \I {52}\else \textLR {52}\fi }{figure.3.19}%
-\contentsline {figure}{\numberline {\if@rl \I {20.3}\else \textLR {3.20}\fi }{\ignorespaces \textit {Type d'images non supporté}}}{\if@rlmain \I {53}\else \textLR {53}\fi }{figure.3.20}%
-\contentsline {figure}{\numberline {\if@rl \I {21.3}\else \textLR {3.21}\fi }{\ignorespaces \textit {Upload de vidéo}}}{\if@rlmain \I {54}\else \textLR {54}\fi }{figure.3.21}%
+\contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces \textit {Gestion de projet avec SCRUM}}}{24}{figure.3.1}%
+\contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces \textit {Diagramme d'architecture technique}}}{31}{figure.3.2}%
+\contentsline {figure}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }{\ignorespaces \textit {Implémentation sans utiliser Apache Commons}}}{33}{figure.3.3}%
+\contentsline {figure}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces \textit {Implémentation en utilisant Apache Commons}}}{33}{figure.3.4}%
+\contentsline {figure}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }{\ignorespaces \textit {Implémentation sans utiliser les Streams}}}{36}{figure.3.5}%
+\contentsline {figure}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }{\ignorespaces \textit {Implémentation en utilisant les Streams}}}{36}{figure.3.6}%
+\contentsline {figure}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }{\ignorespaces \textit {Exemple de code répétitif avant factorisation}}}{37}{figure.3.7}%
+\contentsline {figure}{\numberline {\if@rl \I {8.3}\else \textLR {3.8}\fi }{\ignorespaces \textit {Code refactorisé avec méthode utilitaire}}}{38}{figure.3.8}%
+\contentsline {figure}{\numberline {\if@rl \I {9.3}\else \textLR {3.9}\fi }{\ignorespaces \textit {Un morceau de la classe de configuration}}}{39}{figure.3.9}%
+\contentsline {figure}{\numberline {\if@rl \I {10.3}\else \textLR {3.10}\fi }{\ignorespaces \textit {Utilisation de la classe de configuration}}}{40}{figure.3.10}%
+\contentsline {figure}{\numberline {\if@rl \I {11.3}\else \textLR {3.11}\fi }{\ignorespaces \textit {Test du premier prototype}}}{41}{figure.3.11}%
+\contentsline {figure}{\numberline {\if@rl \I {12.3}\else \textLR {3.12}\fi }{\ignorespaces \textit {Structure du projet Java}}}{42}{figure.3.12}%
+\contentsline {figure}{\numberline {\if@rl \I {13.3}\else \textLR {3.13}\fi }{\ignorespaces \textit {Interface Java de l'agent AI}}}{44}{figure.3.13}%
+\contentsline {figure}{\numberline {\if@rl \I {14.3}\else \textLR {3.14}\fi }{\ignorespaces \textit {Morceau du contenu du fichier application.properties}}}{45}{figure.3.14}%
+\contentsline {figure}{\numberline {\if@rl \I {15.3}\else \textLR {3.15}\fi }{\ignorespaces \textit {Interface de l'application de test}}}{47}{figure.3.15}%
+\contentsline {figure}{\numberline {\if@rl \I {16.3}\else \textLR {3.16}\fi }{\ignorespaces \textit {Résultat d'exécution de l'application de test}}}{48}{figure.3.16}%
+\contentsline {figure}{\numberline {\if@rl \I {17.3}\else \textLR {3.17}\fi }{\ignorespaces \textit {Structure du projet Java}}}{49}{figure.3.17}%
+\contentsline {figure}{\numberline {\if@rl \I {18.3}\else \textLR {3.18}\fi }{\ignorespaces \textit {Interface Swagger UI}}}{51}{figure.3.18}%
+\contentsline {figure}{\numberline {\if@rl \I {19.3}\else \textLR {3.19}\fi }{\ignorespaces \textit {Image trop volumineuse}}}{52}{figure.3.19}%
+\contentsline {figure}{\numberline {\if@rl \I {20.3}\else \textLR {3.20}\fi }{\ignorespaces \textit {Type d'images non supporté}}}{53}{figure.3.20}%
+\contentsline {figure}{\numberline {\if@rl \I {21.3}\else \textLR {3.21}\fi }{\ignorespaces \textit {Upload de vidéo}}}{54}{figure.3.21}%
 \addvspace {10\p@ }
