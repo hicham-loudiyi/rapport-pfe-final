@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  26 JUN 2025 04:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  26 JUN 2025 04:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1885,7 +1885,7 @@ LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: CBE884236F5BC3581B3389CB6BF57CC8;11386.
+(rerunfilecheck)             Checksum: F0812A37D3EEFDF8260AEDFB218562C9;11376.
  ) 
 Here is how much of TeX's memory you used:
  14305 strings out of 468225
@@ -1908,7 +1908,7 @@ ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1728.pk> <C:\Users\E
 lectro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx24
 88.pk><C:/Users/Electro_Laaroussi/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb>
-Output written on rapport.pdf (74 pages, 3567271 bytes).
+Output written on rapport.pdf (74 pages, 3567244 bytes).
 PDF statistics:
  1434 PDF objects out of 1440 (max. 8388607)
  193 named destinations out of 1000 (max. 500000)

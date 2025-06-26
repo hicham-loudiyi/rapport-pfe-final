@@ -91,8 +91,8 @@
 \contentsline {section}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }Volet technique}{56}{section.4.1}%
 \contentsline {section}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }Volet gestion de projet}{57}{section.4.2}%
 \select@language {french}
-\contentsline {chapter}{Conclusion générale}{58}{chapter*.10}%
-\contentsline {section}{Récapitulation les apports du travail}{58}{section*.11}%
+\contentsline {chapter}{Conclusion générale et perspectives}{58}{chapter*.10}%
+\contentsline {section}{Conclusion générale}{58}{section*.11}%
 \contentsline {section}{Perspectives}{59}{section*.11}%
 \select@language {french}
 \contentsline {chapter}{Bibliographie}{60}{chapter*.12}%
