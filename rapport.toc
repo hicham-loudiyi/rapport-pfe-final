@@ -1,12 +1,19 @@
 \babel@toc {french}{}\relax 
+\contentsline {chapter}{Dédicace}{i}{Doc-Start}%
 \select@language {french}
 \select@language {french}
+\contentsline {chapter}{Remerciement}{ii}{chapter*.2}%
+\select@language {french}
+\contentsline {chapter}{Liste des abréviations}{iii}{chapter*.3}%
+\select@language {french}
+\contentsline {chapter}{Résumé}{iv}{chapter*.4}%
+\select@language {french}
+\contentsline {chapter}{Abstract}{v}{chapter*.5}%
+\select@language {french}
+\contentsline {chapter}{Table des figures}{ix}{chapter*.6}%
 \select@language {french}
 \select@language {french}
-\select@language {french}
-\select@language {french}
-\select@language {french}
-\select@language {french}
+\contentsline {chapter}{Liste des tableaux}{xi}{chapter*.8}%
 \select@language {french}
 \contentsline {chapter}{Introduction générale}{1}{chapter*.9}%
 \select@language {french}
@@ -32,7 +39,7 @@
 \contentsline {subsection}{\numberline {\if@rl \I {1.5.2}\else \textLR {2.5.1}\fi }Acteurs}{15}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {\if@rl \I {2.5.2}\else \textLR {2.5.2}\fi }Notre diagramme de cas d'utilisations}{15}{subsection.2.5.2}%
 \contentsline {section}{\numberline {\if@rl \I {6.2}\else \textLR {2.6}\fi }Description textuelle}{16}{section.2.6}%
-\contentsline {section}{\numberline {\if@rl \I {7.2}\else \textLR {2.7}\fi }Diagrammes de séquences}{18}{section.2.7}%
+\contentsline {section}{\numberline {\if@rl \I {7.2}\else \textLR {2.7}\fi }Diagrammes de séquences}{19}{section.2.7}%
 \contentsline {section}{\numberline {\if@rl \I {8.2}\else \textLR {2.8}\fi }Conclusion}{20}{section.2.8}%
 \select@language {french}
 \contentsline {chapter}{\numberline {3}\bgroup \beginL \latintext Réalisation\endL \egroup }{21}{chapter.3}%
@@ -57,7 +64,7 @@
 \contentsline {subsubsection}{Ollama}{26}{subsection.3.3.5}%
 \contentsline {subsubsection}{Maven}{26}{subsection.3.3.5}%
 \contentsline {subsubsection}{IntelliJ IDEA}{26}{subsection.3.3.5}%
-\contentsline {subsubsection}{Git}{26}{subsection.3.3.5}%
+\contentsline {subsubsection}{Git}{27}{subsection.3.3.5}%
 \contentsline {section}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }Architecture technique du projet}{27}{section.3.4}%
 \contentsline {section}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }Bonnes pratiques appliquées du développement Java}{31}{section.3.5}%
 \contentsline {subsection}{\numberline {\if@rl \I {1.5.3}\else \textLR {3.5.1}\fi }L'importance d'une nomenclature claire et cohérente}{31}{subsection.3.5.1}%
@@ -65,7 +72,7 @@
 \contentsline {subsection}{\numberline {\if@rl \I {3.5.3}\else \textLR {3.5.3}\fi }Approches de parcours de collections en Java}{33}{subsection.3.5.3}%
 \contentsline {subsection}{\numberline {\if@rl \I {4.5.3}\else \textLR {3.5.4}\fi }Importance de la factorisation du code}{36}{subsection.3.5.4}%
 \contentsline {subsection}{\numberline {\if@rl \I {5.5.3}\else \textLR {3.5.5}\fi }Utilisation d'une classe de configuration}{37}{subsection.3.5.5}%
-\contentsline {section}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }Captures d'écran}{39}{section.3.6}%
+\contentsline {section}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }Interfaces graphiques réalisées}{39}{section.3.6}%
 \contentsline {subsection}{\numberline {\if@rl \I {1.6.3}\else \textLR {3.6.1}\fi }Prototype exploratoire}{40}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {\if@rl \I {2.6.3}\else \textLR {3.6.2}\fi }Version livrable actuelle}{40}{subsection.3.6.2}%
 \contentsline {subsubsection}{Structure du projet Java}{40}{subsection.3.6.2}%
@@ -86,9 +93,13 @@
 \select@language {french}
 \contentsline {chapter}{Conclusion générale}{58}{chapter*.10}%
 \contentsline {section}{Récapitulation les apports du travail}{58}{section*.11}%
-\contentsline {section}{Evaluation des objectifs}{59}{section*.11}%
-\contentsline {subsection}{Méthodologie d'Évaluation}{59}{section*.12}%
-\contentsline {subsection}{Résultats obtenus}{59}{section*.12}%
-\contentsline {section}{Perspectives}{60}{section*.12}%
+\contentsline {section}{Perspectives}{59}{section*.11}%
 \select@language {french}
-\contentsline {chapter}{Bibliographie}{61}{chapter*.13}%
+\contentsline {chapter}{Bibliographie}{60}{chapter*.12}%
+\select@language {french}
+\contentsline {chapter}{Webographie}{61}{chapter*.13}%
+\select@language {french}
+\contentsline {chapter}{Annexes}{62}{chapter*.14}%
+\contentsline {section}{Evaluation des objectifs}{62}{section*.15}%
+\contentsline {subsection}{Méthodologie d'évaluation}{62}{section*.15}%
+\contentsline {subsection}{Résultats obtenus}{62}{section*.15}%

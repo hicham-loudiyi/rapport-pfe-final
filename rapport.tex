@@ -12,6 +12,7 @@
 \usepackage{array}
 \usepackage{float}
 \usepackage{makecell}
+\usepackage{enumitem}
 
 \usepackage{fancyhdr}
 \usepackage{etoolbox} % Pour les corrections profondes
@@ -44,8 +45,9 @@
 	
 	\pagenumbering{roman}   % numérotation romaine : i, ii, iii...
 	
-	
+	\addcontentsline{toc}{chapter}{Dédicace}
 	\chapter*{Dédicace}
+	
 	
 	\begin{center}
 		\begin{minipage}{0.8\textwidth} % Largeur contrôlée du texte
@@ -69,8 +71,9 @@
 		\end{minipage}
 	\end{center}
 	
-	
-	\chapter*{Remerciements}
+	\clearpage
+	\chapter*{Remerciement}
+	\addcontentsline{toc}{chapter}{Remerciement}
 			
 	Au début, il m'est agréable d'exprimer ma reconnaissance à toute personne dont l'intervention au cours de ce stage a favorisé son aboutissement.\\
 			
@@ -84,8 +87,9 @@
 			
 	Je remercie le corps professoral et administratif de l'\textsc{École des Hautes Études d'Ingénierie - Oujda} pour la qualité de la formation reçue.
 	
-	
+	\clearpage
 	\chapter*{Liste des abréviations}
+	\addcontentsline{toc}{chapter}{Liste des abréviations}
 	
 	\begin{table}[H]
 		\centering
@@ -123,38 +127,42 @@
 		\label{tab:liste-abréviations}
 	\end{table}
 	
-	
-	
+	\clearpage
 	\chapter*{Résumé}
+	\addcontentsline{toc}{chapter}{Résumé}
 	
 	Ce projet présente une solution innovante d'assistance intelligente au débogage logiciel, combinant analyse automatique et intelligence artificielle. Face à la complexité croissante des erreurs logicielles (stacktraces, logs, captures d'écran, captures vidéo), nous avons développé un système unifié exploitant les LLMs (Modèles de Langage) et l'architecture RAG (Retrieval-Augmented Generation) pour diagnostiquer les anomalies et proposer des corrections contextuelles.
 	
 	L'outil implémenté avec Spring Boot et LangChain4J permet l'analyse multimodale des rapports d'erreur, l'identification des causes avec 78\% de précision, la génération de solutions pertinentes dans 70\% de cas, et une réduction de 35\% du temps de résolution
 	
-	Doté d'une interface web intuitive et d'une API REST, le système a démontré son efficacité sur les exceptions courantes. Cette approche ouvre de nouvelles possibilités pour l'assistance aux développeurs.
+	Doté d'une interface web intuitive et d'une API REST, le système a démontré son efficacité sur les exceptions courantes. Cette approche ouvre de nouvelles possibilités pour l'assistance aux développeurs.\\[15em]
 	
 	\textbf{Mots-clés} : IA générative, LLM, Spring Boot, RAG, débogage automatique, analyse multimodale.
 
+	\clearpage
 	\chapter*{Abstract}
+	\addcontentsline{toc}{chapter}{Abstract}
 	
 	This project introduces an innovative AI-powered debugging assistant that automates software error analysis. Addressing the growing complexity of software anomalies (stack traces, logs, screenshots, videos), we developed a unified system leveraging LLMs and RAG architecture to diagnose issues and suggest contextual fixes.
 	
 	The Spring Boot-based solution features multimodal error report analysis, 78\% accuracy in root cause identificatio, relevant solution generation with 65\% success rate, 35\% faster resolution time.
 	
-	With its intuitive web interface and REST API, the tool has proven effective for common exceptions. This approach offers new possibilities for developer assistance while maintaining data privacy through local model deployment.
+	With its intuitive web interface and REST API, the tool has proven effective for common exceptions. This approach offers new possibilities for developer assistance while maintaining data privacy through local model deployment.\\[18em]
 	
 	\textbf{Keywords} : Generative AI, LLM, Spring Boot, RAG, automated debugging, multimodal analysis.
 
 
-	
+	\clearpage
 	\tableofcontents
 
-	
+	\clearpage
+	\addcontentsline{toc}{chapter}{Table des figures}
 	\listoffigures
-
 	
+	
+	\clearpage
 	\listoftables
-
+	\addcontentsline{toc}{chapter}{Liste des tableaux}
 	
 	\clearpage
 	\pagenumbering{arabic}  % numérotation classique : 1, 2, 3...
@@ -431,7 +439,7 @@
 	
 	\subsection{Notre diagramme de cas d'utilisations}
 	
-	La figure \ref{fig:use-case} présente le diagramme de cas d'utilisation de notre application :
+	La figure \ref{fig:use-case} présente le diagramme de cas d'utilisation de notre application (voir la page 16).
 	
 	\begin{figure}[H]
 		\centering
@@ -649,7 +657,7 @@
 	
 	\begin{figure}[H]
 		\begin{minipage}{0.8\textwidth}
-			Java est un langage de programmation orienté objet, robuste et multiplateforme, largement utilisé dans le développement d'applications d'entreprise. Sa forte typographie, sa gestion automatique de la mémoire (via le garbage collector) et son écosystème riche (bibliothèques, frameworks) en font un choix idéal pour les systèmes backend complexes.
+			Java est un langage de programmation orienté objet, robuste et multiplateforme, largement utilisé dans le développement d'applications d'entreprise. Sa forte typographie, sa gestion automatique de la mémoire (via le garbage collector) et son écosystème riche (bibliothèques, frameworks) en font un choix idéal pour les systèmes backend complexes. la version utilisée est Java 17.
 		\end{minipage}
 		\hfill
 		\begin{minipage}{0.15\textwidth}
@@ -667,7 +675,7 @@
 	
 	\begin{figure}[H]
 		\begin{minipage}{0.8\textwidth}
-			Spring est un framework modulaire pour Java, simplifiant le développement d'applications grâce à l’inversion de contrôle (IoC) et la programmation orientée aspect (AOP).
+			Spring est un framework modulaire pour Java, simplifiant le développement d'applications grâce à l’inversion de contrôle (IoC) et la programmation orientée aspect (AOP). La version utilisée est 6.1.8.
 		\end{minipage}
 		\hfill
 		\begin{minipage}{0.15\textwidth} 
@@ -683,7 +691,7 @@
 	
 	\begin{figure}[H]
 		\begin{minipage}{0.8\textwidth}
-			Spring Boot étend Spring en fournissant des configurations automatiques, un serveur embarqué (Tomcat, Netty) et des outils clés en main (Spring Data, Spring Security), permettant de créer des applications standalone rapidement.
+			Spring Boot étend Spring en fournissant des configurations automatiques, un serveur embarqué (Tomcat, Netty) et des outils clés en main (Spring Data, Spring Security), permettant de créer des applications standalone rapidement. La version utilisée est 3.4.5.
 		\end{minipage}
 		\hfill
 		\begin{minipage}{0.15\textwidth} 
@@ -700,7 +708,7 @@
 	
 	\begin{figure}[H]
 		\begin{minipage}{0.8\textwidth}
-			LangChain4J est une bibliothèque Java inspirée de LangChain (Python), conçue pour intégrer facilement des LLMs (Modèles de Langage) dans des applications. Elle offre des abstractions pour la gestion des prompts, le RAG, les appels aux modèles (OpenAI, Ollama, etc.), et la connexion à des bases de données vectorielles.
+			LangChain4J est une bibliothèque Java inspirée de LangChain (Python), conçue pour intégrer facilement des LLMs (Modèles de Langage) dans des applications. Elle offre des abstractions pour la gestion des prompts, le RAG, les appels aux modèles (OpenAI, Ollama, etc.), et la connexion à des bases de données vectorielles. La version utilisée est 1.0.0-alpha1.
 		\end{minipage}
 		\hfill
 		\begin{minipage}{0.15\textwidth} 
@@ -718,7 +726,7 @@
 	
 	\begin{figure}[H]
 		\begin{minipage}{0.8\textwidth}
-			Apache Commons est une bibliothèque Java open-source fournissant des composants réutilisables pour simplifier le développement. Dans ce projet, elle sert à combler des besoins techniques récurrents avec des solutions optimisées et robustes.
+			Apache Commons est une bibliothèque Java open-source fournissant des composants réutilisables pour simplifier le développement. Dans ce projet, elle sert à combler des besoins techniques récurrents avec des solutions optimisées et robustes. La version utilisée est 3.14.0.
 		\end{minipage}
 		\hfill
 		\begin{minipage}{0.15\textwidth} 
@@ -736,7 +744,7 @@
 	
 	\begin{figure}[H]
 		\begin{minipage}{0.8\textwidth}
-			PostgreSQL est un système de gestion de base de données relationnelle (SGBDR) open-source, robuste et extensible. Dans le cadre de ce projet, il joue un rôle central pour stocker et gérer les données structurées nécessaires au bon fonctionnement de l’application, et fournit des plugins pour l'IA, notamment PgVector, qui gère les bases de données vectorielles.
+			PostgreSQL est un système de gestion de base de données relationnelle (SGBDR) open-source, robuste et extensible. Dans le cadre de ce projet, il joue un rôle central pour stocker et gérer les données structurées nécessaires au bon fonctionnement de l’application, et fournit des plugins pour l'IA, notamment PgVector, qui gère les bases de données vectorielles. La version utilisée est 16.3
 		\end{minipage}
 		\hfill
 		\begin{minipage}{0.15\textwidth} 
@@ -754,7 +762,9 @@
 	
 	\begin{figure}[H]
 		\begin{minipage}{0.8\textwidth}
-			Ollama est un outil open-source permettant d’exécuter localement des LLMs (comme Llama 3, Mistral, Gemma) sans dépendre d’une API externe. Il est idéal pour prototyper des solutions IA offline, contrôler les coûts et la confidentialité des données, et personnaliser finement les modèles via des modelfiles. \cite{ollama}
+			Ollama est un outil open-source permettant d’exécuter localement des LLMs (comme Llama 3, Mistral, Gemma) sans dépendre d’une API externe. Il est idéal pour prototyper des solutions IA offline, contrôler les coûts et la confidentialité des données, et personnaliser finement les modèles via des modelfiles. [2]
+			
+			La version utilisée est 0.9.2
 		\end{minipage}
 		\hfill
 		\begin{minipage}{0.15\textwidth} 
@@ -770,7 +780,7 @@
 	
 	\begin{figure}[H]
 		\begin{minipage}{0.8\textwidth}
-			Outil de build automatisé pour projets Java, qui gère Les dépendances (téléchargement auto), le packaging (JAR/WAR), et les cycles de compilation/test.
+			Outil de build automatisé pour projets Java, qui gère Les dépendances (téléchargement auto), le packaging (JAR/WAR), et les cycles de compilation/test. La version utilisée est 3.9.10
 		\end{minipage}
 		\hfill
 		\begin{minipage}{0.15\textwidth} 
@@ -786,7 +796,7 @@
 	
 	\begin{figure}[H]
 		\begin{minipage}{0.8\textwidth}
-			IntelliJ IDEA est un IDE puissant pour Java/Kotlin, développé par JetBrains. Ses avantages incluent une analyse intelligente du code (suggestions, détection d’erreurs), une intégration native avec Spring Boot et Maven/Gradle, des outils pour le débogage, le profiling et les tests, et des extensions pour l’IA (ex : GitHub Copilot).
+			IntelliJ IDEA est un IDE puissant pour Java/Kotlin, développé par JetBrains. Ses avantages incluent une analyse intelligente du code (suggestions, détection d’erreurs), une intégration native avec Spring Boot et Maven/Gradle, des outils pour le débogage, le profiling et les tests, et des extensions pour l’IA (ex : GitHub Copilot). La version utilisée est 2025.1 (Ultimate Edition)
 		\end{minipage}
 		\hfill
 		\begin{minipage}{0.15\textwidth} 
@@ -802,7 +812,7 @@
 	
 	\begin{figure}[H]
 		\begin{minipage}{0.8\textwidth}
-			Git est un système de contrôle de version distribué, essentiel pour le développement collaboratif. Il permet de suivre les modifications du code source, de gérer les branches, et de fusionner les travaux de plusieurs contributeurs. Grâce à des plateformes comme GitHub, il facilite le partage et la revue de code. Son utilisation améliore la traçabilité, la qualité et la productivité dans les projets logiciels.
+			Git est un système de contrôle de version distribué, essentiel pour le développement collaboratif. Il permet de suivre les modifications du code source, de gérer les branches, et de fusionner les travaux de plusieurs contributeurs. Grâce à des plateformes comme GitHub, il facilite le partage et la revue de code. Son utilisation améliore la traçabilité, la qualité et la productivité dans les projets logiciels. La version utilisée est 2.47.1.windows.2.
 		\end{minipage}
 		\hfill
 		\begin{minipage}{0.15\textwidth} 
@@ -915,7 +925,7 @@
 		
 		\item \textbf{L'Iterator} : Permet un parcours séquentiel avec suppression sécurisée via \verb|remove()|, compatible avec toutes les collections mais plus verbeux à écrire.
 		
-		\item \textbf{Les Streams} : Approche déclarative exploitant des opérations fonctionnelles (filtrage, mapping) pour un code lisible et chainable, optimisé pour les traitements de données. \cite{stream}
+		\item \textbf{Les Streams} : Approche déclarative exploitant des opérations fonctionnelles (filtrage, mapping) pour un code lisible et chainable, optimisé pour les traitements de données. [3]
 		
 		\item \textbf{ParallelStream} : Version parallélisée des Stream utilisant plusieurs cœurs CPU pour accélérer le traitement des gros volumes de données, au prix d'une complexité accrue en synchronisation.
 		
@@ -1040,7 +1050,7 @@
 	
 	Avec cette approche on peut ajuster les paramètres techniques sans toucher au code métier et sans recompilation, on gagne plus de flexibilité en adaptant les paramètres à l'environnement (dev, test, prod) via des profils Spring, et on respecte l'un des principe SOLID, qui est la séparation des responsabilités, puisque le service se concentre sur la logique métier, tandis que la configuration technique est externalisée.
 	
-	\section{Captures d'écran}
+	\section{Interfaces graphiques réalisées}
 	
 	Pour atteindre nos objectifs ambitieux, nous avons suivi une approche incrémentielle. Dans un premier temps, nous avons réalisé un prototype fonctionnel afin de valider les fondements techniques du projet, de comprendre le fonctionnement du framework LangChain4j, de tester l’intégration avec Ollama, et de valider le concept de récupération de contexte à partir de documents externes.
 	
@@ -1065,7 +1075,7 @@
 	
 	\subsubsection{Structure du projet Java}
 	
-	Une bonne structuration d’un projet logiciel constitue un fondement essentiel pour assurer sa lisibilité, sa maintenabilité et son évolutivité. Dans notre cas, le projet respecte les conventions standard de l’écosystème Java et de l’architecture Spring Boot. L’arborescence capturée dans la figure \ref{fig:structure-projet} suit une séparation claire entre les différentes couches de l’application, notamment les agents (\verb|agents|), la configuration (\verb|config|), les objets de transfert de données (\verb|dto|), les exceptions personnalisées (\verb|exceptions|), les services métier (\verb|service|) et la couche de présentation via les contrôleurs web (\verb|web|). Par cette organisation modulaire, nous avons favorisé l'encapsulation des responsabilités, en conformité avec les principes SOLID, et facilité les tests unitaires ainsi que l’intégration continue. Par ailleurs, l’intégration des ressources statiques et de configuration dans les répertoires \verb|resources|/\verb|static| et \verb|application.properties| respecte les conventions de Spring Boot, permettant un déploiement harmonisé.
+	Une bonne structuration d’un projet logiciel constitue un fondement essentiel pour assurer sa lisibilité, sa maintenabilité et son évolutivité. Dans notre cas, le projet respecte les conventions standard de l’écosystème Java et de l’architecture Spring Boot. L’arborescence capturée dans la figure \ref{fig:structure-projet} suit une séparation claire entre les différentes couches de l’application, notamment les agents (\verb|agents|), la configuration (\verb|config|), les objets de transfert de données (\verb|dto|), les exceptions personnalisées (\verb|exceptions|), les services métier (\verb|service|) et la couche de présentation via les contrôleurs web (\verb|web|). Par cette organisation modulaire, nous avons favorisé l'encapsulation des responsabilités, en conformité avec les principes SOLID, et facilité les tests unitaires ainsi que l’intégration continue. Par ailleurs, l’intégration des ressources statiques et de configuration dans les répertoires \verb|resources|/\verb|static| et \verb|application.properties| respecte les conventions de Spring Boot, permettant un déploiement harmonisé (voir la page 42).
 	
 	\begin{figure}[H]
 		\centering
@@ -1084,7 +1094,7 @@
 	
 	D'autre part, nous avons configuré le service \verb|sourceCodeLoader| à charger les fichiers du code source de l'application présentant des erreurs, en lui disposant de son chemin. Ces fichiers constituent la matière première pour le RAG, qui les utilisera pour enrichir sa base de connaissances, afin d'obtenir des réponses cohérentes avec le contexte de l'application à déboguer.
 	
-	Nous avons défini toutes les valeurs de ces configuration - en premier lieu - dans le fichier \verb|application.properties|, comme l'illustre la figure \ref{fig:properties}.
+	Nous avons défini toutes les valeurs de ces configuration - en premier lieu - dans le fichier \verb|application.properties|, comme l'illustre la figure \ref{fig:properties} (voir la page 44).
 	
 	\begin{figure}[H]
 		\centering
@@ -1093,7 +1103,7 @@
 		\label{fig:properties}
 	\end{figure}
 	
-	Par ailleurs, comme montré dans la figure \ref{fig:ai-agent} nous avons configuré l'agent AI pour définir son rôle, et pour lui décrire précisément l'input de l'utilisateur et qu'on attend de l'agent.
+	Par ailleurs, comme montré dans la figure \ref{fig:ai-agent} nous avons configuré l'agent AI pour définir son rôle, et pour lui décrire précisément l'input de l'utilisateur et qu'on attend de l'agent (voir la page 45).
 	
 		\begin{figure}[H]
 		\centering
@@ -1108,9 +1118,9 @@
 	
 	\subsubsection{Conformité aux Normes RESTful et Bonnes Pratiques d'API}
 	
-	Notre projet respecte les principes fondamentaux d'une API RESTful. En effet L'endpoint \verb|/api/errors| suit une sémantique HTTP claire, la méthode POST est utilisée pour la création d'une ressource (analyse d'erreur), conformément aux verbes REST, et les réponses HTTP sont standardisées (200 pour le succès, 400/413/415/500 pour les erreurs métier), avec des codes de statut pertinents et des messages structurés dans le DTO \verb|AnalysisResult|. L'utilisation de \verb|@RestController| et de \\ \verb|MediaType.MULTIPART_FORM_DATA_VALUE| garantit une sérialisation/désérialisation transparente des données. \cite{rest}
+	Notre projet respecte les principes fondamentaux d'une API RESTful. En effet L'endpoint \verb|/api/errors| suit une sémantique HTTP claire, la méthode POST est utilisée pour la création d'une ressource (analyse d'erreur), conformément aux verbes REST, et les réponses HTTP sont standardisées (200 pour le succès, 400/413/415/500 pour les erreurs métier), avec des codes de statut pertinents et des messages structurés dans le DTO \verb|AnalysisResult|. L'utilisation de \verb|@RestController| et de \\ \verb|MediaType.MULTIPART_FORM_DATA_VALUE| garantit une sérialisation/désérialisation transparente des données. [4]
 	
-	De plus, l'API développée est documentée via Swagger/OpenAPI (à l'aide des annotations \verb|@Tag|, \verb|@Operation|),offrant une spécification interactive des endpoints, des schémas de requête/réponse, et des codes d'erreur. La gestion des données binaires (comme les captures d'écran via \verb|MultipartFile|) et leur validation rigoureuse (contrôle de la taille maximale et des types MIME autorisés) respectent les bonnes pratiques RESTful pour les formats de données complexes. \cite{swagger}
+	De plus, l'API développée est documentée via Swagger/OpenAPI (à l'aide des annotations \verb|@Tag|, \verb|@Operation|),offrant une spécification interactive des endpoints, des schémas de requête/réponse, et des codes d'erreur. La gestion des données binaires (comme les captures d'écran via \verb|MultipartFile|) et leur validation rigoureuse (contrôle de la taille maximale et des types MIME autorisés) respectent les bonnes pratiques RESTful pour les formats de données complexes. [5]
 	
 	\subsubsection{Création d'une page web pour effectuer des tests}
 	
@@ -1137,7 +1147,7 @@
 	
 	\subsubsection{Une analyse réussie}
 	
-	Nous avons soumis la capture d'écran dans la figure \ref{fig:simulation-erreur} à notre analyseur d'erreurs avec une petite description, ainsi que le chemin vers son code source (récupéré par RAG). Après une vingtaine de secondes, la réponse est affichée, comme illustré dans la figure \ref{fig:premier-test}.
+	Nous avons soumis la capture d'écran dans la figure \ref{fig:simulation-erreur} à notre analyseur d'erreurs avec une petite description, ainsi que le chemin vers son code source (récupéré par RAG). Après une vingtaine de secondes, la réponse est affichée, comme illustré dans la figure \ref{fig:premier-test} (voir la page 49).
 	
 	\begin{figure}[H]
 		\centering
@@ -1148,7 +1158,7 @@
 	
 	La réponse du système montre qu'il a correctement compris la requête, chargé la base de conaissances (code source), identifié l'erreur et sa cause, et proposé des correctifs. 
 	
-	Nous avons testé l'ensemble des endpoints de l'API avec succès via l'interface Swagger UI, qui a permis de simuler des requêtes HTTP dans différents scénarios d'utilisation. Les réponses retournées ont été systématiquement vérifiées en termes de structure, de code de statut, et de contenu. Par exemple, la figure \ref{fig:swagger-ui} illustre le cas d'une analyse réussie, avec un code d'état \verb|200|.
+	Nous avons testé l'ensemble des endpoints de l'API avec succès via l'interface Swagger UI, qui a permis de simuler des requêtes HTTP dans différents scénarios d'utilisation. Les réponses retournées ont été systématiquement vérifiées en termes de structure, de code de statut, et de contenu. Par exemple, la figure \ref{fig:swagger-ui} illustre le cas d'une analyse réussie, avec un code d'état \verb|200| (voir la page 51).
 	
 	\begin{figure}[H]
 		\centering
@@ -1250,35 +1260,6 @@
 		
 	\end{itemize}
 	
-	\section*{Evaluation des objectifs}
-	\addcontentsline{toc}{section}{Evaluation des objectifs}
-	
-	\subsection*{Méthodologie d'Évaluation}
-	\addcontentsline{toc}{subsection}{Méthodologie d'Évaluation}
-	
-	Pour mesurer l’efficacité du système, nous avons mené des tests sur un échantillon d'erreurs courantes (de types \verb|NullPointerException|, \verb|ArrayIndexOutOfBoundsException|, Memory Leaks, etc.), en comparant les résultats de l’outil avec ceux d’une analyse humaine. Les critères d’évaluation incluaient la précision de détection, la pertinence des correctifs, et le gain de temps.
-	
-	\subsection*{Résultats obtenus}
-	\addcontentsline{toc}{subsection}{Résultats obtenus}
-	
-	Après effectué les tests d'évaluation des objectifs sur un échantillon de 30 erreurs, les métriques obtenues sont :
-	
-	\begin{itemize}
-		
-		\item \textbf{Taux de détection : 78\%} (proche de l’objectif de 80\%).
-		
-		Cela s'explique par le fait que les erreurs complexes ou dépendantes du contexte métier ont réduit la précision. Notre système montre cependant des performances supérieures sur les erreurs syntaxiques et les crashes simples.
-		
-		\item \textbf{Correctifs pertinents : 65\%} (objectif de 70\% partiellement atteint).
-		
-		Les corrections nécessitant une refactorisation majeure ou une compréhension approfondie de l’architecture ne sont pas toujours proposées. L’outil excelle sur les correctifs localisés.
-		
-		\item \textbf{Gain de temps : 35\%} (objectif dépassé).
-		
-		L’automatisation réduit significativement le temps de diagnostic, surtout pour les erreurs récurrentes. Cependant, les cas complexes nécessitent toujours une intervention humaine.
-		
-	\end{itemize}
-	
 	\section*{Perspectives}
 	\addcontentsline{toc}{section}{Perspectives}
 	
@@ -1304,29 +1285,63 @@
 	
 	\clearpage
 	
-	\begin{thebibliography}{9}  % Le nombre '9' indique le nombre max de références
+	\begin{thebibliography}{9}
 		\addcontentsline{toc}{chapter}{Bibliographie}
 		
 		\bibitem{rag}
-		Lewis, P. et al., \emph{Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks}, arXiv, 2020. \\
+		Lewis, P. et al., \emph{Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks}, arXiv, 2020.\\
 		\url{https://arxiv.org/abs/2005.11401}
 		
-		\bibitem{ollama}
-		Ollama, \emph{Model Library}, 2023. \\
+	\end{thebibliography}
+	
+	% Webographie (sites, documentations en ligne)
+	\chapter*{Webographie}
+	\addcontentsline{toc}{chapter}{Webographie}
+	
+	\begin{enumerate}[label=\textbf{[\arabic*]}, start=2]
+		\item Ollama, \emph{Model Library}, 2023. \\
 		\url{https://ollama.ai/library}
 		
-		\bibitem{stream}
-		Oracle, \emph{Package java.util.stream}, 2021. \\
+		\item Oracle, \emph{Package java.util.stream}, 2021. \\
 		\url{https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/package-summary.html}
 		
-		\bibitem{rest}
-		Spring Team, \emph{Building REST Services with Spring}, 2023. \\
+		\item Spring Team, \emph{Building REST Services with Spring}, 2023. \\
 		\url{https://spring.io/guides/gs/rest-service/}
 		
-		\bibitem{swagger}
-		OpenAPI Initiative, \emph{OpenAPI Specification}, 2023. \\
+		\item OpenAPI Initiative, \emph{OpenAPI Specification}, 2023. \\
 		\url{https://swagger.io/specification/}
+	\end{enumerate}
+	
+	\chapter*{Annexes}
+	\addcontentsline{toc}{chapter}{Annexes}
+	
+	\section*{Evaluation des objectifs}
+	\addcontentsline{toc}{section}{Evaluation des objectifs}
+	
+	\subsection*{Méthodologie d'évaluation}
+	\addcontentsline{toc}{subsection}{Méthodologie d'évaluation}
+	
+	Pour mesurer l’efficacité du système, nous avons mené des tests sur un échantillon d'erreurs courantes (de types \verb|NullPointerException|, \verb|ArrayIndexOutOfBoundsException|, Memory Leaks, etc.), en comparant les résultats de l’outil avec ceux d’une analyse humaine. Les critères d’évaluation incluaient la précision de détection, la pertinence des correctifs, et le gain de temps.
+	
+	\subsection*{Résultats obtenus}
+	\addcontentsline{toc}{subsection}{Résultats obtenus}
+	
+	Après effectué les tests d'évaluation des objectifs sur un échantillon de 30 erreurs, les métriques obtenues sont :
+	
+	\begin{itemize}
 		
-	\end{thebibliography}
+		\item \textbf{Taux de détection : 78\%} (proche de l’objectif de 80\%).
+		
+		Cela s'explique par le fait que les erreurs complexes ou dépendantes du contexte métier ont réduit la précision. Notre système montre cependant des performances supérieures sur les erreurs syntaxiques et les crashes simples.
+		
+		\item \textbf{Correctifs pertinents : 65\%} (objectif de 70\% partiellement atteint).
+		
+		Les corrections nécessitant une refactorisation majeure ou une compréhension approfondie de l’architecture ne sont pas toujours proposées. L’outil excelle sur les correctifs localisés.
+		
+		\item \textbf{Gain de temps : 35\%} (objectif dépassé).
+		
+		L’automatisation réduit significativement le temps de diagnostic, surtout pour les erreurs récurrentes. Cependant, les cas complexes nécessitent toujours une intervention humaine.
+		
+	\end{itemize}
 	
 \end{document}

@@ -6,12 +6,12 @@
 \contentsline {figure}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }{\ignorespaces \textit {Diagramme décrivant le fonctionnement d'un RAG}}}{14}{figure.2.1}%
 \contentsline {figure}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }{\ignorespaces \textit {Diagramme de cas d'utilisation}}}{16}{figure.2.2}%
 \contentsline {figure}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un agent AI}}}{19}{figure.2.3}%
-\contentsline {figure}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un RAG}}}{19}{figure.2.4}%
+\contentsline {figure}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }{\ignorespaces \textit {Diagramme de séquences décrivant le fonctionnement d'un RAG}}}{20}{figure.2.4}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces \textit {Gestion de projet avec SCRUM}}}{23}{figure.3.1}%
 \contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces \textit {Diagramme d'architecture technique}}}{30}{figure.3.2}%
 \contentsline {figure}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }{\ignorespaces \textit {Implémentation sans utiliser Apache Commons}}}{32}{figure.3.3}%
-\contentsline {figure}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces \textit {Implémentation en utilisant Apache Commons}}}{32}{figure.3.4}%
+\contentsline {figure}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces \textit {Implémentation en utilisant Apache Commons}}}{33}{figure.3.4}%
 \contentsline {figure}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }{\ignorespaces \textit {Implémentation sans utiliser les Streams}}}{35}{figure.3.5}%
 \contentsline {figure}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }{\ignorespaces \textit {Implémentation en utilisant les Streams}}}{35}{figure.3.6}%
 \contentsline {figure}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }{\ignorespaces \textit {Exemple de code répétitif avant factorisation}}}{36}{figure.3.7}%
