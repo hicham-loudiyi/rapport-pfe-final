@@ -13,6 +13,8 @@
 \usepackage{float}
 \usepackage{makecell}
 \usepackage{enumitem}
+\usepackage{pgfplots} % Pour les graphiques
+\pgfplotsset{compat=1.18} % Version stable
 
 \usepackage{fancyhdr}
 \usepackage{etoolbox} % Pour les corrections profondes
@@ -1395,5 +1397,38 @@
 		\item \verb|LLaVA| fournit des réponses moins précises mais acceptables en temps réel.
 	\end{itemize}
 	
+	\subsection*{Visualisation des Performances}
+	
+	\begin{figure}[h]
+		\centering
+		\begin{tikzpicture}
+			\begin{axis}[
+				title={Latence des modèles},
+				ybar,
+				ymin=0,
+				ylabel={Temps (secondes)},
+				xlabel={Modèles},
+				symbolic x coords={LLaVA, Qwen2.5VL, BakLLaVA},
+				xtick=data,
+				nodes near coords,
+				bar width=0.5cm
+				]
+				\addplot coordinates {(LLaVA,5.4) (Qwen2.5VL,4.7) (BakLLaVA,6.2)};
+			\end{axis}
+		\end{tikzpicture}
+		\caption{\textit{Comparaison des temps de réponse moyens}}
+		\label{fig:latence}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{precision-modeles.png}
+		\caption{\textit{Précision des modèles testés}}
+		\label{fig:precision-modeles}
+	\end{figure}
+	
+	\subsection*{Discussion des résultats}
+	
+	L'analyse comparative révèle que \verb|qwen2.5vl| constitue le meilleur compromis pour les configurations matérielles limitées, combinant une latence réduite (4.7 s) et une précision satisfaisante (75 \%), notamment pour les erreurs Python. À l'inverse, \verb|BakLLaVA|, bien que proposant des résultats plus détaillés, s'avère trop gourmand en ressources (8.1 Go de RAM), le rendant peu adapté aux machines modestes. Ces conclusions doivent néanmoins être nuancées par la taille limitée du jeu de données (20 échantillons) – une validation sur un corpus plus large serait nécessaire pour consolider ces observations. En pratique, nous recommandons d'utiliser \verb|qwen2.5vl| comme modèle par défaut pour les analyses courantes, tandis que \verb|LLaVA|, moins précis mais plus rapide, pourrait être réservé aux tests ponctuels nécessitant un temps de réponse minimal.
 	
 \end{document}
