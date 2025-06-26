@@ -27,52 +27,48 @@
 \contentsline {section}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }Introduction}{9}{section.2.1}%
 \contentsline {section}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }Importance de l'analyse fonctionnelle}{9}{section.2.2}%
 \contentsline {section}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }Unified Modeling Language}{10}{section.2.3}%
-\contentsline {section}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }Diagramme de cas d'utilisation}{10}{section.2.4}%
-\contentsline {subsection}{\numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi }Acteurs}{10}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {\if@rl \I {2.4.2}\else \textLR {2.4.2}\fi }Diagramme de cas d'utilisation}{11}{subsection.2.4.2}%
-\contentsline {section}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }Diagrammes de séquences}{12}{section.2.5}%
-\contentsline {subsection}{\numberline {\if@rl \I {1.5.2}\else \textLR {2.5.1}\fi }Diagramme de séquences principal}{13}{subsection.2.5.1}%
-\contentsline {subsubsection}{Description textuelle}{14}{subsection.2.5.1}%
-\contentsline {subsubsection}{Diagramme de séquences}{16}{Item.20}%
-\contentsline {subsection}{\numberline {\if@rl \I {2.5.2}\else \textLR {2.5.2}\fi }Diagramme de séquences spécifique : RAG}{17}{subsection.2.5.2}%
-\contentsline {subsubsection}{Présentation des composants}{17}{subsection.2.5.2}%
-\contentsline {subsubsection}{Diagramme de séquences}{20}{figure.2.3}%
-\contentsline {section}{\numberline {\if@rl \I {6.2}\else \textLR {2.6}\fi }Conclusion}{21}{section.2.6}%
+\contentsline {section}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }Architecture hybride : LLM et RAG}{10}{section.2.4}%
+\contentsline {section}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }Diagramme de cas d'utilisation}{14}{section.2.5}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.5.2}\else \textLR {2.5.1}\fi }Acteurs}{15}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.5.2}\else \textLR {2.5.2}\fi }Notre diagramme de cas d'utilisations}{15}{subsection.2.5.2}%
+\contentsline {section}{\numberline {\if@rl \I {6.2}\else \textLR {2.6}\fi }Description textuelle}{16}{section.2.6}%
+\contentsline {section}{\numberline {\if@rl \I {7.2}\else \textLR {2.7}\fi }Diagrammes de séquences}{18}{section.2.7}%
+\contentsline {section}{\numberline {\if@rl \I {8.2}\else \textLR {2.8}\fi }Conclusion}{20}{section.2.8}%
 \select@language {french}
-\contentsline {chapter}{\numberline {3}\bgroup \beginL \latintext Réalisation\endL \egroup }{22}{chapter.3}%
-\contentsline {section}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }Introduction}{22}{section.3.1}%
-\contentsline {section}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }Méthode de gestion adoptée : SCRUM}{22}{section.3.2}%
-\contentsline {subsection}{\numberline {\if@rl \I {1.2.3}\else \textLR {3.2.1}\fi }Scrum à la théorie}{22}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.3}\else \textLR {3.2.2}\fi }Scrum à la pratique}{24}{subsection.3.2.2}%
-\contentsline {subsubsection}{Equipe du projet}{24}{subsection.3.2.2}%
-\contentsline {subsubsection}{Sprints du projet}{24}{table.3.1}%
-\contentsline {section}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }Stack technique}{25}{section.3.3}%
-\contentsline {subsection}{\numberline {\if@rl \I {1.3.3}\else \textLR {3.3.1}\fi }Langages}{25}{subsection.3.3.1}%
-\contentsline {subsubsection}{Java}{25}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {\if@rl \I {2.3.3}\else \textLR {3.3.2}\fi }Frameworks}{25}{subsection.3.3.2}%
-\contentsline {subsubsection}{Spring}{25}{subsection.3.3.2}%
-\contentsline {subsubsection}{Spring Boot}{25}{subsection.3.3.2}%
-\contentsline {subsubsection}{LangChain4j}{26}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {\if@rl \I {3.3.3}\else \textLR {3.3.3}\fi }Bibliothèques}{26}{subsection.3.3.3}%
-\contentsline {subsubsection}{Apache Commons}{26}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {\if@rl \I {4.3.3}\else \textLR {3.3.4}\fi }Systèmes de gestion de bases de données}{26}{subsection.3.3.4}%
-\contentsline {subsubsection}{PostgreSQL}{26}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {\if@rl \I {5.3.3}\else \textLR {3.3.5}\fi }Outils et environnement}{27}{subsection.3.3.5}%
-\contentsline {subsubsection}{Ollama}{27}{subsection.3.3.5}%
-\contentsline {subsubsection}{Maven}{27}{subsection.3.3.5}%
-\contentsline {subsubsection}{IntelliJ IDEA}{27}{subsection.3.3.5}%
-\contentsline {subsubsection}{Git}{27}{subsection.3.3.5}%
-\contentsline {section}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }Architecture technique du projet}{28}{section.3.4}%
+\contentsline {chapter}{\numberline {3}\bgroup \beginL \latintext Réalisation\endL \egroup }{21}{chapter.3}%
+\contentsline {section}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }Introduction}{21}{section.3.1}%
+\contentsline {section}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }Méthode de gestion adoptée : SCRUM}{21}{section.3.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.3}\else \textLR {3.2.1}\fi }Scrum à la théorie}{21}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.3}\else \textLR {3.2.2}\fi }Scrum à la pratique}{23}{subsection.3.2.2}%
+\contentsline {subsubsection}{Equipe du projet}{23}{subsection.3.2.2}%
+\contentsline {subsubsection}{Sprints du projet}{23}{table.3.1}%
+\contentsline {section}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }Stack technique}{24}{section.3.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.3.3}\else \textLR {3.3.1}\fi }Langages}{24}{subsection.3.3.1}%
+\contentsline {subsubsection}{Java}{24}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.3.3}\else \textLR {3.3.2}\fi }Frameworks}{24}{subsection.3.3.2}%
+\contentsline {subsubsection}{Spring}{24}{subsection.3.3.2}%
+\contentsline {subsubsection}{Spring Boot}{24}{subsection.3.3.2}%
+\contentsline {subsubsection}{LangChain4j}{25}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.3.3}\else \textLR {3.3.3}\fi }Bibliothèques}{25}{subsection.3.3.3}%
+\contentsline {subsubsection}{Apache Commons}{25}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.3.3}\else \textLR {3.3.4}\fi }Systèmes de gestion de bases de données}{25}{subsection.3.3.4}%
+\contentsline {subsubsection}{PostgreSQL}{25}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {\if@rl \I {5.3.3}\else \textLR {3.3.5}\fi }Outils et environnement}{26}{subsection.3.3.5}%
+\contentsline {subsubsection}{Ollama}{26}{subsection.3.3.5}%
+\contentsline {subsubsection}{Maven}{26}{subsection.3.3.5}%
+\contentsline {subsubsection}{IntelliJ IDEA}{26}{subsection.3.3.5}%
+\contentsline {subsubsection}{Git}{26}{subsection.3.3.5}%
+\contentsline {section}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }Architecture technique du projet}{27}{section.3.4}%
 \contentsline {section}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }Bonnes pratiques appliquées du développement Java}{31}{section.3.5}%
-\contentsline {subsection}{\numberline {\if@rl \I {1.5.3}\else \textLR {3.5.1}\fi }L'importance d'une nomenclature claire et cohérente}{32}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.5.3}\else \textLR {3.5.1}\fi }L'importance d'une nomenclature claire et cohérente}{31}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {\if@rl \I {2.5.3}\else \textLR {3.5.2}\fi }Utilisation de Bibliothèques Matures : Apache Commons}{32}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {\if@rl \I {3.5.3}\else \textLR {3.5.3}\fi }Approches de parcours de collections en Java}{33}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {\if@rl \I {4.5.3}\else \textLR {3.5.4}\fi }Importance de la factorisation du code}{37}{subsection.3.5.4}%
-\contentsline {subsection}{\numberline {\if@rl \I {5.5.3}\else \textLR {3.5.5}\fi }Utilisation d'une classe de configuration}{38}{subsection.3.5.5}%
-\contentsline {section}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }Captures d'écran}{40}{section.3.6}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.5.3}\else \textLR {3.5.4}\fi }Importance de la factorisation du code}{36}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {\if@rl \I {5.5.3}\else \textLR {3.5.5}\fi }Utilisation d'une classe de configuration}{37}{subsection.3.5.5}%
+\contentsline {section}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }Captures d'écran}{39}{section.3.6}%
 \contentsline {subsection}{\numberline {\if@rl \I {1.6.3}\else \textLR {3.6.1}\fi }Prototype exploratoire}{40}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {\if@rl \I {2.6.3}\else \textLR {3.6.2}\fi }Version livrable actuelle}{41}{subsection.3.6.2}%
-\contentsline {subsubsection}{Structure du projet Java}{41}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.6.3}\else \textLR {3.6.2}\fi }Version livrable actuelle}{40}{subsection.3.6.2}%
+\contentsline {subsubsection}{Structure du projet Java}{40}{subsection.3.6.2}%
 \contentsline {subsubsection}{Configuration des modèles et chargement des ressources pour le RAG}{43}{figure.3.12}%
 \contentsline {subsubsection}{Démarrage de l'Application Spring Boot}{45}{figure.3.14}%
 \contentsline {subsubsection}{Conformité aux Normes RESTful et Bonnes Pratiques d'API}{46}{figure.3.14}%
@@ -84,15 +80,15 @@
 \contentsline {subsubsection}{Prise en charge des vidéos}{53}{figure.3.20}%
 \contentsline {section}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }Conclusion}{54}{section.3.7}%
 \select@language {french}
-\contentsline {chapter}{\numberline {4}\bgroup \beginL \latintext Acquis du Projet de Fin d'Études\endL \egroup }{55}{chapter.4}%
-\contentsline {section}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }Volet technique}{55}{section.4.1}%
-\contentsline {section}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }Volet gestion de projet}{56}{section.4.2}%
+\contentsline {chapter}{\numberline {4}\bgroup \beginL \latintext Acquis du Projet de Fin d'Études\endL \egroup }{56}{chapter.4}%
+\contentsline {section}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }Volet technique}{56}{section.4.1}%
+\contentsline {section}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }Volet gestion de projet}{57}{section.4.2}%
 \select@language {french}
-\contentsline {chapter}{Conclusion générale}{57}{chapter*.10}%
-\contentsline {section}{Récapitulation les apports du travail}{57}{section*.11}%
-\contentsline {section}{Evaluation des objectifs}{58}{section*.11}%
-\contentsline {subsection}{Méthodologie d'Évaluation}{58}{section*.12}%
-\contentsline {subsection}{Résultats obtenus}{58}{section*.12}%
-\contentsline {section}{Perspectives}{59}{section*.12}%
+\contentsline {chapter}{Conclusion générale}{58}{chapter*.10}%
+\contentsline {section}{Récapitulation les apports du travail}{58}{section*.11}%
+\contentsline {section}{Evaluation des objectifs}{59}{section*.11}%
+\contentsline {subsection}{Méthodologie d'Évaluation}{59}{section*.12}%
+\contentsline {subsection}{Résultats obtenus}{59}{section*.12}%
+\contentsline {section}{Perspectives}{60}{section*.12}%
 \select@language {french}
-\contentsline {chapter}{Bibliographie}{60}{chapter*.13}%
+\contentsline {chapter}{Bibliographie}{61}{chapter*.13}%

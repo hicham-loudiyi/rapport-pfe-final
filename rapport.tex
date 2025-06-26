@@ -169,7 +169,7 @@
 	
 	Le stage réalisé s’inscrit dans cette dynamique et a pour principal objectif de confronter l’étudiant à des problématiques concrètes, tout en développant ses compétences techniques, organisationnelles et relationnelles. Plus spécifiquement, il s’est déroulé dans une entreprise spécialisée en solutions logicielles, fonctionnant selon la méthodologie Agile Scrum. Cette expérience a permis de s’initier aux pratiques de gestion de projet modernes, à travers des itérations, des revues régulières et une forte collaboration en équipe. La mission confiée s’articule autour du développement d’une application innovante intégrant des technologies émergentes telles que les modèles de langage (LLM) et la génération augmentée par récupération (RAG).
 	
-	Le présent rapport est structuré en plusieurs chapitres. Il commence par une présentation du contexte général du projet, suivie de la définition des besoins fonctionnels et techniques. Ensuite, les différentes étapes de conception et de développement sont détaillées, mettant en lumière les choix technologiques et architecturaux retenus. Enfin, une évaluation du travail réalisé est proposée, accompagnée d’une réflexion sur les compétences acquises et les perspectives d’amélioration.
+	Le présent rapport est structuré en plusieurs chapitres. Le premier chapitre présente le contexte général du projet la définition des besoins fonctionnels et techniques, le deuxième chapitre, couvre l'analyse fonctionnelle et la conception du projet, le troisième chapitre détaille la phase de réalisation, mettant en lumière les choix technologiques et architecturaux retenus, le quatrième chapitre met en lumière les compétences acquises du PFE, et finalement le cinquième chapitre conclut et cite les perspectives d'amélioration du projet.
 	
 	\chapter{Contexte du Projet}
 	
@@ -337,50 +337,16 @@
 	
 	Ainsi, UML constitue un outil précieux pour assurer la qualité, la cohérence et la pérennité d’un projet informatique, en apportant une vision globale et partagée du système.
 	
-	\section{Diagramme de cas d'utilisation}
+	\section{Architecture hybride : LLM et RAG}
 	
-	Un diagramme de cas d'utilisation est une représentation visuelle des interactions entre les acteurs (utilisateurs, systèmes) et les fonctionnalités d'une application. Il identifie les besoins métiers sous forme d'actions (cas d’utilisation) et montre qui fait quoi, sans entrer dans les détails techniques.
-	
-	\subsection{Acteurs}
-	
-	Dans un diagramme de cas d'utilisation, les acteurs sont les entités qui interagissent avec le système pour accomplir un objectif précis. D'une part, un acteur peut être primaire (s'il est déclencheur d'un cas d'utilisation) ou secondaire (intervient dans un cas d'utilisation mais ne le déclenche pas), d'une autre part, un acteur peut être humain ou bien un acteur système.
-	
-	Dans notre cas, trois types d'acteurs sont impliqués  :
+	Avant de présenter nos diagrammes de conception UML, il est nécessaire de définir leurs différents éléments composants. Voici une liste des éléments clés qui permettent au système de répondre aux besoins définies dans le chapitre précédent.
 	
 	\begin{itemize}
-		\item \textbf{Utilisateur} : peut être un développeur ou un testeur qui rapporte une erreur, et peut interagir via une API REST ou bien une interface web.
-		
-		\item \textbf{Administrateur du système} : responsable de la mise à jour des connaissances du système et de la configuration des modèles.
-		
-		\item \textbf{Système} : le moteur de traitement intelligent, responsable d'analyser les anomalies, et de proposer des correctifs appropriés.
-	\end{itemize}
-	
-	\subsection{Diagramme de cas d'utilisation}
-	
-	La figure \ref{fig:use-case} présente le diagramme de cas d'utilisation de notre application :
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics{use-case.drawio.png}
-		\caption{\textit{Diagramme de cas d'utilisation}}
-		\label{fig:use-case}
-	\end{figure}
-	
-	\section{Diagrammes de séquences}
-	
-	Un diagramme de séquences est un type de diagramme UML utilisé pour modéliser les interactions entre les différents objets ou composants d'un système dans un scénario précis, il met en évidence l'ordre chronologique des messages échangés entre les acteurs et les objets, les interactions dynamiques entre les éléments du système, et la durée de vie des objets participant au scénario.
-	
-	\subsection{Diagramme de séquences principal}
-	
-	Voici une présentation des éléments clés qui permettent au système de comprendre, contextualiser et répondre aux problèmes soumis par les utilisateurs :
-	
-	\begin{itemize}
-		
-		\item \textbf{Utilisateur} : Constitue le point de départ du système, ce composant représente l'acteur humain qui interagit avec l'application via une interface web ou des appels API, en soumettant des requêtes contenant des stacktraces d'erreur et éventuellement des captures d'écran.
 		
 		\item \textbf{LLM (Large Language Model)} : Est un modèle d'intelligence artificielle pré-entraîné sur des volumes massifs de données textuelles, capable de comprendre, générer et manipuler le langage naturel de manière contextuelle. Il est basé sur des architectures de réseaux de neurones (comme les transformers), et excelle dans des tâches variées (réponse aux questions, traduction, synthèse de texte, etc.) en prédisant des séquences linguistiques d'une manière probabiliste. Contrairement aux systèmes traditionnels, un LLM ne suit pas de règles prédéfinies, mais apprend des motifs linguistiques en se basant sur des modèles non-supervisés.
 		
-		\item \textbf{RAG (Retrieval-Augmented Generation)} : Est une technique post-entrainement qui nous permet d'adapter l'usage des LLMs à travers l'enrichissement des réponses en recherchant des documents pertinents dans une base de connaissances externe, et en générant des réponses contextualisées à partir de ces sources. \cite{rag} 
+		\item \textbf{RAG (Retrieval-Augmented Generation)} : Est une technique post-entrainement qui nous permet d'adapter l'usage des LLMs à travers l'enrichissement des réponses en recherchant des documents pertinents dans une base de connaissances externe, et en générant des réponses contextualisées à partir de ces sources. \cite{rag}
+		Le RAG est composé de plusieurs éléments et services - dont nous allons parler tout de suite - organisés pour réaliser son objectifs.
 		
 		\item \textbf{Agent AI} : Une entité qui peut plannifier, exécuter des tâches d'une manière agentique ; Il reçoit les requêtes brutes de l'utilisateur, les enrichit en combinant plusieurs techniques avancées comme le RAG et la mémoire conversationnelle, puis les présente au modèle de langage sous une forme optimale.
 		
@@ -416,7 +382,67 @@
 		
 	\end{itemize}
 	
-	\subsubsection{Description textuelle}
+	La liste ci-dessous met l'accent sur un élément particulier qui est le RAG, elle définie le rôle de chacun de ses composants :
+	
+	\begin{itemize}
+		
+		\item \textbf{Resource} : Constitue la matière première du système RAG. Il s'agit de la source originelle des données qui alimenteront la base de connaissances. Ces ressources peuvent prendre diverses formes : fichiers PDF contenant la documentation technique, pages web de référence, extraits de bases de données, ou tous autres supports contenant des informations pertinentes.
+		
+		\item \textbf{Tokenizer} : Joue un rôle fondamental dans le prétraitement du texte, il  décompose le contenu textuel en unités significatives appelées tokens, "un token peut correspondre à un mot entier, un sous-mot ou même un caractère individuel selon la méthode employée". Afin de rester dans les limites de longueur imposées par les modèles (souvent exprimées en nombre de tokens), le texte est ensuite segmenté en blocs appelés \textit{chunks}. Ces chunks sont de taille contrôlée (par exemple, 512 tokens), éventuellement avec un chevauchement partiel entre eux, pour ne pas perdre de contexte entre deux segments. Des algorithmes avancés comme ceux proposés par HuggingFace - une entreprise pionnière dans le domaine du traitement du langage naturel (NLP) et de l’intelligence artificielle - permettent une \textit{tokenisation} optimale qui préserve le sens tout en gérant les particularités linguistiques. La tokenisation joue un rôle cruciale car elle influe directement la qualité des embeddings générés ultérieurement.
+		
+		\item \textbf{DocumentParser} : Assure la transformation des ressources brutes en documents structurés, il comprend divers formats de fichiers (PDF, HTML, Markdown, etc.) et en extrait le contenu textuel significatif tout en conservant les métadonnées importantes. Des bibliothèques spécialisées comme sont souvent employées pour cette tâche complexe. Le DocumentParser nettoie également le texte en supprimant les éléments non pertinents (en-têtes, pieds de page, balises HTML) pour ne conserver que l'information essentielle.
+		
+		\item \textbf{Document} : Représente la forme normalisée et standardisée des informations après traitement. Chaque document contient non seulement le texte brut nettoyé, mais aussi des métadonnées descriptives (titre, auteur, date de création, source) qui faciliteront son identification et son utilisation ultérieure. Un identifiant unique est attribué à chaque document pour permettre son suivi tout au long du pipeline. Cette structuration rigoureuse est essentielle pour maintenir la cohérence des données dans les étapes suivantes du processus mené par le RAG.
+		
+		\item \textbf{EmbeddingModel} : Est au cœur de la transformation sémantique du système. Ce modèle sophistiqué convertit le texte en représentations vectorielles denses (embeddings) qui capturent le sens profond des contenus. Des modèles sont spécialisés dans cette tâche produisent des vecteurs où la similarité spatiale correspond à la similarité sémantique. La qualité de l'EmbeddingModel détermine directement la capacité du système à retrouver des documents pertinents pour une requête donnée.
+		
+		\item \textbf{EmbeddingStoreIngestor} : Orchestre le processus complet d'indexation des documents, il supervise plusieurs opérations critiques : il applique la tokenisation et la segmentation des textes, déclenche la génération des embeddings via l'EmbeddingModel, et gère le stockage final dans l'EmbeddingStore. \\ L'EmbeddingStoreIngestor implémente souvent des stratégies de traitement par lots pour optimiser les performances et peut gérer des pipelines complexes de prétraitement avant la vectorisation.
+		
+		\item \textbf{EmbeddingStore} : Sert de mémoire à long terme au système RAG, cette base de données vectorielle spécialisée stocke les embeddings générés et permet des recherches rapides de similarité. L'EmbeddingStore supporte des opérations massives d'insertion tout en maintenant des temps de réponse faibles pour les requêtes.
+		
+		\item \textbf{Retriever} : Est le composant qui établit le pont entre les questions des utilisateurs et la base de connaissances. Lors d'une requête, le Retriever sollicite de l'EmbeddingModel la transformation des questions des utilisateurs en embeddings, puis recherche dans l'EmbeddingStore les documents dont les vecteurs sont les plus proches. Ce composant implémente des algorithmes de similarité vectorielle (cosine similarity par exemple) et peut être finement paramétré (nombre de résultats retournés, seuil de similarité minimal). Le Retriever joue ainsi un rôle déterminant dans la pertinence des requêtes fournis au LLM.
+		
+	\end{itemize}
+	
+	Le diagramme montré dans la figure \ref{fig:diagramme-rag} synthétise d'une manière visuelle ces interactions.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{diagramme-rag.png}
+		\caption{\textit{Diagramme décrivant le fonctionnement d'un RAG}}
+		\label{fig:diagramme-rag}
+	\end{figure}
+	
+	\section{Diagramme de cas d'utilisation}
+	
+	Un diagramme de cas d'utilisation est une représentation visuelle des interactions entre les acteurs (utilisateurs, systèmes) et les fonctionnalités d'une application. Il identifie les besoins métiers sous forme d'actions (cas d’utilisation) et montre qui fait quoi, sans entrer dans les détails techniques.
+	
+	\subsection{Acteurs}
+	
+	Dans un diagramme de cas d'utilisation, les acteurs sont les entités qui interagissent avec le système pour accomplir un objectif précis. D'une part, un acteur peut être primaire (s'il est déclencheur d'un cas d'utilisation) ou secondaire (intervient dans un cas d'utilisation mais ne le déclenche pas), d'une autre part, un acteur peut être humain ou bien un acteur système.
+	
+	Dans notre cas, trois types d'acteurs sont impliqués  :
+	
+	\begin{itemize}
+		\item \textbf{Utilisateur} : peut être un développeur ou un testeur qui rapporte une erreur, et peut interagir via une API REST ou bien une interface web.
+		
+		\item \textbf{Administrateur du système} : responsable de la mise à jour des connaissances du système et de la configuration des modèles.
+		
+		\item \textbf{Système} : le moteur de traitement intelligent, responsable d'analyser les anomalies, et de proposer des correctifs appropriés.
+	\end{itemize}
+	
+	\subsection{Notre diagramme de cas d'utilisations}
+	
+	La figure \ref{fig:use-case} présente le diagramme de cas d'utilisation de notre application :
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics{use-case.drawio.png}
+		\caption{\textit{Diagramme de cas d'utilisation}}
+		\label{fig:use-case}
+	\end{figure}
+	
+	\section{Description textuelle}
 	
 	La description du déroulement et les préconditions des actions pour chaque cas d'utilisation est une étape méticuleuse qui nécessite une grande réflexion. Nous commençons souvent par une première description basée sur les informations que nous obtenons.
 	Généralement, une description textuelle comporte l'acteur principal (entité initiatrice), l'objectif (finalité métier), et les préconditions (conditions préalables de déclenchement). Le déroulement est ensuite décrit à travers deux scénarios complémentaires : le scénario nominal, qui présente la séquence optimale d'actions aboutissant au résultat attendu, et les scénarios alternatifs, qui couvrent les exceptions et parcours d'erreur.
@@ -508,57 +534,18 @@
 		\end{itemize}
 	\end{description}
 	
-	\subsubsection{Diagramme de séquences}
+	\section{Diagrammes de séquences}
 	
-	La figure \ref{fig:ds-ai-agent.drawio} présente le diagramme de séquences.
+	Un diagramme de séquences est un type de diagramme UML utilisé pour modéliser les interactions entre les différents objets ou composants d'un système dans un scénario précis, il met en évidence l'ordre chronologique des messages échangés entre les acteurs et les objets, les interactions dynamiques entre les éléments du système, et la durée de vie des objets participant au scénario.
+	
+	Vu la complexité du système, et pour plus de visibilité, Nous avons élaboré deux diagrammes de séquences, un premier diagramme de séquences illustré dans la figure \ref{fig:ds-ai-agent} décrivant les interactions entre les entités générales, et un deuxième diagramme de séquences montré dans la figure \ref{fig:ds-rag.drawio} concentré sur les interactions au sein du RAG.
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=1\textwidth]{ds-ai-agent.drawio.png}
 		\caption{\textit{Diagramme de séquences décrivant le fonctionnement d'un agent AI}}
-		\label{fig:ds-ai-agent.drawio}
+		\label{fig:ds-ai-agent}
 	\end{figure}
-	
-	\subsection{Diagramme de séquences spécifique : RAG}
-	
-	Pour avoir une compréhension plus profonde du fonctionnement de notre système, nous allons creuser un peu dans les composants du RAG.
-	
-	\subsubsection{Présentation des composants}
-	
-	Voici une énumération des composants du RAG avec chacun sa définition et ses rôles :
-	
-	\begin{itemize}
-		
-		\item \textbf{Resource} : Constitue la matière première du système RAG. Il s'agit de la source originelle des données qui alimenteront la base de connaissances. Ces ressources peuvent prendre diverses formes : fichiers PDF contenant la documentation technique, pages web de référence, extraits de bases de données, ou tous autres supports contenant des informations pertinentes.
-		
-		\item \textbf{Tokenizer} : Joue un rôle fondamental dans le prétraitement du texte, il  décompose le contenu textuel en unités significatives appelées tokens, "un token peut correspondre à un mot entier, un sous-mot ou même un caractère individuel selon la méthode employée". Afin de rester dans les limites de longueur imposées par les modèles (souvent exprimées en nombre de tokens), le texte est ensuite segmenté en blocs appelés \textit{chunks}. Ces chunks sont de taille contrôlée (par exemple, 512 tokens), éventuellement avec un chevauchement partiel entre eux, pour ne pas perdre de contexte entre deux segments. Des algorithmes avancés comme ceux proposés par HuggingFace - une entreprise pionnière dans le domaine du traitement du langage naturel (NLP) et de l’intelligence artificielle - permettent une \textit{tokenisation} optimale qui préserve le sens tout en gérant les particularités linguistiques. La tokenisation joue un rôle cruciale car elle influe directement la qualité des embeddings générés ultérieurement.
-		
-		\item \textbf{DocumentParser} : Assure la transformation des ressources brutes en documents structurés, il comprend divers formats de fichiers (PDF, HTML, Markdown, etc.) et en extrait le contenu textuel significatif tout en conservant les métadonnées importantes. Des bibliothèques spécialisées comme sont souvent employées pour cette tâche complexe. Le DocumentParser nettoie également le texte en supprimant les éléments non pertinents (en-têtes, pieds de page, balises HTML) pour ne conserver que l'information essentielle.
-		
-		\item \textbf{Document} : Représente la forme normalisée et standardisée des informations après traitement. Chaque document contient non seulement le texte brut nettoyé, mais aussi des métadonnées descriptives (titre, auteur, date de création, source) qui faciliteront son identification et son utilisation ultérieure. Un identifiant unique est attribué à chaque document pour permettre son suivi tout au long du pipeline. Cette structuration rigoureuse est essentielle pour maintenir la cohérence des données dans les étapes suivantes du processus mené par le RAG.
-		
-		\item \textbf{EmbeddingModel} : Est au cœur de la transformation sémantique du système. Ce modèle sophistiqué convertit le texte en représentations vectorielles denses (embeddings) qui capturent le sens profond des contenus. Des modèles sont spécialisés dans cette tâche produisent des vecteurs où la similarité spatiale correspond à la similarité sémantique. La qualité de l'EmbeddingModel détermine directement la capacité du système à retrouver des documents pertinents pour une requête donnée.
-		
-		\item \textbf{EmbeddingStoreIngestor} : Orchestre le processus complet d'indexation des documents, il supervise plusieurs opérations critiques : il applique la tokenisation et la segmentation des textes, déclenche la génération des embeddings via l'EmbeddingModel, et gère le stockage final dans l'EmbeddingStore. \\ L'EmbeddingStoreIngestor implémente souvent des stratégies de traitement par lots pour optimiser les performances et peut gérer des pipelines complexes de prétraitement avant la vectorisation.
-		
-		\item \textbf{EmbeddingStore} : Sert de mémoire à long terme au système RAG, cette base de données vectorielle spécialisée stocke les embeddings générés et permet des recherches rapides de similarité. L'EmbeddingStore supporte des opérations massives d'insertion tout en maintenant des temps de réponse faibles pour les requêtes.
-		
-		\item \textbf{Retriever} : Est le composant qui établit le pont entre les questions des utilisateurs et la base de connaissances. Lors d'une requête, le Retriever sollicite de l'EmbeddingModel la transformation des questions des utilisateurs en embeddings, puis recherche dans l'EmbeddingStore les documents dont les vecteurs sont les plus proches. Ce composant implémente des algorithmes de similarité vectorielle (cosine similarity par exemple) et peut être finement paramétré (nombre de résultats retournés, seuil de similarité minimal). Le Retriever joue ainsi un rôle déterminant dans la pertinence des requêtes fournis au LLM.
-		
-	\end{itemize}
-	
-	Le diagramme présent dans la figure \ref{fig:diagramme-rag} explique d'une manière visuelle ces interactions.
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=1\textwidth]{diagramme-rag.png}
-		\caption{\textit{Diagramme décrivant le fonctionnement d'un RAG}}
-		\label{fig:diagramme-rag}
-	\end{figure}
-	
-	\subsubsection{Diagramme de séquences}
-	
-	Le diagramme de séquences dans la figure \ref{fig:ds-rag.drawio} détaille ce processus.
 	
 	\begin{figure}[H]
 		\centering
@@ -873,8 +860,6 @@
 		
 	\end{itemize}
 	
-	La figure \ref{fig:illustration-graphique} illustre de manière synthétique les interactions entre les principaux composants techniques de l’architecture mise en place dans le cadre de ce projet.
-	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=1\textwidth]{illustration-graphique.drawio.png}
@@ -882,23 +867,23 @@
 		\label{fig:illustration-graphique}
 	\end{figure}
 	
+	La figure \ref{fig:illustration-graphique} illustre de manière synthétique les interactions entre les principaux composants techniques de l’architecture mise en place dans le cadre de ce projet. L'enchainement commence par la soumission d'une requête par un utilisateur, le backend Spring Boot reçois cette requête et la délègue au framework LangChain4j, ce dernier sollicite du RAG - qui aura déjà chargé sa base de connaissances dans une base de données vectorielle - des données en relation avec la requête, puis encapsule ces données avec la requête et l'historique de conversation pour envoyer cet ensemble à Ollama, qui à son tour communique avec le LLM et reçoit une réponse, qui finit par arriver à l'utilisateur.
+	
 	\section{Bonnes pratiques appliquées du développement Java}
 	
-	Dans le développement logiciel, l'adoption de bonnes pratiques de codage est essentielle pour garantir la robustesse, la maintenabilité et l'évolutivité des applications. Un code bien structuré, avec une logique claire et une réduction des redondances, facilite non seulement les futures modifications, mais améliore aussi la collaboration entre développeurs. Cette section aborde des principes clés pour optimiser l'écriture du code, en mettant l'accent sur des méthodes qui en améliorent la qualité tout en réduisant les risques d'erreurs.
+	Dans le développement logiciel, l'adoption de bonnes pratiques de codage est essentielle pour garantir la robustesse, la maintenabilité et l'évolutivité des applications. Un code bien structuré, avec une logique claire et une réduction des redondances, facilite non seulement les futures modifications, mais améliore aussi la collaboration entre développeurs. Cette section aborde des principes clés que nous avons suivis pour optimiser l'écriture du code, en mettant l'accent sur les méthodes que nous avons appliquées pour améliorer la qualité tout en réduisant les risques d'erreurs.
 	
 	\subsection{L'importance d'une nomenclature claire et cohérente}
 	
-	Une nomination précise des classes et méthodes est essentielle pour garantir la maintenabilité et la lisibilité du code. Dans ce projet, des noms bien choisis permettent de comprendre immédiatement le rôle de chaque composant sans avoir à explorer son implémentation.
+	Une nomination précise des classes et méthodes est essentielle pour garantir la maintenabilité et la lisibilité du code. Dans notre projet, nous avons porté une attention particulière aux noms de classes, d'attributs et de méthodes, afin de permettre à un lecteur de code de comprendre immédiatement le rôle de chaque composant sans avoir à explorer son implémentation.
 	
-	Par exemple, la classe \verb|ErrorAnalysisService| indique clairement qu'elle orchestre la logique métier de l'analyse d'erreurs, tandis que \verb|FileValidator| évoque sans ambiguïté sa responsabilité : valider les fichiers entrants. De même, les méthodes comme \verb|extractKeyFrames()| (dans \verb|VideoProcessor|) ou \verb|analyzeErrorWithRag()| (dans \\ \verb|ErrorAnalysisAgent|) décrivent explicitement leurs actions et leurs spécificités techniques (ici, l'utilisation de RAG). À l'inverse, des noms vagues comme \verb|process()| ou \verb|handle()| auraient rendu le code obscur, obligeant les développeurs à parcourir le code source pour en comprendre la finalité. Cette rigueur lexicale facilite aussi la collaboration entre équipes et réduit les risques d'erreurs lors des évolutions futures. En résumé, un bon nommage agit comme une documentation intrinsèque, reflétant directement l’intention de conception et les principes métiers sous-jacents.
-	
-	
+	Citons quelques exemples concrets dans notre projet, la classe \verb|ErrorAnalysisService| indique clairement qu'elle orchestre la logique métier de l'analyse d'erreurs, tandis que \verb|FileValidator| évoque sans ambiguïté sa responsabilité : valider les fichiers entrants. De même, les méthodes comme \verb|extractKeyFrames()| (dans \verb|VideoProcessor|) ou \verb|analyzeErrorWithRag()| (dans \\ \verb|ErrorAnalysisAgent|) décrivent explicitement leurs actions et leurs spécificités techniques. À l'inverse, des noms vagues comme \verb|process()| ou \verb|handle()| auraient rendu le code obscur, obligeant les développeurs à parcourir le code source pour en comprendre la finalité. Par cette rigueur lexicale nous avons facilité aussi la collaboration entre équipes en réduisant les risques d'erreurs lors des évolutions futures. En résumé, un bon nommage agit comme une documentation intrinsèque, reflétant directement l’intention de conception et les principes métiers sous-jacents.
 	
 	\subsection{Utilisation de Bibliothèques Matures : Apache Commons}
 	
-	Plutôt que de réinventer la roue, il est recommandé d’utiliser des bibliothèques robustes comme Apache Commons, qui fournit des utilitaires optimisés pour plusieurs opérations telles que la manipulation de collections, les opérations sur les chaînes, et les validations.
+	Plutôt que de réinventer la roue, nous avons utilisé des bibliothèques robustes comme Apache Commons, qui fournit des utilitaires optimisés pour plusieurs opérations telles que la manipulation de collections, les opérations sur les chaînes, et les validations.
 	
-	Pour mettre en lumière les utilisations de ces utilitaires dans notre projet, prenons par exemple la méthode \verb|estimateTokenCountInText(String text)| de la classe \verb|TokenizerMyAppImpl|, dont la figure \ref{fig:before-string-utils} montre une implémentation classique.
+	Pour mettre en lumière les utilisations de ces utilitaires dans notre projet, prenons par exemple la méthode \verb|estimateTokenCountInText(String text)| de la classe \verb|TokenizerMyAppImpl|, dont la figure \ref{fig:before-string-utils} montre une implémentation classique, utilisant l'instruction de branchement conditionnel \verb|if| couplée aux opérateurs logiques.
 	
 	\begin{figure}[H]
 		\centering
@@ -926,25 +911,19 @@
 	
 	\begin{itemize}
 		
-		\item \textbf{La boucle for traditionnelle} : Approche historique de Java, elle se base sur un index numérique. Bien que simple conceptuellement, elle montre plusieurs limitations : une syntaxe verbeuse nécessitant la déclaration d'un compteur, un risque d'erreurs d'indice (\verb|IndexOutOfBoundsException|), une inadaptation aux structures non indexées comme les Set, et une difficulté à maintenir pour des traitements complexes.
+		\item \textbf{La boucle for traditionnelle} : Parcours indexé idéal pour les listes et tableaux, offrant un contrôle précis des positions mais inadapté aux collections non ordonnées comme les \verb|Set|.
 		
-		\item \textbf{La boucle for-each} : Introduite dans Java 5, elle simplifie le parcours, en offrant une syntaxe plus concise et plus lisible, et en éliminant le risque d'erreurs d'indice, cependant elle ne permet pas de modification concurrente, en plus d'être limitée à un parcours séquentiel simple.
+		\item \textbf{La boucle for-each} : Introduite dans Java 5, c'est une syntaxe simplifiée pour itérer sur tous les éléments d'une collection, évitant les erreurs d'index mais interdisant les modifications pendant le parcours.
 		
-		\item \textbf{L'Iterator} : Fournit un contrôle fin sur le parcours, en effet, il permet la suppression d'éléments (méthode \verb|remove()|), et fournit une interface standardisée pour toutes les collections. Par contre, il requiert une gestion manuelle fastidieuse, et le code produit est peu lisible pour des opérations complexes.
+		\item \textbf{L'Iterator} : Permet un parcours séquentiel avec suppression sécurisée via \verb|remove()|, compatible avec toutes les collections mais plus verbeux à écrire.
 		
-		\item \textbf{Les Streams (approche retenue)} :  Les Streams sont une abstraction introduite avec Java 8 qui permettent de traiter des collections de données de façon fonctionnelle, fluide et lisible. Un Stream représente une séquence d’éléments que l’on peut traiter (filtrer, transformer, agréger, etc.) sans modifier la source d’origine (par exemple, une List ou un Set). Cette approche moderne présente des avantages déterminants : une syntaxe déclarative exprimant l'intention métier, un chaînage des opérations, une possibilité de parallélisation transparente, et une meilleure maintenabilité du code. \cite{stream}
+		\item \textbf{Les Streams} : Approche déclarative exploitant des opérations fonctionnelles (filtrage, mapping) pour un code lisible et chainable, optimisé pour les traitements de données. \cite{stream}
 		
-		\item \textbf{ParallelStream} : Extension des Streams standard introduite avec Java 8, elle permet un traitement parallèle automatisé des collections en tirant parti des architectures multi-cœurs. Contrairement aux Streams séquentiels, ParallelStream partitionne les données en sous-ensembles traités simultanément par différents threads (via le Fork/Join Pool). Ses avantages incluent une accélération des traitements pour les opérations CPU-intensives tels que les traitements de gros volumes de données, une syntaxe identique aux Streams, et une abstraction de la complexité, en effet la gestion du multithreading est effectuée sans manipulation manuelle de threads.
-		%\begin{verbatim}
-		%	list.parallelStream()
-		%	.filter(item -> item.isValid())
-		%	.mapToInt(Item::getValue)
-		%	.sum();
-		%\end{verbatim}
+		\item \textbf{ParallelStream} : Version parallélisée des Stream utilisant plusieurs cœurs CPU pour accélérer le traitement des gros volumes de données, au prix d'une complexité accrue en synchronisation.
 		
 	\end{itemize}
 	
-	Le tableau \ref{tab:parcours_collections} expose une comparaison entre ces approches selon différents critères.
+	Pour faire le bon choix, le tableau \ref{tab:parcours_collections} donne une comparaison entre ces approches selon différents critères.
 	
 	\begin{table}[H]
 		\centering
@@ -991,7 +970,7 @@
 		}
 	\end{table}
 	
-	Prenons un exemple de notre projet, la méthode \\ \verb|estimateTokenCountInTools(Iterable<Object> objectsWithTools)| de la classe \\ \verb|TokenizerMyAppImpl| a été implémentée dans un premier temps en utilisant une boucle \verb|foreach|, comme le montre la figure \ref{fig:before-stream}.
+	Prenons un exemple de notre projet, dans une implémentation de l'interface \verb|Tokenizer| fournie par LangChain4j, la méthode \\ \verb|estimateTokenCountInTools(Iterable<Object> objectsWithTools)| a été implémentée dans un premier temps en utilisant une boucle \verb|foreach|, comme le montre la figure \ref{fig:before-stream}.
 	
 	\begin{figure}[H]
 		\centering
@@ -1009,13 +988,15 @@
 		\label{fig:after-stream}
 	\end{figure}
 	
-	Cette implémentation, offrant une gestion robuste des null avec \verb|IterableUtils.emptyIfNull()|, convertit l'Iterable en Stream parallélisable avec \verb|StreamSupport.stream(..., true)|, ce qui permet un traitement réparti sur plusieurs cœurs CPU si la collection est grande, et une optimisation automatique pour les gros volumes de données, et finalement effectue un chaînage clair des opérations en appliquant les méthodes \verb|mapToInt(...)| et \verb|sum()|.
+	Cette implémentation, offrant une gestion robuste des null avec \\ \verb|IterableUtils.emptyIfNull()|, convertit l'Iterable en Stream parallélisable avec \\ \verb|StreamSupport.stream(..., true)|, ce qui permet un traitement réparti sur plusieurs cœurs CPU si la collection est grande, et une optimisation automatique pour les grands volumes de données, et finalement effectue un chaînage clair des opérations en appliquant les méthodes \verb|mapToInt(...)| et \verb|sum()|.
+	
+	Nous pouvons très bien basculer ultérieurement vers l'utilisation des ParallelStream, si l'application a besoin de gérer une quantité massive de données.
 	
 	\subsection{Importance de la factorisation du code}
 	
-	La factorisation du code consiste à regrouper dans des méthodes ou classes dédiées les portions de logique qui se répètent à plusieurs endroits du programme. Cette pratique s'inscrit dans les bonnes pratiques du développement logiciel, notamment le principe \textit{DRY} (\textit{Don't Repeat Yourself}), qui préconise d'éviter les duplications de code.
+	La factorisation du code consiste à regrouper dans des méthodes ou classes dédiées les portions de logique qui se répètent à plusieurs endroits du programme. Nous avons adopté cette pratique qui s'inscrit dans les bonnes pratiques du développement logiciel, notamment le principe \textit{DRY} (\textit{Don't Repeat Yourself}), qui préconise d'éviter les duplications de code.
 	
-	Factoriser améliore la lisibilité, la maintenabilité, et réduit les risques d'erreurs en centralisant les modifications à un seul endroit. Cela permet également de clarifier les responsabilités des différentes classes, en accord avec le principe de responsabilité unique \textit{SRP} (\textit{Single Responsibility Principle}) du modèle SOLID.
+	En factorisant, nous avons amélioré la lisibilité, la maintenabilité, et nous avons réduit les risques d'erreurs en centralisant les modifications à un seul endroit. Cela nous a permis également de clarifier les responsabilités des différentes classes, en accord avec le principe de responsabilité unique \textit{SRP} (\textit{Single Responsibility Principle}) du modèle SOLID.
 	
 	La figure \ref{fig:before-factorisation} montre une portion de code répétée avant factorisation.
 	
@@ -1041,9 +1022,7 @@
 	
 	\subsection{Utilisation d'une classe de configuration}
 	
-	L’intégration d’une classe de configuration dans ce projet est cruciale pour standardiser et optimiser la gestion des paramètres techniques et métiers. Par exemple, des valeurs comme le nom du modèle de language, sa température, le maximum de messages du ChatMemory, des paramètres du Retriever, la taille maximale des images uploadées et bien d'autres, ont été externalisées dans une classe dédiée que nous avons nommée \verb|ConfigurationPropertyValue| et injectées - soit depuis un fichier de configuration comme \verb|application.properties|, ou bien depuis une base de données - via l'annotation \verb|@Value|. De plus, cette dernière offre la possibilité de définir des valeurs par défaut en cas d'absence de valeurs à injecter.
-	
-	La figure \ref{fig:configuration-property-value} montre un morceau de la classe \verb|ConfigurationPropertyValue|.
+	Pour standardiser et optimiser la gestion des paramètres techniques et métiers, nous avons intégré une classe de configuration nommée \verb|ConfigurationPropertyValue| dans notre projet, comme le montre la figure \ref{fig:configuration-property-value}. Dans cette classe nous avons externalisé des valeurs de configuration comme le nom du modèle de language, sa température, le maximum de messages du ChatMemory, des paramètres du Retriever, la taille maximale des images uploadées et bien d'autres. Nous avons injecté ces valeurs dans la classe - via l'annotation \verb|@Value| - dans un premier temps depuis le fichier de configuration \verb|application.properties|, et nous avons basculé ensuite vers une base de données. L'annotation \verb|@Value| offre la possibilité de définir des valeurs par défaut en cas d'absence de valeurs à injecter.
 	
 	\begin{figure}[H]
 		\centering
@@ -1065,13 +1044,15 @@
 	
 	\section{Captures d'écran}
 	
+	Pour atteindre nos objectifs ambitieux, nous avons suivi une approche incrémentielle. Dans un premier temps, nous avons réalisé un prototype fonctionnel afin de valider les fondements techniques du projet, de comprendre le fonctionnement du framework LangChain4j, de tester l’intégration avec Ollama, et de valider le concept de récupération de contexte à partir de documents externes.
 	
+	Ensuite, Nous avons procédé au développement du projet final, en orientant le premier prototype vers l'analyse et la correction des erreurs et anomalies logicielles, et en le dotant d'une dimension multimodale.
 	
 	\subsection{Prototype exploratoire}
 	
-	Pour atteindre nos objectifs ambitieux, nous avons suivi une approche incrémentielle. Dans un premier temps, un prototype fonctionnel a été réalisé afin de valider les fondements techniques du projet. En réalisant ce prototype basé sur un agent intelligent exploitant une architecture RAG unimodale, capable de répondre aux questions de l’utilisateur à partir d’un document texte ou PDF fourni, nous avons pu comprendre le fonctionnement du framework LangChain4j, tester l’intégration avec Ollama, et de valider le concept de récupération de contexte à partir de documents externes.
+	Le premier prototype est basé sur un agent intelligent exploitant une architecture RAG unimodale, capable de répondre aux questions de l’utilisateur à partir d’un document texte ou PDF fourni.
 	
-	Pour tester ce prototype, nous avons fourni un fichier PDF, son contenu est une lettre de recommandation pour une étudiante appelée Nour, nous avons ensuite posé une question à propos de cette étudiante à l'agent AI, en utilisant un contrôleur web. La figure \ref{fig:test-rag} montre le résultat obtenu.
+	Pour tester ce prototype, nous avons fourni à l'application le chemin d'un fichier PDF, dont le contenu est une lettre de recommandation pour une étudiante appelée Nour, nous avons ensuite posé une question à propos de cette étudiante à l'agent AI, en utilisant un contrôleur web. La figure \ref{fig:test-rag} montre le résultat obtenu.
 	
 	\begin{figure}[H]
 		\centering
@@ -1080,15 +1061,13 @@
 		\label{fig:test-rag}
 	\end{figure}
 	
-	Le modèle choisi pour tester ce prototype est Llama3, le prototype à réussi à répondre correctement à la question posée.
+	Le modèle de language que nous avons choisi pour tester ce prototype est Llama3, le prototype à réussi à répondre correctement à la question posée.
 	
 	\subsection{Version livrable actuelle}
 	
 	\subsubsection{Structure du projet Java}
 	
-	Une bonne structuration d’un projet logiciel constitue un fondement essentiel pour assurer sa lisibilité, sa maintenabilité et son évolutivité. Dans notre cas, le projet respecte les conventions standard de l’écosystème Java et de l’architecture Spring Boot. L’arborescence suit une séparation claire entre les différentes couches de l’application, notamment les agents (\verb|agents|), la configuration (\verb|config|), les objets de transfert de données (\verb|dto|), les exceptions personnalisées (\verb|exceptions|), les services métier (\verb|service|) et la couche de présentation via les contrôleurs web (\verb|web|). Cette organisation modulaire favorise l'encapsulation des responsabilités, en conformité avec les principes SOLID, et facilite les tests unitaires ainsi que l’intégration continue. Par ailleurs, l’intégration des ressources statiques et de configuration dans les répertoires \verb|resources|/\verb|static| et \verb|application.properties| respecte les conventions de Spring Boot, permettant un déploiement harmonisé.
-	
-	La capture d'écran dans la figure \ref{fig:structure-projet} illustre la structure de notre projet Java.
+	Une bonne structuration d’un projet logiciel constitue un fondement essentiel pour assurer sa lisibilité, sa maintenabilité et son évolutivité. Dans notre cas, le projet respecte les conventions standard de l’écosystème Java et de l’architecture Spring Boot. L’arborescence capturée dans la figure \ref{fig:structure-projet} suit une séparation claire entre les différentes couches de l’application, notamment les agents (\verb|agents|), la configuration (\verb|config|), les objets de transfert de données (\verb|dto|), les exceptions personnalisées (\verb|exceptions|), les services métier (\verb|service|) et la couche de présentation via les contrôleurs web (\verb|web|). Par cette organisation modulaire, nous avons favorisé l'encapsulation des responsabilités, en conformité avec les principes SOLID, et facilité les tests unitaires ainsi que l’intégration continue. Par ailleurs, l’intégration des ressources statiques et de configuration dans les répertoires \verb|resources|/\verb|static| et \verb|application.properties| respecte les conventions de Spring Boot, permettant un déploiement harmonisé.
 	
 	\begin{figure}[H]
 		\centering
@@ -1099,30 +1078,30 @@
 	
 	\subsubsection{Configuration des modèles et chargement des ressources pour le RAG}
 	
-	Afin de permettre à notre application de traiter des entrées de nature hétérogène (texte et image), le recours à un modèle de langage multimodal s’est révélé indispensable. À cet effet, le modèle \verb|Qwen2.5vl:7b| a été choisi pour ses capacités avancées d’analyse conjointe du contenu textuel et visuel.
+	Afin de permettre à notre application de traiter des entrées de nature hétérogène (texte, image, vidéo), le recours à un modèle de langage multimodal s’est révélé indispensable. À cet effet, nous avons choisi le modèle \verb|Qwen2.5vl:7b| pour ses capacités avancées d’analyse conjointe du contenu textuel et visuel.
 	
-	Plusieurs autres paramètres ont été configurées, telles que les paramètres relatifs au LLM, au modèle d'Embeddings,et au Retriever.
+	Nous avons aussi configuré plusieurs autres paramètres, telles que les paramètres relatifs au LLM, au modèle d'Embeddings, et au Retriever.
 	
 	Les images de grande taille entraînent une diminution significative des performances en raison de leur impact sur la vitesse de transfert réseau, le temps de décodage en base64, ainsi que sur l'efficacité de l'analyse par le modèle de langage. Cette contrainte nous a conduit à imposer une limite stricte à leur taille maximale.
 	
-	D'autre part, le service \verb|sourceCodeLoader| est configuré à charger les fichiers du code source de l'application présentant des erreurs, en lui disposant de son chemin. Ces fichiers constituent la matière première pour le RAG, qui les utilisera pour enrichir sa base de connaissances, afin d'obtenir des réponses cohérentes avec le contexte de l'application avec des erreurs.
+	D'autre part, nous avons configuré le service \verb|sourceCodeLoader| à charger les fichiers du code source de l'application présentant des erreurs, en lui disposant de son chemin. Ces fichiers constituent la matière première pour le RAG, qui les utilisera pour enrichir sa base de connaissances, afin d'obtenir des réponses cohérentes avec le contexte de l'application à déboguer.
 	
-	La configuration de l'agent AI est exposée dans la figure \ref{fig:ai-agent}.
-	
-		\begin{figure}[H]
-		\centering
-		\fbox{\includegraphics[width=1\textwidth]{ai-agent.png}}
-		\caption{\textit{Interface Java de l'agent AI}}
-		\label{fig:ai-agent}
-	\end{figure}
-	
-	La figure \ref{fig:properties} montre une partie du fichier de configuration \verb|application.properties|.
+	Nous avons défini toutes les valeurs de ces configuration - en premier lieu - dans le fichier \verb|application.properties|, comme l'illustre la figure \ref{fig:properties}.
 	
 	\begin{figure}[H]
 		\centering
 		\fbox{\includegraphics[width=0.8\textwidth]{properties.png}}
 		\caption{\textit{Morceau du contenu du fichier application.properties}}
 		\label{fig:properties}
+	\end{figure}
+	
+	Par ailleurs, comme montré dans la figure \ref{fig:ai-agent} nous avons configuré l'agent AI pour définir son rôle, et pour lui décrire précisément l'input de l'utilisateur et qu'on attend de l'agent.
+	
+		\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=1\textwidth]{ai-agent.png}}
+		\caption{\textit{Interface Java de l'agent AI}}
+		\label{fig:ai-agent}
 	\end{figure}
 	
 	\subsubsection{Démarrage de l'Application Spring Boot}
@@ -1133,13 +1112,11 @@
 	
 	Notre projet respecte les principes fondamentaux d'une API RESTful. En effet L'endpoint \verb|/api/errors| suit une sémantique HTTP claire, la méthode POST est utilisée pour la création d'une ressource (analyse d'erreur), conformément aux verbes REST, et les réponses HTTP sont standardisées (200 pour le succès, 400/413/415/500 pour les erreurs métier), avec des codes de statut pertinents et des messages structurés dans le DTO \verb|AnalysisResult|. L'utilisation de \verb|@RestController| et de \\ \verb|MediaType.MULTIPART_FORM_DATA_VALUE| garantit une sérialisation/désérialisation transparente des données. \cite{rest}
 	
-	De plus, l'API développée est documentée via Swagger (annotations \verb|@Tag|, \verb|@Operation|), offrant une description claire des fonctionnalités et des schémas de réponse. L'acceptation de données binaires (captures d'écran) via MultipartFile et leur validation (taille et type) illustrent également la prise en compte des contraintes RESTful sur les formats de données. \cite{swagger}
+	De plus, l'API développée est documentée via Swagger/OpenAPI (à l'aide des annotations \verb|@Tag|, \verb|@Operation|),offrant une spécification interactive des endpoints, des schémas de requête/réponse, et des codes d'erreur. La gestion des données binaires (comme les captures d'écran via \verb|MultipartFile|) et leur validation rigoureuse (contrôle de la taille maximale et des types MIME autorisés) respectent les bonnes pratiques RESTful pour les formats de données complexes. \cite{swagger}
 	
 	\subsubsection{Création d'une page web pour effectuer des tests}
 	
-	Nous avons conçu une interface web minimaliste permettant de soumettre les erreurs rencontrées dans les applications. Cette page offre un formulaire où l'utilisateur peut poster une description détaillée - et/ou une stacktrace  - du problème ainsi qu’une capture d’écran optionnelle illustrant l’anomalie, un bouton "Analyser l'erreur", et un champs de texte où la réponse générée va être affichée.
-	
-	La figure \ref{fig:interface} affiche une capture écran de cette interface.
+	Nous avons conçu une interface web minimaliste (figure \ref{fig:interface}) permettant de soumettre les erreurs rencontrées dans les applications. Cette page offre un formulaire où l'utilisateur peut soumettre une description détaillée - et/ou une stacktrace  - du problème ainsi qu’une capture d’écran optionnelle illustrant l’anomalie, un bouton "Analyser l'erreur", et un champs de texte où la réponse générée va être affichée.
 	
 	\begin{figure}[H]
 		\centering
@@ -1151,9 +1128,7 @@
 	
 	\subsubsection{Simulation d'une application qui génère une erreur}
 	
-	Afin de simuler un cas réel d'erreur dans une application, nous avons développé une application web de test générant intentionnellement une \verb|NullPointerException|. Cette exception, fréquente dans le développement logiciel, se produit lorsqu'une méthode tente d'accéder à un objet non initialisé (\verb|null|).
-	
-	La figure \ref{fig:simulation-erreur} montre le résultat d'exécution sur un navigateur.
+	Afin de simuler un cas réel d'erreur dans une application, nous avons développé une application web de test générant intentionnellement une exception de type \verb|NullPointerException|. Ce type d'exceptions - fréquent dans le développement logiciel - se produit lorsqu'une méthode tente d'accéder à un objet non initialisé (\verb|null|). La figure \ref{fig:simulation-erreur} montre le résultat de l'exécution sur un navigateur.
 	
 	\begin{figure}[H]
 		\centering
@@ -1164,18 +1139,18 @@
 	
 	\subsubsection{Une analyse réussie}
 	
-	La capture d'écran dans la figure \ref{fig:simulation-erreur} est soumise à notre analyseur d'erreurs avec une petite description, ainsi que le chemin vers son code source. le résultat est présenté dans la figure \ref{fig:premier-test}
+	Nous avons soumis la capture d'écran dans la figure \ref{fig:simulation-erreur} à notre analyseur d'erreurs avec une petite description, ainsi que le chemin vers son code source (récupéré par RAG). Après une vingtaine de secondes, la réponse est affichée, comme illustré dans la figure \ref{fig:premier-test}.
 	
 	\begin{figure}[H]
 		\centering
 		\fbox{\includegraphics[width=0.75\textwidth]{premier-test.png}}
-		\caption{\textit{Structure du projet Java}}
+		\caption{\textit{Résultat d'une analyse d'erreur réussie}}
 		\label{fig:premier-test}
 	\end{figure}
 	
-	L'objectif était de valider la capacité de notre système à détecter cette anomalie, à en analyser les causes (comme une variable non instanciée ou un retour de méthode null), et à proposer un correctif approprié, tel qu'une vérification de nullité ou une initialisation par défaut.
+	La réponse du système montre qu'il a correctement compris la requête, chargé la base de conaissances (code source), identifié l'erreur et sa cause, et proposé des correctifs. 
 	
-	L'ensemble des endpoints de l'API a été testé avec succès via l'interface Swagger UI, qui a permis de simuler des requêtes HTTP dans différents scénarios d'utilisation. Les réponses retournées ont été systématiquement vérifiées en termes de structure, de code de statut, et de contenu. Par exemple, la figure \ref{fig:swagger-ui} illustre le cas d'une analyse réussie, avec un code d'état \verb|200|.
+	Nous avons testé l'ensemble des endpoints de l'API avec succès via l'interface Swagger UI, qui a permis de simuler des requêtes HTTP dans différents scénarios d'utilisation. Les réponses retournées ont été systématiquement vérifiées en termes de structure, de code de statut, et de contenu. Par exemple, la figure \ref{fig:swagger-ui} illustre le cas d'une analyse réussie, avec un code d'état \verb|200|.
 	
 	\begin{figure}[H]
 		\centering
@@ -1208,9 +1183,9 @@
 	
 	\subsubsection{Prise en charge des vidéos}
 	
-	Dans certains cas, une erreur ou une anomalie survenue au sein d’un système est plus efficacement illustrée par une capture vidéo. Cette observation a motivé l’enrichissement de notre système par l’ajout d’une fonctionnalité permettant le téléversement de vidéos. À cet effet, un nouveau service, nommé \verb|VideoProcessor|, a été intégré. Ce service est conçu pour extraire automatiquement des images clés à partir des vidéos fournies, via une bibliothèque appelée \verb|FFmpeg|, facilitant ainsi l’analyse des dysfonctionnements observés.
+	Dans certains cas, une erreur ou une anomalie survenue au sein d’un système est plus efficacement illustrée par une capture vidéo. A cet effet nous avons enrichi notre système par l’ajout d’une fonctionnalité permettant le téléversement de vidéos, en intégrant un nouveau service nommé \verb|VideoProcessor|. Nous avons conçu ce service de manière à qu'il soit capable d'extraire automatiquement des images clés à partir des vidéos fournies, via une bibliothèque appelée \verb|FFmpeg|, facilitant ainsi l’analyse des dysfonctionnements observés.
 	
-	La figure \ref{fig:video} illustre le résultat de l'upload d'une vidéo capturée au moment d'essayer d'atteindre une page web qui finit par afficher des stacktraces.
+	La figure \ref{fig:video} illustre le résultat de l'upload d'une vidéo capturée au moment d'essayer d'atteindre une page web qui finit par afficher des stacktraces d'erreurs.
 	
 	\begin{figure}[H]
 		\centering
@@ -1219,9 +1194,11 @@
 		\label{fig:video}
 	\end{figure}
 	
+	La réponse obtenue lors de ce test, montre que notre système a bien identifié l'erreur et sa source, mais la correction qu'il a proposée est moins pertinente puisqu'il n'a pas suggéré des morceaux de code alternatifs.
+	
 	\section{Conclusion}
 	
-	La phase de réalisation a permis de concrétiser les spécifications techniques et fonctionnelles définies précédemment, en transformant les modèles conceptuels en un produit opérationnel. Grâce à une méthodologie de développement agile, chaque itération a contribué à l’enrichissement progressif du système. L’adoption de bonnes pratiques de codage, couplée à des outils de gestion de version et d’intégration continue, a assuré une base code robuste et maintenable. Les défis techniques rencontrés ont été résolus par des solutions optimisées, renforçant ainsi la fiabilité de l’application. Cette étape a non seulement validé les choix architecturaux initiaux, mais a également démontré la capacité du système à répondre aux exigences métiers, ouvrant la voie aux phases de déploiement et d’exploitation.
+	La phase de réalisation nous a permis de concrétiser les spécifications techniques et fonctionnelles définies précédemment, en transformant les modèles conceptuels en un produit opérationnel. Grâce à une méthodologie de développement agile, chaque itération a contribué à l’enrichissement progressif du système. L’adoption de bonnes pratiques de codage, couplée à des outils de gestion de version et d’intégration continue, a assuré une base code robuste et maintenable. Les défis techniques rencontrés ont été résolus par des solutions optimisées, renforçant ainsi la fiabilité de l’application. Cette étape a non seulement validé les choix architecturaux initiaux, mais a également démontré la capacité du système à répondre aux exigences métiers, ouvrant la voie aux phases de déploiement et d’exploitation.
 	
 	\chapter{Acquis du Projet de Fin d'Études}
 	
