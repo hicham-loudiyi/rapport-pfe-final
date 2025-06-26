@@ -103,3 +103,4 @@
 \contentsline {section}{Evaluation des objectifs}{62}{section*.15}%
 \contentsline {subsection}{Méthodologie d'évaluation}{62}{section*.15}%
 \contentsline {subsection}{Résultats obtenus}{62}{section*.15}%
+\contentsline {section}{Benchmark de LLMs Multimodaux}{63}{section*.15}%

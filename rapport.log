@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  26 JUN 2025 04:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.10)  26 JUN 2025 05:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -812,7 +812,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 180.
 
-<algolus-logo.png, id=442, 471.7625pt x 139.52126pt>
+<algolus-logo.png, id=448, 471.7625pt x 139.52126pt>
 File: algolus-logo.png Graphic file (type png)
 <use algolus-logo.png>
 Package pdftex.def Info: algolus-logo.png  used on input line 192.
@@ -848,7 +848,7 @@ Missing character: There is no p in font aedimnah!
 Missing character: There is no e in font aedimnah!
 Missing character: There is no g in font aedimnah!
 Missing character: There is no o in font aedimnah!
-<algolus-organigramme.png, id=451, 859.71187pt x 1047.915pt>
+<algolus-organigramme.png, id=457, 859.71187pt x 1047.915pt>
 File: algolus-organigramme.png Graphic file (type png)
 <use algolus-organigramme.png>
 Package pdftex.def Info: algolus-organigramme.png  used on input line 247.
@@ -924,7 +924,7 @@ une tech-nique post-entrainement
 [12]
 
 [13]
-<diagramme-rag.png, id=515, 614.295pt x 356.532pt>
+<diagramme-rag.png, id=521, 614.295pt x 356.532pt>
 File: diagramme-rag.png Graphic file (type png)
 <use diagramme-rag.png>
 Package pdftex.def Info: diagramme-rag.png  used on input line 417.
@@ -953,7 +953,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.425 	
         <./diagramme-rag.png>]
-<use-case.drawio.png, id=523, 472.76625pt x 482.80376pt>
+<use-case.drawio.png, id=529, 472.76625pt x 482.80376pt>
 File: use-case.drawio.png Graphic file (type png)
 <use use-case.drawio.png>
 Package pdftex.def Info: use-case.drawio.png  used on input line 446.
@@ -984,7 +984,7 @@ l.455
 [17]
 
 [18]
-<ds-ai-agent.drawio.png, id=552, 884.30376pt x 392.46625pt>
+<ds-ai-agent.drawio.png, id=558, 884.30376pt x 392.46625pt>
 File: ds-ai-agent.drawio.png Graphic file (type png)
 <use ds-ai-agent.drawio.png>
 Package pdftex.def Info: ds-ai-agent.drawio.png  used on input line 551.
@@ -1011,7 +1011,7 @@ Missing character: There is no e in font aedimnah!
 Missing character: There is no e in font aedimnah!
 Missing character: There is no g in font aedimnah!
 Missing character: There is no e in font aedimnah!
-<ds-rag.drawio.png, id=553, 1004.75375pt x 452.69125pt>
+<ds-rag.drawio.png, id=559, 1004.75375pt x 452.69125pt>
 File: ds-rag.drawio.png Graphic file (type png)
 <use ds-rag.drawio.png>
 Package pdftex.def Info: ds-rag.drawio.png  used on input line 558.
@@ -1075,7 +1075,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [21
 
 ]
-<scrum.png, id=570, 572.73975pt x 272.217pt>
+<scrum.png, id=576, 572.73975pt x 272.217pt>
 File: scrum.png Graphic file (type png)
 <use scrum.png>
 Package pdftex.def Info: scrum.png  used on input line 620.
@@ -1114,22 +1114,22 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.651 	
         <./scrum.png>]
-<java-logo.png, id=580, 401.5pt x 513.92pt>
+<java-logo.png, id=586, 401.5pt x 513.92pt>
 File: java-logo.png Graphic file (type png)
 <use java-logo.png>
 Package pdftex.def Info: java-logo.png  used on input line 666.
 (pdftex.def)             Requested size: 67.94247pt x 86.9653pt.
-<spring-logo.png, id=581, 1885.30435pt x 1886.08989pt>
+<spring-logo.png, id=587, 1885.30435pt x 1886.08989pt>
 File: spring-logo.png Graphic file (type png)
 <use spring-logo.png>
 Package pdftex.def Info: spring-logo.png  used on input line 684.
 (pdftex.def)             Requested size: 67.94247pt x 67.9481pt.
-<spring-boot-logo.png, id=582, 301.125pt x 301.125pt>
+<spring-boot-logo.png, id=588, 301.125pt x 301.125pt>
 File: spring-boot-logo.png Graphic file (type png)
 <use spring-boot-logo.png>
 Package pdftex.def Info: spring-boot-logo.png  used on input line 700.
 (pdftex.def)             Requested size: 67.94247pt x 67.94318pt.
-<langchain4j-logo.png, id=583, 534.99875pt x 552.0625pt>
+<langchain4j-logo.png, id=589, 534.99875pt x 552.0625pt>
 File: langchain4j-logo.png Graphic file (type png)
 <use langchain4j-logo.png>
 Package pdftex.def Info: langchain4j-logo.png  used on input line 717.
@@ -1137,17 +1137,17 @@ Package pdftex.def Info: langchain4j-logo.png  used on input line 717.
 
 
 [24 <./java-logo.png> <./spring-logo.png> <./spring-boot-logo.png>]
-<apache-commons-logo.png, id=591, 616.3025pt x 149.55875pt>
+<apache-commons-logo.png, id=597, 616.3025pt x 149.55875pt>
 File: apache-commons-logo.png Graphic file (type png)
 <use apache-commons-logo.png>
 Package pdftex.def Info: apache-commons-logo.png  used on input line 735.
 (pdftex.def)             Requested size: 67.94247pt x 16.48573pt.
-<postgresql-logo.png, id=592, 730.73pt x 752.8125pt>
+<postgresql-logo.png, id=598, 730.73pt x 752.8125pt>
 File: postgresql-logo.png Graphic file (type png)
 <use postgresql-logo.png>
 Package pdftex.def Info: postgresql-logo.png  used on input line 753.
 (pdftex.def)             Requested size: 67.94247pt x 69.99016pt.
-<ollama-logo.png, id=593, 1518.67375pt x 2007.5pt>
+<ollama-logo.png, id=599, 1518.67375pt x 2007.5pt>
 File: ollama-logo.png Graphic file (type png)
 <use ollama-logo.png>
 Package pdftex.def Info: ollama-logo.png  used on input line 773.
@@ -1156,17 +1156,17 @@ Package pdftex.def Info: ollama-logo.png  used on input line 773.
 
 [25 <./langchain4j-logo.png> <./apache-commons-logo.png> <./postgresql-logo.png
 >]
-<maven-logo.png, id=601, 1173.38374pt x 305.14pt>
+<maven-logo.png, id=607, 1173.38374pt x 305.14pt>
 File: maven-logo.png Graphic file (type png)
 <use maven-logo.png>
 Package pdftex.def Info: maven-logo.png  used on input line 789.
 (pdftex.def)             Requested size: 67.94247pt x 17.66507pt.
-<intellij-logo.png, id=602, 803.0pt x 803.0pt>
+<intellij-logo.png, id=608, 803.0pt x 803.0pt>
 File: intellij-logo.png Graphic file (type png)
 <use intellij-logo.png>
 Package pdftex.def Info: intellij-logo.png  used on input line 805.
 (pdftex.def)             Requested size: 67.94247pt x 67.94165pt.
-<git-logo.png, id=603, 513.92pt x 513.92pt>
+<git-logo.png, id=609, 513.92pt x 513.92pt>
 File: git-logo.png Graphic file (type png)
 <use git-logo.png>
 Package pdftex.def Info: git-logo.png  used on input line 821.
@@ -1186,7 +1186,7 @@ G (Retrieval-Augmented
 [28]
 
 [29]
-<illustration-graphique.drawio.png, id=625, 810.02625pt x 733.74126pt>
+<illustration-graphique.drawio.png, id=631, 810.02625pt x 733.74126pt>
 File: illustration-graphique.drawio.png Graphic file (type png)
 <use illustration-graphique.drawio.png>
 Package pdftex.def Info: illustration-graphique.drawio.png  used on input line 
@@ -1233,7 +1233,7 @@ Overfull \hbox (52.46948pt too wide) in paragraph at lines 894--895
 mpl[]\T1/cmr/m/n/12 ,
  []
 
-<before-string-utils.png, id=637, 325.215pt x 100.57574pt>
+<before-string-utils.png, id=643, 325.215pt x 100.57574pt>
 File: before-string-utils.png Graphic file (type png)
 <use before-string-utils.png>
 Package pdftex.def Info: before-string-utils.png  used on input line 898.
@@ -1249,7 +1249,7 @@ Missing character: There is no c in font aedimnah!
 Missing character: There is no e in font aedimnah!
 Missing character: There is no o in font aedimnah!
 Missing character: There is no o in font aedimnah!
-<after-string-utils.png, id=639, 323.40825pt x 100.57574pt>
+<after-string-utils.png, id=645, 323.40825pt x 100.57574pt>
 File: after-string-utils.png Graphic file (type png)
 <use after-string-utils.png>
 Package pdftex.def Info: after-string-utils.png  used on input line 909.
@@ -1317,7 +1317,7 @@ Overfull \hbox (1.3126pt too wide) in paragraph at lines 981--982
 on de l'in-ter-face [][]\T1/cmtt/m/n/12 Tokenizer
  []
 
-<before-stream.png, id=653, 447.47176pt x 164.41425pt>
+<before-stream.png, id=659, 447.47176pt x 164.41425pt>
 File: before-stream.png Graphic file (type png)
 <use before-stream.png>
 Package pdftex.def Info: before-stream.png  used on input line 985.
@@ -1344,7 +1344,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.989 	
        ]
-<after-stream.png, id=659, 473.97075pt x 131.2905pt>
+<after-stream.png, id=665, 473.97075pt x 131.2905pt>
 File: after-stream.png Graphic file (type png)
 <use after-stream.png>
 Package pdftex.def Info: after-stream.png  used on input line 994.
@@ -1377,7 +1377,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1006 	
          <./before-stream.png> <./after-stream.png>]
-<before-factorisation.png, id=667, 657.657pt x 281.25075pt>
+<before-factorisation.png, id=673, 657.657pt x 281.25075pt>
 File: before-factorisation.png Graphic file (type png)
 <use before-factorisation.png>
 Package pdftex.def Info: before-factorisation.png  used on input line 1013.
@@ -1409,7 +1409,7 @@ Overfull \hbox (5.50728pt too wide) in paragraph at lines 1018--1019
 tt/m/n/12 estimateTokenCountInToolSpecifications
  []
 
-<after-factorisation.png, id=670, 751.00575pt x 281.25075pt>
+<after-factorisation.png, id=676, 751.00575pt x 281.25075pt>
 File: after-factorisation.png Graphic file (type png)
 <use after-factorisation.png>
 Package pdftex.def Info: after-factorisation.png  used on input line 1022.
@@ -1448,7 +1448,7 @@ Overfull \hbox (7.13326pt too wide) in paragraph at lines 1027--1028
 > tokenCounter)[]\T1/cmr/m/n/12 ,
  []
 
-<configuration-property-value.png, id=677, 371.58826pt x 396.2805pt>
+<configuration-property-value.png, id=683, 371.58826pt x 396.2805pt>
 File: configuration-property-value.png Graphic file (type png)
 <use configuration-property-value.png>
 Package pdftex.def Info: configuration-property-value.png  used on input line 1
@@ -1474,7 +1474,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1041 	
          <./after-factorisation.png>]
-<using-configuration-property-value.png, id=684, 433.62pt x 259.56975pt>
+<using-configuration-property-value.png, id=690, 433.62pt x 259.56975pt>
 File: using-configuration-property-value.png Graphic file (type png)
 <use using-configuration-property-value.png>
 Package pdftex.def Info: using-configuration-property-value.png  used on input 
@@ -1507,7 +1507,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10})
                                                   \__shipout_drop_firstpage_...
 l.1062 	
          <./using-configuration-property-value.png>]
-<test-rag.png, id=697, 919.18407pt x 119.69719pt>
+<test-rag.png, id=703, 919.18407pt x 119.69719pt>
 File: test-rag.png Graphic file (type png)
 <use test-rag.png>
 Package pdftex.def Info: test-rag.png  used on input line 1067.
@@ -1535,7 +1535,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
                                                   \__shipout_drop_firstpage_...
 l.1079 	
          <./test-rag.png>]
-<structure-projet.png, id=704, 295.85532pt x 741.52031pt>
+<structure-projet.png, id=710, 295.85532pt x 741.52031pt>
 File: structure-projet.png Graphic file (type png)
 <use structure-projet.png>
 Package pdftex.def Info: structure-projet.png  used on input line 1082.
@@ -1559,7 +1559,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12})
                                                   \__shipout_drop_firstpage_...
 l.1090 	
          <./structure-projet.png>]
-<properties.png, id=715, 464.937pt x 352.9185pt>
+<properties.png, id=721, 464.937pt x 352.9185pt>
 File: properties.png Graphic file (type png)
 <use properties.png>
 Package pdftex.def Info: properties.png  used on input line 1101.
@@ -1585,7 +1585,7 @@ Missing character: There is no e in font aedimnah!
 
 
 [43]
-<ai-agent.png, id=721, 608.2725pt x 412.54124pt>
+<ai-agent.png, id=727, 608.2725pt x 412.54124pt>
 File: ai-agent.png Graphic file (type png)
 <use ai-agent.png>
 Package pdftex.def Info: ai-agent.png  used on input line 1110.
@@ -1631,7 +1631,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14})
                                                   \__shipout_drop_firstpage_...
 l.1122 	
          <./ai-agent.png>]
-<interface.png, id=734, 637.1805pt x 486.618pt>
+<interface.png, id=740, 637.1805pt x 486.618pt>
 File: interface.png Graphic file (type png)
 <use interface.png>
 Package pdftex.def Info: interface.png  used on input line 1131.
@@ -1659,7 +1659,7 @@ Overfull \hbox (35.05437pt too wide) in paragraph at lines 1139--1140
 x-cep-tion de type [][]\T1/cmtt/m/n/12 NullPointerException[]\T1/cmr/m/n/12 .
  []
 
-<simulation-erreur.png, id=740, 576.35326pt x 190.91325pt>
+<simulation-erreur.png, id=746, 576.35326pt x 190.91325pt>
 File: simulation-erreur.png Graphic file (type png)
 <use simulation-erreur.png>
 Package pdftex.def Info: simulation-erreur.png  used on input line 1143.
@@ -1692,7 +1692,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15})
                                                   \__shipout_drop_firstpage_...
 l.1147 	
          <./interface.png>]
-<premier-test.png, id=748, 1051.93pt x 2043.635pt>
+<premier-test.png, id=754, 1051.93pt x 2043.635pt>
 File: premier-test.png Graphic file (type png)
 <use premier-test.png>
 Package pdftex.def Info: premier-test.png  used on input line 1154.
@@ -1724,7 +1724,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.17})
                                                   \__shipout_drop_firstpage_...
 l.1160 	
          <./premier-test.png>]
-<swagger-ui.png, id=760, 626.34pt x 1123.19624pt>
+<swagger-ui.png, id=766, 626.34pt x 1123.19624pt>
 File: swagger-ui.png Graphic file (type png)
 <use swagger-ui.png>
 Package pdftex.def Info: swagger-ui.png  used on input line 1165.
@@ -1739,7 +1739,7 @@ Missing character: There is no e in font aedimnah!
 
 
 [50]
-<image-tros-grande.png, id=767, 1050.92625pt x 903.375pt>
+<image-tros-grande.png, id=773, 1050.92625pt x 903.375pt>
 File: image-tros-grande.png Graphic file (type png)
 <use image-tros-grande.png>
 Package pdftex.def Info: image-tros-grande.png  used on input line 1176.
@@ -1762,7 +1762,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.18})
                                                   \__shipout_drop_firstpage_...
 l.1179 	\end{figure}
                      <./swagger-ui.png>]
-<format-non-supporté.png, id=774, 1043.9pt x 642.4pt>
+<format-non-supporté.png, id=780, 1043.9pt x 642.4pt>
 File: format-non-supporté.png Graphic file (type png)
 <use format-non-supporté.png>
 Package pdftex.def Info: format-non-supporté.png  used on input line 1187.
@@ -1787,7 +1787,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.19})
                                                   \__shipout_drop_firstpage_...
 l.1191 	
          <./image-tros-grande.png>]
-<video.png, id=781, 629.35126pt x 522.15076pt>
+<video.png, id=787, 629.35126pt x 522.15076pt>
 File: video.png Graphic file (type png)
 <use video.png>
 Package pdftex.def Info: video.png  used on input line 1200.
@@ -1878,20 +1878,40 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 [62
 
 ]
+Overfull \hbox (11.88902pt too wide) in paragraph at lines 1352--1353
+[]\T1/cmr/m/n/12 La confi-gu-ra-tion ma-t�-rielle uti-li-s�e est [][]\T1/cmtt/m
+/n/12 Intel(R) Core(TM) i7-10610U CPU @ 1.80GHz 
+ []
 
-[63] (rapport.aux)
+Missing character: There is no o in font aedimnah!
+Missing character: There is no p in font aedimnah!
+Missing character: There is no o in font aedimnah!
+Missing character: There is no e in font aedimnah!
+Missing character: There is no o in font aedimnah!
+
+
+[63
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1389 		\item \verb
+                    |BakLLaVA| consomme plus de RAM (8.1 Go), limitant son u...
+]
+
+[64] (rapport.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: F0812A37D3EEFDF8260AEDFB218562C9;11376.
+(rerunfilecheck)             Checksum: F0BDD519CF4A2EAC57FB3DB58C9C119F;11587.
  ) 
 Here is how much of TeX's memory you used:
- 14305 strings out of 468225
- 230402 string characters out of 5427165
- 664623 words of memory out of 5000000
- 42447 multiletter control sequences out of 15000+600000
+ 14308 strings out of 468225
+ 230441 string characters out of 5427165
+ 664695 words of memory out of 5000000
+ 42448 multiletter control sequences out of 15000+600000
  646335 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,1208b,943s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1908,9 +1928,9 @@ ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1728.pk> <C:\Users\E
 lectro_Laaroussi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx24
 88.pk><C:/Users/Electro_Laaroussi/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb>
-Output written on rapport.pdf (74 pages, 3567244 bytes).
+Output written on rapport.pdf (75 pages, 3572702 bytes).
 PDF statistics:
- 1434 PDF objects out of 1440 (max. 8388607)
- 193 named destinations out of 1000 (max. 500000)
- 706 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1450 PDF objects out of 1728 (max. 8388607)
+ 195 named destinations out of 1000 (max. 500000)
+ 714 words of extra memory for PDF output out of 10000 (max. 10000000)
 
