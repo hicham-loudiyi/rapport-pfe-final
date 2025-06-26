@@ -85,7 +85,7 @@
 	
 	Je tiens à exprimer ma sincère gratitude aux membres du jury pour le temps qu’ils ont consacré à l’évaluation de mon travail.\\[0.6em]
 	
-	Un remerciement particulier à \textsc{DOUHI Taoufik}, \textsc{ARRHIOUI Karim}, \textsc{ARRHIOUI Anass} et \textsc{BERHIL Mohammed} pour leurs précieux conseils.\\[0.6em]
+	Un remerciement particulier à \textsc{DOUHI Taoufik}, \textsc{ARRHIOUI Karim}, \textsc{ARRHIOUI Anass} et \textsc{BEREHIL Mohammed} pour leurs précieux conseils.\\[0.6em]
 			
 	Je remercie le corps professoral et administratif de l'\textsc{École des Hautes Études d'Ingénierie - Oujda} pour la qualité de la formation reçue.
 	
@@ -107,6 +107,8 @@
 			\hline
 			IDE & Integrated Development Environment \\
 			\hline
+			JDBC & Java Database Connectivity \\
+			\hline
 			JPA & Java Persistence API \\
 			\hline
 			LLM & Large Language Model \\
@@ -114,6 +116,8 @@
 			PDF & Portable Document Format \\
 			\hline
 			RAG & Retrieval-Augmented Generation \\
+			\hline
+			RAM & Random-Access Memory \\
 			\hline
 			SARL & Société À Responsabilité Limitée \\
 			\hline
@@ -128,6 +132,7 @@
 		\end{tabular}
 		\label{tab:liste-abréviations}
 	\end{table}
+	
 	
 	\clearpage
 	\chapter*{Résumé}
@@ -173,17 +178,23 @@
 	\chapter*{Introduction générale}
 	\addcontentsline{toc}{chapter}{Introduction générale}
 	
-	Dans le cadre de la formation en Génie Informatique à l’École des Hautes Études d’Ingénierie d’Oujda (EHEIO), la réalisation d’un Projet de Fin d’Études (PFE) constitue une étape essentielle. Elle marque la transition entre le parcours académique et le monde professionnel, et vise à mettre en pratique les connaissances acquises au cours des années de formation. Dans un contexte où les technologies de l’information évoluent rapidement, ce projet s’inscrit pleinement dans une logique d’adaptation aux exigences du secteur.
+	Dans le cadre de la formation en Génie Informatique à l’École des Hautes Études d’Ingénierie d’Oujda (EHEIO), la réalisation d’un Projet de Fin d’Études (PFE) constitue une étape essentielle. Elle marque la transition entre le parcours académique et le monde professionnel, et vise à mettre en pratique les connaissances acquises au cours des années de formation.
 	
-	Le stage réalisé s’inscrit dans cette dynamique et a pour principal objectif de confronter l’étudiant à des problématiques concrètes, tout en développant ses compétences techniques, organisationnelles et relationnelles. Plus spécifiquement, il s’est déroulé dans une entreprise spécialisée en solutions logicielles, fonctionnant selon la méthodologie Agile Scrum. Cette expérience a permis de s’initier aux pratiques de gestion de projet modernes, à travers des itérations, des revues régulières et une forte collaboration en équipe. La mission confiée s’articule autour du développement d’une application innovante intégrant des technologies émergentes telles que les modèles de langage (LLM) et la génération augmentée par récupération (RAG).
+	Dans un contexte où les technologies de l’information évoluent rapidement, ce projet s’inscrit pleinement dans une logique d’adaptation aux exigences du secteur.
 	
-	Le présent rapport est structuré en plusieurs chapitres. Le premier chapitre présente le contexte général du projet la définition des besoins fonctionnels et techniques, le deuxième chapitre, couvre l'analyse fonctionnelle et la conception du projet, le troisième chapitre détaille la phase de réalisation, mettant en lumière les choix technologiques et architecturaux retenus, le quatrième chapitre met en lumière les compétences acquises du PFE, et finalement le cinquième chapitre conclut et cite les perspectives d'amélioration du projet.
+	Le stage réalisé s’inscrit dans cette dynamique et a pour principal objectif de confronter l’étudiant à des problèmes concrètes, tout en développant ses compétences techniques, organisationnelles et relationnelles. Plus spécifiquement, ce stage s’est déroulé dans une entreprise spécialisée en solutions logicielles, fonctionnant selon la méthodologie Agile Scrum. Cette expérience a permis de s’initier aux pratiques de gestion de projet modernes, à travers des itérations, des revues régulières et une forte collaboration en équipe.
+	
+	La mission confiée s’articule autour du développement d’une application innovante intégrant des technologies émergentes telles que les modèles de langage (LLM) et la génération augmentée par récupération (RAG).
+	
+	Le présent rapport est structuré en plusieurs chapitres. Le premier chapitre présente le contexte général du projet et la définition du problème, des besoins fonctionnels et non fonctionnels, ainsi que les solutions envisagées, le deuxième chapitre couvre l'analyse fonctionnelle et la conception du projet avec des diagrammes UML, le troisième chapitre détaille la phase de réalisation, mettant en lumière les choix technologiques et architecturaux retenus, les bonnes pratiques appliquées, ainsi que des captures d'écran des interfaces et des tests réalisés, le quatrième chapitre présente les compétences acquises du PFE, et finalement le cinquième chapitre récapitule les apports du travail et cite les perspectives d'amélioration du projet.
+	
+	Une évaluation des objectifs atteints, ainsi qu'un Benchmark réalisé, sont inclus dans les annexes.
 	
 	\chapter{Contexte du Projet}
 	
 	\section{Introduction}
 	
-	Dans ce chapitre, nous commencerons par présenter l’entreprise d’accueil, avant de procéder à une description détaillée des besoins du projet. Cette description comprendra l’identification du problème posé, l’analyse des besoins fonctionnels et non fonctionnels, ainsi que les solutions envisagées pour y répondre.
+	Dans ce chapitre, nous commencerons par présenter l’entreprise d’accueil, avant de procéder à une description détaillée des besoins du projet. Cette description comprendra l’identification du problème posé, l’analyse des besoins fonctionnels et non fonctionnels, ainsi que les solutions envisagées pour répondre aux besoins.
 	
 	\section{Entreprise d’accueil}
 	
@@ -265,7 +276,7 @@
 	
 	Pour garantir que le système de diagnostic d’erreurs réponde efficacement aux attentes des utilisateurs et des équipes techniques, nous avons identifié les besoins fonctionnels suivants :
 	
-	\begin{enumerate}
+	\begin{itemize}
 		
 		\item \textbf{Collecte et Pré-traitement des Données} : Extraction automatique des erreurs et des anomalies des systèmes à partir de :
 		stacktraces, parsing des logs, captures d’écran, retours utilisateurs.
@@ -276,7 +287,7 @@
 		
 		\item \textbf{Interfaces utilisateurs} : Soumission des erreurs via des formulaires web pour uploader des stacktraces et des captures d'écran.
 		
-	\end{enumerate}
+	\end{itemize}
 	
 	\subsection{Les besoins non fonctionnels}
 	
@@ -284,7 +295,7 @@
 	
 	Pour garantir une intégration harmonieuse dans l’écosystème existant et une expérience utilisateur optimale, les besoins non fonctionnels suivants ont été définies :
 	
-	\begin{enumerate}
+	\begin{itemize}
 		
 		\item \textbf{Performances} : Temps de réponse optimisé, et scalabilité : Support de plusieurs requêtes simultanées.
 		
@@ -292,10 +303,10 @@
 		
 		\item \textbf{Sécurité et Confidentialité} : Protection des données par chiffrement des échanges et anonymisation des logs utilisateurs (RGPD), et authentification : JWT pour l’accès aux APIs sensibles.	
 		
-		\item \textbf{Expérience Utilisateur} : Ergonomie : interface intuitive, Dark/Light mode et thèmes accessibles.
+		\item \textbf{Expérience Utilisateur} : Ergonomie, interface intuitive, Dark/Light mode et thèmes accessibles.
 		
 		
-	\end{enumerate}
+	\end{itemize}
 	
 	\subsection{Solutions envisagées}
 	
@@ -312,7 +323,7 @@
 	
 	Pour atteindre ces objectifs, nous avons envisagé une solution basée sur un ensemble de méthodes et technologies innovantes incluant :
 	
-	\begin{enumerate}
+	\begin{itemize}
 		\item \textbf{Analyse Multimodale des Erreurs} : Implémenter un système capable d’interpréter des données hétérogènes (stack traces, logs texte, captures d’écran, etc.), et utiliser des techniques de RAG pour enrichir les requêtes avec une base de connaissances (code source, documentation technique, résolutions d’erreurs courantes).
 		
 		\item \textbf{Génération Automatique de Correctifs} : Exploiter des LLMs (via Ollama) pour suggérer des corrections précises et contextualisées.
@@ -321,11 +332,11 @@
 		
 		\item \textbf{Optimisation et Évaluation} : mesurer l’efficacité du système via des métriques de précision (taux de détection, pertinence des correctifs), et effectuer un Benchmark : comparaison sur des jeux de données communs.
 		
-	\end{enumerate}
+	\end{itemize}
 	
 	\section{Conclusion}
 	
-	En résumé, l’analyse initiale du problème nous a permis de cerner clairement les enjeux du projet et de définir des besoins fonctionnels et non fonctionnels cohérents avec les objectifs visés. L’étude des différentes solutions envisageables a conduit à des choix techniques adaptés, prenant en compte à la fois les contraintes de performance, d’ergonomie et de maintenabilité. Bien que certaines limitations persistent, notamment en lien avec l’évolutivité ou les dépendances externes, les bases posées offrent un cadre solide pour le développement et l’amélioration continue du système. Cette première partie dédiée à la définition du problème, des besoins, et des solutions envisagées, constitue une étape vers une solution complète, fiable et évolutive qui nous a permis de bien enchainer l'étape de l'analyse fonctionnelle et la conception du projet.
+	En résumé, l’analyse initiale du problème nous a permis de cerner clairement les enjeux du projet et de définir des besoins fonctionnels et non fonctionnels cohérents avec les objectifs visés. L’étude des différentes solutions envisageables a conduit à des choix techniques adaptés, prenant en compte à la fois les contraintes de performance, d’ergonomie et de maintenabilité. Bien que certaines limitations persistent, notamment en lien avec l’évolutivité ou les dépendances externes, les bases posées offrent un cadre solide pour le développement et l’amélioration continue du système. Cette première partie dédiée à la définition du problème, des besoins, et des solutions envisagées, constitue une étape vers une solution complète, fiable et évolutive, et elle nous a permis de bien enchainer l'étape de l'analyse fonctionnelle et la conception du projet.
 	
 	\chapter{Analyse fonctionnelle et modélisation}
 	
@@ -441,7 +452,7 @@
 	
 	\subsection{Notre diagramme de cas d'utilisations}
 	
-	La figure \ref{fig:use-case} présente le diagramme de cas d'utilisation de notre application (voir la page 16).
+	La figure \ref{fig:use-case} présente le diagramme de cas d'utilisation de notre application (voir la page 17).
 	
 	\begin{figure}[H]
 		\centering
@@ -461,16 +472,16 @@
 	
 	\textbf{Préconditions}
 	
-	\begin{enumerate}
+	\begin{itemize}
 		\item Accès à l'interface web de l'application
 		\item Services backend et modèle LLM (Ollama) opérationnels
 		\item Base de connaissances locale (RAG) préchargée avec le code source pertinent
-	\end{enumerate}
+	\end{itemize}
 	
 	\textbf{Scénario Nominal}
 	
-	\begin{enumerate}
-		\item \textbf{Soumission de la requête}
+	\begin{itemize}[label={}]
+		\item \textbf{1. Soumission de la requête}
 		\begin{itemize}
 			\item Upload par l'utilisateur :
 			\begin{itemize}
@@ -480,7 +491,7 @@
 			\item Envoi au contrôleur
 		\end{itemize}
 		
-		\item \textbf{Traitement par l'Agent AI}
+		\item \textbf{2. Traitement par l'Agent AI}
 		\begin{itemize}
 			\item Récupération du contexte via \texttt{chatMemory}
 			\item Enrichissement via requête RAG :
@@ -490,7 +501,7 @@
 			\end{itemize}
 		\end{itemize}
 		
-		\item \textbf{Appel au Modèle LLM}
+		\item \textbf{3. Appel au Modèle LLM}
 		\begin{itemize}
 			\item Formatage de la requête incluant :
 			\begin{itemize}
@@ -506,17 +517,17 @@
 			\end{verbatim}
 		\end{itemize}
 		
-		\item \textbf{Post-Traitement}
+		\item \textbf{4. Post-Traitement}
 		\begin{itemize}
 			\item Sauvegarde dans \texttt{chatMemory}
 			\item Journalisation de la transaction
 		\end{itemize}
 		
-		\item \textbf{Affichage du résultat}
+		\item \textbf{5. Affichage du résultat}
 		\begin{itemize}
 			\item Présentation claire avec mise en forme des chemins et snippets
 		\end{itemize}
-	\end{enumerate}
+	\end{itemize}
 	
 	\textbf{Scénarios Alternatifs}
 	
@@ -551,7 +562,7 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=1\textwidth]{ds-ai-agent.drawio.png}
-		\caption{\textit{Diagramme de séquences décrivant le fonctionnement d'un agent AI}}
+		\caption{\textit{Diagramme de séquences décrivant le fonctionnement de l'agent AI}}
 		\label{fig:ds-ai-agent}
 	\end{figure}
 	
@@ -887,13 +898,13 @@
 	
 	Une nomination précise des classes et méthodes est essentielle pour garantir la maintenabilité et la lisibilité du code. Dans notre projet, nous avons porté une attention particulière aux noms de classes, d'attributs et de méthodes, afin de permettre à un lecteur de code de comprendre immédiatement le rôle de chaque composant sans avoir à explorer son implémentation.
 	
-	Citons quelques exemples concrets dans notre projet, la classe \verb|ErrorAnalysisService| indique clairement qu'elle orchestre la logique métier de l'analyse d'erreurs, tandis que \verb|FileValidator| évoque sans ambiguïté sa responsabilité : valider les fichiers entrants. De même, les méthodes comme \verb|extractKeyFrames()| (dans \verb|VideoProcessor|) ou \verb|analyzeErrorWithRag()| (dans \\ \verb|ErrorAnalysisAgent|) décrivent explicitement leurs actions et leurs spécificités techniques. À l'inverse, des noms vagues comme \verb|process()| ou \verb|handle()| auraient rendu le code obscur, obligeant les développeurs à parcourir le code source pour en comprendre la finalité. Par cette rigueur lexicale nous avons facilité aussi la collaboration entre équipes en réduisant les risques d'erreurs lors des évolutions futures. En résumé, un bon nommage agit comme une documentation intrinsèque, reflétant directement l’intention de conception et les principes métiers sous-jacents.
+	Citons quelques exemples concrets dans notre projet, la classe \verb|ErrorAnalysisService| indique clairement qu'elle orchestre la logique métier de l'analyse d'erreurs, tandis que \verb|FileValidator| évoque sans ambiguïté sa responsabilité : valider les fichiers entrants. De même, les méthodes comme \verb|extractKeyFrames()| (dans \verb|VideoProcessor|) ou \\ \verb|analyzeErrorWithRag()| (dans \verb|ErrorAnalysisAgent|) décrivent explicitement leurs actions et leurs spécificités techniques. À l'inverse, des noms vagues comme \verb|process()| ou \verb|handle()| auraient rendu le code obscur, obligeant les développeurs à parcourir le code source pour en comprendre la finalité. Par cette rigueur lexicale nous avons facilité aussi la collaboration entre équipes en réduisant les risques d'erreurs lors des évolutions futures. En résumé, un bon nommage agit comme une documentation intrinsèque, reflétant directement l’intention de conception et les principes métiers sous-jacents.
 	
 	\subsection{Utilisation de Bibliothèques Matures : Apache Commons}
 	
 	Plutôt que de réinventer la roue, nous avons utilisé des bibliothèques robustes comme Apache Commons, qui fournit des utilitaires optimisés pour plusieurs opérations telles que la manipulation de collections, les opérations sur les chaînes, et les validations.
 	
-	Pour mettre en lumière les utilisations de ces utilitaires dans notre projet, prenons par exemple la méthode \verb|estimateTokenCountInText(String text)| de la classe \verb|TokenizerMyAppImpl|, dont la figure \ref{fig:before-string-utils} montre une implémentation classique, utilisant l'instruction de branchement conditionnel \verb|if| couplée aux opérateurs logiques.
+	Pour mettre en lumière les utilisations de ces utilitaires dans notre projet, prenons par exemple la méthode \verb|estimateTokenCountInText(String text)| de la classe \\ \verb|TokenizerMyAppImpl|, dont la figure \ref{fig:before-string-utils} montre une implémentation classique, utilisant l'instruction de branchement conditionnel \verb|if| couplée aux opérateurs logiques.
 	
 	\begin{figure}[H]
 		\centering
@@ -917,7 +928,7 @@
 	
 	\subsection{Approches de parcours de collections en Java}
 	
-	Durant le développement, j'ai été amené à manipuler des collections de données. Plusieurs approches s'offraient alors à moi, chacune présentant des caractéristiques distinctes :
+	Durant le développement, nous avons été amené à manipuler des collections de données. Plusieurs approches s'offraient alors à nous, chacune présentant des caractéristiques distinctes :
 	
 	\begin{itemize}
 		
@@ -929,7 +940,7 @@
 		
 		\item \textbf{Les Streams} : Approche déclarative exploitant des opérations fonctionnelles (filtrage, mapping) pour un code lisible et chainable, optimisé pour les traitements de données. [3]
 		
-		\item \textbf{ParallelStream} : Version parallélisée des Stream utilisant plusieurs cœurs CPU pour accélérer le traitement des gros volumes de données, au prix d'une complexité accrue en synchronisation.
+		\item \textbf{ParallelStream} : Version parallélisée des Streams utilisant plusieurs cœurs CPU pour accélérer le traitement des gros volumes de données, au prix d'une complexité accrue en synchronisation.
 		
 	\end{itemize}
 	
@@ -1077,7 +1088,7 @@
 	
 	\subsubsection{Structure du projet Java}
 	
-	Une bonne structuration d’un projet logiciel constitue un fondement essentiel pour assurer sa lisibilité, sa maintenabilité et son évolutivité. Dans notre cas, le projet respecte les conventions standard de l’écosystème Java et de l’architecture Spring Boot. L’arborescence capturée dans la figure \ref{fig:structure-projet} suit une séparation claire entre les différentes couches de l’application, notamment les agents (\verb|agents|), la configuration (\verb|config|), les objets de transfert de données (\verb|dto|), les exceptions personnalisées (\verb|exceptions|), les services métier (\verb|service|) et la couche de présentation via les contrôleurs web (\verb|web|). Par cette organisation modulaire, nous avons favorisé l'encapsulation des responsabilités, en conformité avec les principes SOLID, et facilité les tests unitaires ainsi que l’intégration continue. Par ailleurs, l’intégration des ressources statiques et de configuration dans les répertoires \verb|resources|/\verb|static| et \verb|application.properties| respecte les conventions de Spring Boot, permettant un déploiement harmonisé (voir la page 42).
+	Une bonne structuration d’un projet logiciel constitue un fondement essentiel pour assurer sa lisibilité, sa maintenabilité et son évolutivité. Dans notre cas, le projet respecte les conventions standard de l’écosystème Java et de l’architecture Spring Boot. L’arborescence capturée dans la figure \ref{fig:structure-projet} suit une séparation claire entre les différentes couches de l’application, notamment les agents (\verb|agents|), la configuration (\verb|config|), les objets de transfert de données (\verb|dto|), les exceptions personnalisées (\verb|exceptions|), les services métier (\verb|service|) et la couche de présentation via les contrôleurs web (\verb|web|). Par cette organisation modulaire, nous avons favorisé l'encapsulation des responsabilités, en conformité avec les principes SOLID, et facilité les tests unitaires ainsi que l’intégration continue. Par ailleurs, l’intégration des ressources statiques et de configuration dans les répertoires \verb|resources|/\verb|static| et \verb|application.properties| respecte les conventions de Spring Boot, permettant un déploiement harmonisé (voir la page 43).
 	
 	\begin{figure}[H]
 		\centering
@@ -1088,7 +1099,7 @@
 	
 	\subsubsection{Configuration des modèles et chargement des ressources pour le RAG}
 	
-	Afin de permettre à notre application de traiter des entrées de nature hétérogène (texte, image, vidéo), le recours à un modèle de langage multimodal s’est révélé indispensable. À cet effet, nous avons choisi le modèle \verb|Qwen2.5vl:7b| pour ses capacités avancées d’analyse conjointe du contenu textuel et visuel.
+	Afin de permettre à notre application de traiter des entrées de natures hétérogènes (texte, image, vidéo), le recours à un modèle de langage multimodal s’est révélé indispensable. À cet effet, nous avons choisi le modèle \verb|Qwen2.5vl:7b| pour ses capacités avancées d’analyse conjointe du contenu textuel et visuel.
 	
 	Nous avons aussi configuré plusieurs autres paramètres, telles que les paramètres relatifs au LLM, au modèle d'Embeddings, et au Retriever.
 	
@@ -1096,7 +1107,7 @@
 	
 	D'autre part, nous avons configuré le service \verb|sourceCodeLoader| à charger les fichiers du code source de l'application présentant des erreurs, en lui disposant de son chemin. Ces fichiers constituent la matière première pour le RAG, qui les utilisera pour enrichir sa base de connaissances, afin d'obtenir des réponses cohérentes avec le contexte de l'application à déboguer.
 	
-	Nous avons défini toutes les valeurs de ces configuration - en premier lieu - dans le fichier \verb|application.properties|, comme l'illustre la figure \ref{fig:properties} (voir la page 44).
+	Nous avons défini toutes les valeurs de ces configuration - en premier lieu - dans le fichier \verb|application.properties|, comme l'illustre la figure \ref{fig:properties} (voir la page 45).
 	
 	\begin{figure}[H]
 		\centering
@@ -1105,7 +1116,7 @@
 		\label{fig:properties}
 	\end{figure}
 	
-	Par ailleurs, comme montré dans la figure \ref{fig:ai-agent} nous avons configuré l'agent AI pour définir son rôle, et pour lui décrire précisément l'input de l'utilisateur et qu'on attend de l'agent (voir la page 45).
+	Par ailleurs, comme montré dans la figure \ref{fig:ai-agent} nous avons configuré l'agent AI pour définir son rôle, et pour lui décrire précisément l'input de l'utilisateur et qu'on attend de l'agent (voir la page 46).
 	
 		\begin{figure}[H]
 		\centering
@@ -1120,7 +1131,7 @@
 	
 	\subsubsection{Conformité aux Normes RESTful et Bonnes Pratiques d'API}
 	
-	Notre projet respecte les principes fondamentaux d'une API RESTful. En effet L'endpoint \verb|/api/errors| suit une sémantique HTTP claire, la méthode POST est utilisée pour la création d'une ressource (analyse d'erreur), conformément aux verbes REST, et les réponses HTTP sont standardisées (200 pour le succès, 400/413/415/500 pour les erreurs métier), avec des codes de statut pertinents et des messages structurés dans le DTO \verb|AnalysisResult|. L'utilisation de \verb|@RestController| et de \\ \verb|MediaType.MULTIPART_FORM_DATA_VALUE| garantit une sérialisation/désérialisation transparente des données. [4]
+	Notre projet respecte les principes fondamentaux d'une API RESTful. En effet L'endpoint \verb|/api/errors| suit une sémantique HTTP claire, la méthode POST est utilisée pour la création d'une ressource, conformément aux verbes REST, et les réponses HTTP sont standardisées (200 pour le succès, 400/413/415/500 pour les erreurs métier) avec des codes de statut pertinents et des messages structurés dans le DTO \verb|AnalysisResult|. L'utilisation de \verb|@RestController| et de \\ \verb|MediaType.MULTIPART_FORM_DATA_VALUE| garantit une sérialisation/désérialisation transparente des données. [4]
 	
 	De plus, l'API développée est documentée via Swagger/OpenAPI (à l'aide des annotations \verb|@Tag|, \verb|@Operation|),offrant une spécification interactive des endpoints, des schémas de requête/réponse, et des codes d'erreur. La gestion des données binaires (comme les captures d'écran via \verb|MultipartFile|) et leur validation rigoureuse (contrôle de la taille maximale et des types MIME autorisés) respectent les bonnes pratiques RESTful pour les formats de données complexes. [5]
 	
@@ -1149,7 +1160,7 @@
 	
 	\subsubsection{Une analyse réussie}
 	
-	Nous avons soumis la capture d'écran dans la figure \ref{fig:simulation-erreur} à notre analyseur d'erreurs avec une petite description, ainsi que le chemin vers son code source (récupéré par RAG). Après une vingtaine de secondes, la réponse est affichée, comme illustré dans la figure \ref{fig:premier-test} (voir la page 49).
+	Nous avons soumis la capture d'écran dans la figure \ref{fig:simulation-erreur} à notre analyseur d'erreurs avec une petite description, ainsi que le chemin vers son code source (récupéré par RAG). Après une dizaine de secondes, la réponse est affichée, comme illustré dans la figure \ref{fig:premier-test} (voir la page 50).
 	
 	\begin{figure}[H]
 		\centering
@@ -1160,7 +1171,7 @@
 	
 	La réponse du système montre qu'il a correctement compris la requête, chargé la base de conaissances (code source), identifié l'erreur et sa cause, et proposé des correctifs. 
 	
-	Nous avons testé l'ensemble des endpoints de l'API avec succès via l'interface Swagger UI, qui a permis de simuler des requêtes HTTP dans différents scénarios d'utilisation. Les réponses retournées ont été systématiquement vérifiées en termes de structure, de code de statut, et de contenu. Par exemple, la figure \ref{fig:swagger-ui} illustre le cas d'une analyse réussie, avec un code d'état \verb|200| (voir la page 51).
+	Nous avons testé l'ensemble des endpoints de l'API avec succès via l'interface Swagger UI, qui a permis de simuler des requêtes HTTP dans différents scénarios d'utilisation. Les réponses retournées ont été systématiquement vérifiées en termes de structure, de code de statut, et de contenu. Par exemple, la figure \ref{fig:swagger-ui} illustre le cas d'une analyse réussie, avec un code d'état \verb|200| (voir la page 52).
 	
 	\begin{figure}[H]
 		\centering
@@ -1169,9 +1180,9 @@
 		\label{fig:swagger-ui}
 	\end{figure}
 	
-	\subsubsection{Test d'une image trop volumineuse}
+	\subsubsection{Test d'upload d'une image trop volumineuse}
 	
-	La figure \ref{fig:image-tros-grande} montre la réponse de l'API en cas de soumettre une image de taille supérieure à celle définie dans le paramètre \verb|max.imagesize|.
+	Pour assurer la protection du système contre la surcharge en cas d'upload d'une image de taille supérieure à celle définie dans le paramètre \verb|max.imagesize|, l'API bloque la requête en retournant le code d'état \verb|413|, comme illustré dans la figure \ref{fig:image-tros-grande}.
 	
 	\begin{figure}[H]
 		\centering
@@ -1180,20 +1191,20 @@
 		\label{fig:image-tros-grande}
 	\end{figure}
 	
-	\subsubsection{Test d'une image de format non supporté}
+	\subsubsection{Test d'upload d'une image de format non supporté}
 	
-	La figure \ref{fig:format-non-supporté} montre la réponse de l'API en cas de soumettre une image de format non supporté.
+	Pour éviter de surcharger inutilement notre système, l'API bloque les requêtes contenant des fichiers non supportés, et retourne le code d'état \verb|415|, comme le montre la figure \ref{fig:format-non-supporté}.
 	
 	\begin{figure}[H]
 		\centering
 		\fbox{\includegraphics[width=0.8\textwidth]{format-non-supporté.png}}
-		\caption{\textit{Type d'images non supporté}}
+		\caption{\textit{Type d'image non supporté}}
 		\label{fig:format-non-supporté}
 	\end{figure}
 	
 	\subsubsection{Prise en charge des vidéos}
 	
-	Dans certains cas, une erreur ou une anomalie survenue au sein d’un système est plus efficacement illustrée par une capture vidéo. A cet effet nous avons enrichi notre système par l’ajout d’une fonctionnalité permettant le téléversement de vidéos, en intégrant un nouveau service nommé \verb|VideoProcessor|. Nous avons conçu ce service de manière à qu'il soit capable d'extraire automatiquement des images clés à partir des vidéos fournies, via une bibliothèque appelée \verb|FFmpeg|, facilitant ainsi l’analyse des dysfonctionnements observés.
+	Dans certains cas, une erreur ou une anomalie survenue au sein d’un système est plus efficacement illustrée par une capture vidéo. A cet effet nous avons enrichi notre système par l’ajout d’une fonctionnalité permettant le téléversement de vidéos, en intégrant un nouveau service nommé \verb|VideoProcessor|. Nous avons conçu ce service de manière à ce qu'il soit capable d'extraire automatiquement des images clés à partir des vidéos fournies, via une bibliothèque appelée \verb|FFmpeg|, facilitant ainsi l’analyse des dysfonctionnements observés.
 	
 	La figure \ref{fig:video} illustre le résultat de l'upload d'une vidéo capturée au moment d'essayer d'atteindre une page web qui finit par afficher des stacktraces d'erreurs.
 	
@@ -1271,7 +1282,7 @@
 	
 	\begin{itemize}
 		
-		\item L'ajout d'un deuxième agent AI qui a pour rôle de juger la pertinence des réponses et/ou leur respect de certaines normes (comme RGPD).
+		\item L'ajout d'un deuxième agent AI qui a pour rôle de juger la pertinence des réponses et/ou leur respect de certaines normes (RGPD par exemple).
 		
 		\item L’intégration d’un fine-tuning du modèle sur des bases de code spécifiques.
 		
@@ -1321,12 +1332,12 @@
 	\addcontentsline{toc}{section}{Evaluation des objectifs}
 	
 	\subsection*{Méthodologie d'évaluation}
-	\addcontentsline{toc}{subsection}{Méthodologie d'évaluation}
+	
 	
 	Pour mesurer l’efficacité du système, nous avons mené des tests sur un échantillon d'erreurs courantes (de types \verb|NullPointerException|, \verb|ArrayIndexOutOfBoundsException|, Memory Leaks, etc.), en comparant les résultats de l’outil avec ceux d’une analyse humaine. Les critères d’évaluation incluaient la précision de détection, la pertinence des correctifs, et le gain de temps.
 	
 	\subsection*{Résultats obtenus}
-	\addcontentsline{toc}{subsection}{Résultats obtenus}
+	
 	
 	Après effectué les tests d'évaluation des objectifs sur un échantillon de 30 erreurs, les métriques obtenues sont :
 	
@@ -1361,7 +1372,7 @@
 	
 	\begin{table}[H]  
 		\centering  
-		\caption{\textit{Comparaison des LLM multimodaux}}
+		\caption{\textit{Comparaison des LLMs multimodaux}}
 		\label{tab:tableau-benchmark}
 		\begin{tabular}{|l|c|c|c|c|}  
 			\hline  
